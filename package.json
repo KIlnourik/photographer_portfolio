@@ -1,0 +1,23 @@
+{
+  "name": "1_portrolio_photograf",
+  "version": "1.0.0",
+  "private": true,
+  "description": "My first portfolio site for photographer girl",
+  "main": "index.js",
+  "dependencies": {
+    "normalize.css": "^8.0.1"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.2.5",
+    "browser-sync": "^2.26.14",
+    "gulp": "^4.0.2",
+    "gulp-plumber": "^1.2.1",
+    "gulp-postcss": "^9.0.0",
+    "gulp-sass": "^4.1.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ilnur Kurmandaev",
+  "license": "MIT"
+}
