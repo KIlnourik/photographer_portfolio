@@ -32,12 +32,82 @@
     </nav>
   </header>
 
-  <main class="page-body__main main">
+  <main class="page-main">
 
+    <section class="photogallery">
+      <h1 class="photogallery__header">Фотогалерея</h1>
+      <form action="POST" class="photogallery__form">
+        <select name="filter" id="filter" class="photogallery__filter">
+          <option value="value0" class="photogallery__filter-item">Выберите тему фотосесссии</option>
+          <option value="value1" class="photogallery__filter-item">Семейные фото</option>
+          <option value="value2" class="photogallery__filter-item">Домашние фото</option>
+          <option value="value3" class="photogallery__filter-item">Портретные фото</option>
+          <option value="value4" class="photogallery__filter-item">Фото беременных</option>
+          <option value="value5" class="photogallery__filter-item">Детские фото</option>
+          <option value="value6" class="photogallery__filter-item">Фотодень</option>
+        </select>
+      </form>
+
+      <div class="photogallery__wrapper">
+        <a href="" class="photogallery__link">
+          <h2 class="phototgellery__photo-header"></h2>
+          <img src="" alt="" class="photogallery__photosession">
+        </a>
+      </div>
+      <div class="photogallery__wrapper">
+        <a href="" class="photogallery__link">
+          <h2 class="phototgellery__photo-header"></h2>
+          <img src="" alt="" class="photogallery__photosession">
+        </a>
+      </div>
+      <div class="photogallery__wrapper">
+        <a href="" class="photogallery__link">
+          <h2 class="phototgellery__photo-header"></h2>
+          <img src="" alt="" class="photogallery__photosession">
+        </a>
+      </div>
+      <div class="photogallery__wrapper">
+        <a href="" class="photogallery__link">
+          <h2 class="phototgellery__photo-header"></h2>
+          <img src="" alt="" class="photogallery__photosession">
+        </a>
+      </div>
+      <div class="photogallery__wrapper">
+        <a href="" class="photogallery__link">
+          <h2 class="phototgellery__photo-header"></h2>
+          <img src="" alt="" class="photogallery__photosession">
+        </a>
+      </div>
+      <div class="photogallery__wrapper">
+        <a href="" class="photogallery__link">
+          <h2 class="phototgellery__photo-header"></h2>
+          <img src="" alt="" class="photogallery__photosession">
+        </a>
+      </div>
+      <div class="photogallery__wrapper">
+        <a href="" class="photogallery__link">
+          <h2 class="phototgellery__photo-header"></h2>
+          <img src="" alt="" class="photogallery__photosession">
+        </a>
+      </div>
+      <div class="photogallery__wrapper">
+        <a href="" class="photogallery__link">
+          <h2 class="phototgellery__photo-header"></h2>
+          <img src="" alt="" class="photogallery__photosession">
+        </a>
+      </div>
+      <div class="photogallery__wrapper">
+        <a href="" class="photogallery__link">
+          <h2 class="phototgellery__photo-header"></h2>
+          <img src="" alt="" class="photogallery__photosession">
+        </a>
+      </div>
+
+    </section>
   </main>
 
-  <footer class="page__footer footer">
-    <section class="footer__telephone telephone">
+  <footer class="page-footer">
+    <section class="page-footer__telephone telephone">
       <p class="telephone__text">
         Есть вопросы? Позвони:
         <a href="" class="telephone__tel"></a>
@@ -47,10 +117,10 @@
       </p>
       <form action="" method="post" class="telephone__form">
         <label for="caller_name">
-          <input type="text" class="telephone__name-input" value="Имя" id="caller_name">
+          <input type="text" class="telephone__name-input" placeholder="Имя" id="caller_name">
         </label>
         <label for="telnumber">
-          <input type="tel" class="telephone__tel-input" id="telnumber" value="Номер телефона">
+          <input type="tel" class="telephone__tel-input" id="telnumber" placeholder="Номер телефона">
         </label>
         <button type="submit" class="telephone__send-button">
           Заказать звонок
@@ -58,7 +128,7 @@
       </form>
     </section>
 
-    <section class="footer__social social">
+    <section class="page-footer__social social">
       <ul class="social__list">
         <li class="social__item">
           <a href="#" class="social__link"></a>
@@ -72,6 +142,38 @@
       </ul>
     </section>
   </footer>
+
+  <section class="modal">
+    <button class="modal__close"></button>
+
+    <div class="modal__photo-container">
+      <img src="" alt="" class="modal__photo">
+      <button class="modal__previous"></button>
+      <button class="modal__next"></button>
+    </div>
+
+    <div class="modal__photoes-container">
+      <button class="modal__previous"></button>
+      <button class="modal__next"></button>
+      <ul class="modal__list">
+        <li class="modal__item">
+          <img src="" alt="" class="modal__photoes-preview">
+        </li>
+        <li class="modal__item">
+          <img src="" alt="" class="modal__photoes-preview">
+        </li>
+        <li class="modal__item">
+          <img src="" alt="" class="modal__photoes-preview">
+        </li>
+        <li class="modal__item">
+          <img src="" alt="" class="modal__photoes-preview">
+        </li>
+        <li class="modal__item">
+          <img src="" alt="" class="modal__photoes-preview">
+        </li>
+      </ul>
+    </div>
+  </section>
 </body>
 
 </html>

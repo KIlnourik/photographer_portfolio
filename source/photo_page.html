@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="ru" class="page">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Фотосессия человека и человека</title>
+  <link rel="stylesheet" href="../styles/css/">
+</head>
+
+<body class="page-body">
+  <header class="page-body__header header">
+    <nav class="header__main-nav main-nav">
+      <button class="main-nav__button">
+        <span class="visually-hidden">Открыть меню</span>
+      </button>
+
+      <ul class="main-nav__list">
+        <li class="main-nav__item">
+          <a href="#" class="main-nav__link">Главная</a>
+        </li>
+        <li class="main-nav__item main-nav__item--active">
+          <a href="photoes.html" class="main-nav__link">Фотогалерея</a>
+        </li>
+        <li class="main-nav__item">
+          <a href="reviews.html" class="main-nav__link">Отзывы</a>
+        </li>
+        <li class="main-nav__item">
+          <a href="blog.html" class="main-nav__link">Блог</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="page-main">
+
+    <section class="photo">
+      <div class="photo__container">
+        <img src="" alt="" class="photo__fullsize">
+        <button class="photo__previous"></button>
+        <button class="photo__next"></button>
+      </div>
+    </section>
+
+    <section class="photoes">
+      <div class="photo__photoes-container">
+        <button class="modal__previous"></button>
+        <button class="modal__next"></button>
+        <ul class="photoes__list">
+          <li class="photoes__item">
+            <img src="" alt="" class="photoes__preview">
+          </li>
+          <li class="photoes__item">
+            <img src="" alt="" class="photoes__preview">
+          </li>
+          <li class="photoes__item">
+            <img src="" alt="" class="photoes__preview">
+          </li>
+          <li class="photoes__item">
+            <img src="" alt="" class="photoes__preview">
+          </li>
+          <li class="photoes__item">
+            <img src="" alt="" class="photoes__preview">
+          </li>
+        </ul>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="page-footer">
+    <section class="page-footer__telephone telephone">
+      <p class="telephone__text">
+        Есть вопросы? Позвони:
+        <a href="" class="telephone__tel"></a>
+      </p>
+      <p class="tetphone__text">
+        Или оставьте свой номер телефона, я перезвоню:
+      </p>
+      <form action="" method="post" class="telephone__form">
+        <label for="caller_name">
+          <input type="text" class="telephone__name-input" placeholder="Имя" id="caller_name">
+        </label>
+        <label for="telnumber">
+          <input type="tel" class="telephone__tel-input" id="telnumber" placeholder="Номер телефона">
+        </label>
+        <button type="submit" class="telephone__send-button">
+          Заказать звонок
+        </button>
+      </form>
+    </section>
+
+    <section class="page-footer__social social">
+      <ul class="social__list">
+        <li class="social__item">
+          <a href="#" class="social__link"></a>
+        </li>
+        <li class="social__item">
+          <a href="#" class="social__link"></a>
+        </li>
+        <li class="social__item">
+          <a href="#" class="social__link"></a>
+        </li>
+      </ul>
+    </section>
+  </footer>

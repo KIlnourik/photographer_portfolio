@@ -31,14 +31,16 @@
       </ul>
     </nav>
   </header>
-  <main class="page-body__main main">
-    <section class="main__intro intro">
+
+  <main class="page-main">
+
+    <section class="intro">
       <h1 class="intro__header visually-hidden">Главная страница</h1>
       <p class="intro__name">Лариса Гайнуллина</p>
       <span class="intro__profession">Фотограф</span>
     </section>
 
-    <section class="main__about about">
+    <section class="about">
       <h1 class="about__header">О себе</h1>
       <p class="about__text">
         Меня зовут Лариса.
@@ -74,7 +76,7 @@
       </p>
     </section>
 
-    <section class="main__portfolio portfolio">
+    <section class="portfolio">
       <h1 class="portfolio__header">Портфолио</h1>
       <ul class="portfolio__list">
         <li class="portfolio__item">
@@ -128,7 +130,7 @@
       </ul>
     </section>
 
-    <section class="main__price price">
+    <section class="price">
       <h1 class="price__header">Услуги</h1>
       <table class="price__table">
         <tr>
@@ -154,22 +156,23 @@
       </table>
     </section>
 
-    <section class="main__reviews reviews">
+    <section class="reviews">
       <ul class="reviews__list">
         <li class="reviews__item"></li>
         <li class="reviews__item"></li>
       </ul>
     </section>
 
-    <section class="main__blog blog">
+    <section class="blog">
       <ul class="blog__list">
         <li class="blog__item"></li>
         <li class="blog__item"></li>
       </ul>
     </section>
   </main>
-  <footer class="page__footer footer">
-    <section class="footer__telephone telephone">
+
+  <footer class="page-footer">
+    <section class="page-footer__telephone telephone">
       <p class="telephone__text">
         Есть вопросы? Позвони:
         <a href="" class="telephone__tel"></a>
@@ -179,10 +182,10 @@
       </p>
       <form action="" method="post" class="telephone__form">
         <label for="caller_name">
-          <input type="text" class="telephone__name-input" value="Имя" id="caller_name">
+          <input type="text" class="telephone__name-input" placeholder="Имя" id="caller_name">
         </label>
         <label for="telnumber">
-          <input type="tel" class="telephone__tel-input" id="telnumber" value="Номер телефона">
+          <input type="tel" class="telephone__tel-input" id="telnumber" placeholder="Номер телефона">
         </label>
         <button type="submit" class="telephone__send-button">
           Заказать звонок
@@ -190,7 +193,7 @@
       </form>
     </section>
 
-    <section class="footer__social social">
+    <section class="page-footer__social social">
       <ul class="social__list">
         <li class="social__item">
           <a href="#" class="social__link"></a>
