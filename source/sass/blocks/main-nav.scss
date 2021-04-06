@@ -1,0 +1,39 @@
+.main-nav {
+  @media (max-width: $mobile-width-only) {
+    background-color: $grey-blue;
+    opacity: 0.7;
+    position: absolute;
+    min-width: 100%;
+    z-index: 2;
+  }
+}
+.main-nav__list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-size: 32px;
+  outline: 5px solid rgba(0, 255, 255, 0.8);
+  outline-offset: -5px;
+}
+.main-nav__item {
+  height: 110px;
+  outline: 5px solid rgba(0, 255, 0, 0.8);
+  outline-offset: -5px;
+}
+.main-nav__link {
+  text-decoration: none;
+  @media (max-width: $mobile-width-only) {
+    padding: 45px 20px;
+    display: block;
+    vertical-align: middle;
+    color: $basic_white;
+    outline: 5px solid rgba(255, 255, 0, 0.8);
+    outline-offset: -5px;
+
+    &--hover {
+      background-color: $grey-blue;
+      opacity: 1;
+      font-weight: bold;
+    }
+  }
+}
