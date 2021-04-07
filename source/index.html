@@ -11,24 +11,26 @@
 <body class="page__body">
   <header class="page-header">
     <nav class="main-nav main-nav--closed main-nav--nojs">
-      <button class="main-nav__button">
-        <span class="visually-hidden">Открыть меню</span>
-      </button>
+      <div class="main-nav__container">
+        <button class="main-nav__button">
+          <span class="visually-hidden">Открыть меню</span>
+        </button>
 
-      <ul class="main-nav__list">
-        <li class="main-nav__item main-nav__item--active">
-          <a href="#" class="main-nav__link">Главная</a>
-        </li>
-        <li class="main-nav__item">
-          <a href="photogallery.html" class="main-nav__link">Фотогалерея</a>
-        </li>
-        <li class="main-nav__item">
-          <a href="reviews.html" class="main-nav__link">Отзывы</a>
-        </li>
-        <li class="main-nav__item">
-          <a href="blog.html" class="main-nav__link">Блог</a>
-        </li>
-      </ul>
+        <ul class="main-nav__list">
+          <li class="main-nav__item ">
+            <a href="#" class="main-nav__link main-nav__link--active">Главная</a>
+          </li>
+          <li class="main-nav__item">
+            <a href="photogallery.html" class="main-nav__link">Фотогалерея</a>
+          </li>
+          <li class="main-nav__item">
+            <a href="reviews.html" class="main-nav__link">Отзывы</a>
+          </li>
+          <li class="main-nav__item">
+            <a href="blog.html" class="main-nav__link">Блог</a>
+          </li>
+        </ul>
+      </div>
     </nav>
   </header>
 
@@ -36,7 +38,7 @@
 
     <section class="intro">
       <h1 class="intro__header visually-hidden">Главная страница</h1>
-      <p class="intro__name">Лариса Гайнуллина</p>
+      <p class="intro__name">Лариса<br>Гайнуллина</p>
       <span class="intro__profession">Фотограф</span>
     </section>
 
@@ -48,7 +50,7 @@
         Я фотографирую.
         Хорошо.
         За деньги.
-        У меня в основном следующие темы фотосессий:
+        <span class="about__examples-intro">У меня в основном следующие темы фотосессий:</span>
       </p>
       <ul class="about__list">
         <li class="about__item">
@@ -70,7 +72,7 @@
           <a href="#" class="about__link">- фотодни.</a>
         </li>
       </ul>
-      <p class="about__text">
+      <p class="about__text about__text--end">
         Ниже можете ознакомиться с примерами моих работ.
         Чмоки-чмоки :***
       </p>

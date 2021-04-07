@@ -1,0 +1,31 @@
+.intro {
+  @media (max-width: $mobile-width-only) {
+    margin: 0 auto;
+    padding: 0 20px;
+    height: 765px;
+    background: url("/img/intro.jpg") no-repeat 40% 0;
+    position: relative;
+    color: $basic_white;
+  }
+}
+.intro__name {
+  margin: 0;
+  display: block;
+  font-family: "mr_Hamiltoneg", "Arial", sans-serif;
+  @media (max-width: $mobile-width-only) {
+    max-width: 280px;
+    font-size: 50px;
+    line-height: 90px;
+    position: absolute;
+    top: 50%;
+    left: 12%;
+    transform: translate(0, -50%);
+  }
+}
+.intro__profession {
+  @media (max-width: $mobile-width-only) {
+    position: absolute;
+    top: 218px;
+    left: 12%;
+  }
+}

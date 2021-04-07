@@ -1,0 +1,26 @@
+.about {
+  @media (max-width: $mobile-width-only) {
+    margin-top: 20px;
+    padding: 0 20px;
+    height: 668px;
+  }
+}
+.about__header {
+  font-family: "mr_Hamiltoneg", "Arial", sans-serif;
+  @media (max-width: $mobile-width-only) {
+    margin-left: 20px;
+    font-size: 36px;
+    line-height: 65px;
+  }
+}
+.about__text {
+  @media (max-width: $mobile-width-only) {
+    margin-top: 213px;
+    font-size: 14px;
+  }
+}
+.about__list {
+  @media (max-width: $mobile-width-only) {
+    display: none;
+  }
+}
