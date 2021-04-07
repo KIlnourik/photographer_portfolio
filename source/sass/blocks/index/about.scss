@@ -2,21 +2,44 @@
   @media (max-width: $mobile-width-only) {
     margin-top: 20px;
     padding: 0 20px;
-    height: 668px;
+    height: 688px;
+    background: url("/img/about_mobile.jpg") no-repeat 100% 0, url("/img/about_1_mobile.jpg") no-repeat 0 100%;
   }
 }
 .about__header {
   font-family: "mr_Hamiltoneg", "Arial", sans-serif;
   @media (max-width: $mobile-width-only) {
+    margin-top: 0;
     margin-left: 20px;
+    padding-top: 60px;
     font-size: 36px;
     line-height: 65px;
+    position: relative;
+    &::after {
+      position: absolute;
+      content: "";
+      width: 280px;
+      height: 1px;
+      background-color: $basic_black;
+      top: 99px;
+      left: auto;
+      right: -20px;
+    }
   }
 }
 .about__text {
   @media (max-width: $mobile-width-only) {
-    margin-top: 213px;
+    margin-top: 67px;
+    margin-bottom: 0;
     font-size: 14px;
+    &--end {
+      margin-top: 0;
+    }
+  }
+}
+.about__examples-intro {
+  @media (max-width: $mobile-width-only) {
+    display: none;
   }
 }
 .about__list {

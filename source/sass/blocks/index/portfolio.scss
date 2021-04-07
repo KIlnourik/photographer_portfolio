@@ -1,0 +1,29 @@
+.portfolio {
+  margin-top: 20px;
+  padding: 0 20px;
+}
+.portfolio__header {
+  font-family: "mr_Hamiltoneg", "Arial", sans-serif;
+  @media (max-width: $mobile-width-only) {
+    margin-top: 10px;
+    margin-left: 20px;
+    font-size: 36px;
+    line-height: 65px;
+    position: relative;
+    &::after {
+      position: absolute;
+      content: "";
+      width: 280px;
+      height: 1px;
+      background-color: $basic_black;
+      top: 39px;
+      left: auto;
+      right: -20px;
+    }
+  }
+}
+.portfolio__list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
