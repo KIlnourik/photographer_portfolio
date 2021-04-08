@@ -7,12 +7,12 @@
   }
 }
 .about__header {
-  font-family: "mr_Hamiltoneg", "Arial", sans-serif;
+  font-family: "celestina", "Arial", sans-serif;
   @media (max-width: $mobile-width-only) {
     margin-top: 0;
     margin-left: 20px;
     padding-top: 60px;
-    font-size: 36px;
+    font-size: 45px;
     line-height: 65px;
     position: relative;
     &::after {
@@ -21,7 +21,7 @@
       width: 280px;
       height: 1px;
       background-color: $basic_black;
-      top: 99px;
+      top: 110px;
       left: auto;
       right: -20px;
     }

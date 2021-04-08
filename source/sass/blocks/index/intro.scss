@@ -3,7 +3,7 @@
     margin: 0 auto;
     padding: 0 20px;
     height: 765px;
-    background: url("/img/intro.jpg") no-repeat 40% 0;
+    background: url("/img/intro.jpg") no-repeat 50% 0;
     position: relative;
     color: $basic_white;
   }
@@ -11,10 +11,10 @@
 .intro__name {
   margin: 0;
   display: block;
-  font-family: "mr_Hamiltoneg", "Arial", sans-serif;
+  font-family: "celestina", "Arial", sans-serif;
   @media (max-width: $mobile-width-only) {
     max-width: 280px;
-    font-size: 50px;
+    font-size: 45px;
     line-height: 90px;
     position: absolute;
     top: 50%;
