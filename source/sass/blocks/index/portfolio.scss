@@ -1,15 +1,18 @@
 .portfolio {
+  margin: 0 auto;
   margin-top: 20px;
-  padding: 0 20px;
+  padding: 0;
 }
 .portfolio__header {
   font-family: "celestina", "Arial", sans-serif;
   @media (max-width: $mobile-width-only) {
     margin-top: 10px;
-    margin-left: 20px;
+    margin-left: 40px;
     font-size: 45px;
     line-height: 65px;
     position: relative;
+    display: flex;
+    flex-direction: column;
     &::after {
       position: absolute;
       content: "";
@@ -18,12 +21,26 @@
       background-color: $basic_black;
       top: 50px;
       left: auto;
-      right: -20px;
+      right: 0;
     }
   }
 }
-.portfolio__list {
-  margin: 0;
-  padding: 0;
-  list-style: none;
+.portfolio__image-container {
+  display: grid;
+  grid-template-rows: min-content;
+}
+.portfolio__image {
+  margin: 0 auto;
+}
+.porfolio__more {
+  margin-top: 15px;
+  margin-right: 20px;
+  display: block;
+  text-align: right;
+  text-decoration: none;
+  color: $basic_black;
+  &::after {
+    content: "";
+    background: url("/img/Arrow.svg") no-repeat;
+  }
 }
