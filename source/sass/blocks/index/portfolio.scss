@@ -31,16 +31,34 @@
 }
 .portfolio__image {
   margin: 0 auto;
+  @media (max-width: $mobile-width-only) {
+    max-width: 100%;
+    height: auto;
+  }
 }
 .porfolio__more {
   margin-top: 15px;
-  margin-right: 20px;
+  margin-right: 74px;
   display: block;
   text-align: right;
   text-decoration: none;
   color: $basic_black;
+  position: relative;
+  &:hover {
+    font-weight: bold;
+  }
+  &:active {
+    opacity: 0.3;
+  }
   &::after {
+    position: absolute;
     content: "";
     background: url("/img/Arrow.svg") no-repeat;
+    height: 10px;
+    width: 26px;
+    top: 50%;
+    left: auto;
+    right: -48px;
+    transform: translate(0, -50%);
   }
 }
