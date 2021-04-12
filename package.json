@@ -1,6 +1,4 @@
 {
-  "name": "1_portrolio_photograf",
-  "version": "1.0.0",
   "private": true,
   "description": "My first portfolio site for photographer girl",
   "dependencies": {
