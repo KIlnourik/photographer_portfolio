@@ -1,0 +1,28 @@
+.blog {
+  margin: 0 auto;
+  margin-top: 20px;
+  padding: 0;
+}
+.blog__header {
+  font-family: "celestina", "Arial", sans-serif;
+  @media (max-width: $mobile-width-only) {
+    margin-top: 10px;
+    margin-left: 40px;
+    margin-bottom: 15px;
+    font-size: 45px;
+    line-height: 65px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    &::after {
+      position: absolute;
+      content: "";
+      width: 100%;
+      height: 1px;
+      background-color: $basic_black;
+      top: 50px;
+      left: auto;
+      right: 0;
+    }
+  }
+}

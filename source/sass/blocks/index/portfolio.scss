@@ -63,4 +63,7 @@
     right: -48px;
     transform: translate(0, -50%);
   }
+  @media (max-width: $mobile-width-only) {
+    font-size: 14px;
+  }
 }
