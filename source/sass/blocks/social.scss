@@ -1,3 +1,21 @@
 .social__list {
+  padding: 0;
   list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.social__link {
+  display: block;
+  color: $sylver;
+  &:hover .social__icon {
+    color: $grey-blue;
+  }
+  &:active .social__icon {
+    opacity: 0.3;
+  }
+  @media (max-width: $mobile-width-only) {
+    width: 48px;
+    height: 48px;
+  }
 }
