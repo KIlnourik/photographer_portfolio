@@ -1,9 +1,10 @@
 .social__list {
   padding: 0;
+  margin-bottom: 30px;
   list-style: none;
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 .social__link {
   display: block;
@@ -14,8 +15,11 @@
   &:active .social__icon {
     opacity: 0.3;
   }
+}
+.social__icon {
   @media (max-width: $mobile-width-only) {
-    width: 48px;
-    height: 48px;
+    width: 36px;
+    height: 36px;
   }
+
 }
