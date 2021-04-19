@@ -5,8 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Фотогалерея Чайки-Гайки</title>
-  <link rel="stylesheet" href="../source/styles/normalize.min.css">
-  <link rel="stylesheet" href="../source/styles/css/style.css">
+  <link rel="stylesheet" type="text/css" href="/css/style.css">
 </head>
 
 <body class="page__body">
@@ -14,14 +13,14 @@
     <nav class="main-nav">
       <ul class="main-nav__list">
         <li class="main-nav__item ">
-          <a href="#" class="main-nav__link main-nav__link--active">
+          <a href="index.html" class="main-nav__link">
             <svg class="main-nav__icon main-nav__icon--main">
               <use xlink:href="/img/sprite.svg#main"></use>
             </svg>
             <br>Главная</a>
         </li>
         <li class="main-nav__item">
-          <a href="photogallery.html" class="main-nav__link">
+          <a href="#" class="main-nav__link main-nav__link--active">
             <svg class="main-nav__icon main-nav__icon--photogallery">
               <use xlink:href="/img/sprite.svg#photogallery"></use>
             </svg>
@@ -49,72 +48,64 @@
 
     <section class="photogallery">
       <h1 class="photogallery__header">Фотогалерея</h1>
-      <form action="POST" class="photogallery__form">
-        <select name="filter" id="filter" class="photogallery__filter">
-          <option value="value0" class="photogallery__filter-item">Выберите тему фотосесссии</option>
-          <option value="value1" class="photogallery__filter-item">Семейные фото</option>
-          <option value="value2" class="photogallery__filter-item">Домашние фото</option>
-          <option value="value3" class="photogallery__filter-item">Портретные фото</option>
-          <option value="value4" class="photogallery__filter-item">Фото беременных</option>
-          <option value="value5" class="photogallery__filter-item">Детские фото</option>
-          <option value="value6" class="photogallery__filter-item">Фотодень</option>
-        </select>
-      </form>
 
-      <div class="photogallery__wrapper">
-        <a href="" class="photogallery__link">
-          <h2 class="phototgellery__photo-header"></h2>
-          <img src="" alt="" class="photogallery__photosession">
-        </a>
-      </div>
-      <div class="photogallery__wrapper">
-        <a href="" class="photogallery__link">
-          <h2 class="phototgellery__photo-header"></h2>
-          <img src="" alt="" class="photogallery__photosession">
-        </a>
-      </div>
-      <div class="photogallery__wrapper">
-        <a href="" class="photogallery__link">
-          <h2 class="phototgellery__photo-header"></h2>
-          <img src="" alt="" class="photogallery__photosession">
-        </a>
-      </div>
-      <div class="photogallery__wrapper">
-        <a href="" class="photogallery__link">
-          <h2 class="phototgellery__photo-header"></h2>
-          <img src="" alt="" class="photogallery__photosession">
-        </a>
-      </div>
-      <div class="photogallery__wrapper">
-        <a href="" class="photogallery__link">
-          <h2 class="phototgellery__photo-header"></h2>
-          <img src="" alt="" class="photogallery__photosession">
-        </a>
-      </div>
-      <div class="photogallery__wrapper">
-        <a href="" class="photogallery__link">
-          <h2 class="phototgellery__photo-header"></h2>
-          <img src="" alt="" class="photogallery__photosession">
-        </a>
-      </div>
-      <div class="photogallery__wrapper">
-        <a href="" class="photogallery__link">
-          <h2 class="phototgellery__photo-header"></h2>
-          <img src="" alt="" class="photogallery__photosession">
-        </a>
-      </div>
-      <div class="photogallery__wrapper">
-        <a href="" class="photogallery__link">
-          <h2 class="phototgellery__photo-header"></h2>
-          <img src="" alt="" class="photogallery__photosession">
-        </a>
-      </div>
-      <div class="photogallery__wrapper">
-        <a href="" class="photogallery__link">
-          <h2 class="phototgellery__photo-header"></h2>
-          <img src="" alt="" class="photogallery__photosession">
-        </a>
-      </div>
+      <ul class="photogallery__list">
+        <li class="photogallery__item">
+          <a href="" class="photogallery__link">
+            <p class="photogallery__photosession-header">Любовь и ее любовь</p>
+            <img src="/img/photosession-cover1.jpg" alt="" class="photogallery__photosession-cover" width="350"
+              height="350">
+          </a>
+        </li>
+        <li class="photogallery__item">
+          <a href="" class="photogallery__link">
+            <p class="photogallery__photosession-header">Ильнур, Лена и Сеня</p>
+            <img src="/img/photosession-cover2.jpg" alt="" class="photogallery__photosession-cover">
+          </a>
+        </li>
+        <li class="photogallery__item">
+          <a href="" class="photogallery__link">
+            <p class="photogallery__photosession-header">Зуля и лошадки</p>
+            <img src="/img/photosession-cover3.jpg" alt="" class="photogallery__photosession-cover">
+          </a>
+        </li>
+        <li class="photogallery__item">
+          <a href="" class="photogallery__link">
+            <p class="photogallery__photosession-header">Регина</p>
+            <img src="/img/photosession-cover4.jpg" alt="" class="photogallery__photosession-cover">
+          </a>
+        </li>
+        <li class="photogallery__item">
+          <a href="" class="photogallery__link">
+            <p class="photogallery__photosession-header">Айсель в ожидании</p>
+            <img src="/img/photosession-cover5.jpg" alt="" class="photogallery__photosession-cover">
+          </a>
+        </li>
+        <li class="photogallery__item">
+          <a href="" class="photogallery__link">
+            <p class="photogallery__photosession-header">#фэшн</p>
+            <img src="/img/photosession-cover6.jpg" alt="" class="photogallery__photosession-cover">
+          </a>
+        </li>
+        <li class="photogallery__item">
+          <a href="" class="photogallery__link">
+            <p class="photogallery__photosession-header">Катерина</p>
+            <img src="/img/photosession-cover7.jpg" alt="" class="photogallery__photosession-cover">
+          </a>
+        </li>
+        <li class="photogallery__item">
+          <a href="" class="photogallery__link">
+            <p class="photogallery__photosession-header">#фотодень</p>
+            <img src="/img/photosession-cover8.jpg" alt="" class="photogallery__photosession-cover">
+          </a>
+        </li>
+        <li class="photogallery__item">
+          <a href="" class="photogallery__link">
+            <p class="photogallery__photosession-header">#дети</p>
+            <img src="/img/photosession-cover9.jpg" alt="" class="photogallery__photosession-cover">
+          </a>
+        </li>
+      </ul>
 
     </section>
   </main>
@@ -158,7 +149,7 @@
     </section>
   </footer>
 
-  <section class="modal">
+  <section class="modal hidden">
     <button class="modal__close"></button>
 
     <div class="modal__photo-container">
