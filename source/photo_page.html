@@ -5,11 +5,11 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Фотосессия человека и человека</title>
-  <link rel="stylesheet" href="../source/styles/normalize.min.css">
-  <link rel="stylesheet" href="../source/styles/css/style.css">
+  <link rel="stylesheet" type="text/css" href="/css/style.css">
 </head>
 
 <body class="page__body">
+
   <header class="page-header">
     <nav class="main-nav">
       <ul class="main-nav__list">
@@ -21,7 +21,7 @@
             <br>Главная</a>
         </li>
         <li class="main-nav__item">
-          <a href="photogallery.html" class="main-nav__link main-nav__link--active">
+          <a href="photogallery.html" class="main-nav__link">
             <svg class="main-nav__icon main-nav__icon--photogallery">
               <use xlink:href="/img/sprite.svg#photogallery"></use>
             </svg>
@@ -47,35 +47,40 @@
 
   <main class="page-main">
 
-    <section class="photo">
-      <div class="photo__container">
-        <img src="" alt="" class="photo__fullsize">
-        <button class="photo__previous"></button>
-        <button class="photo__next"></button>
-      </div>
-    </section>
+    <section class="photos">
+      <h1 class="photos__header">Регина</h1>
 
-    <section class="photoes">
-      <div class="photo__photoes-container">
-        <button class="modal__previous"></button>
-        <button class="modal__next"></button>
-        <ul class="photoes__list">
-          <li class="photoes__item">
-            <img src="" alt="" class="photoes__preview">
-          </li>
-          <li class="photoes__item">
-            <img src="" alt="" class="photoes__preview">
-          </li>
-          <li class="photoes__item">
-            <img src="" alt="" class="photoes__preview">
-          </li>
-          <li class="photoes__item">
-            <img src="" alt="" class="photoes__preview">
-          </li>
-          <li class="photoes__item">
-            <img src="" alt="" class="photoes__preview">
-          </li>
-        </ul>
+      <div class="photos__container">
+        <div class="photos__wrapper">
+          <a href="" class="photos__link">
+            <img src="/img/IMG_4193.jpg" alt="" class="photos__photo" width="280" height="280">
+          </a>
+        </div>
+        <div class="photos__wrapper">
+          <a href="" class="photos__link">
+            <img src="img/IMG_4198.jpg" alt="" class="photos__photo" width="280" height="280">
+          </a>
+        </div>
+        <div class="photos__wrapper">
+          <a href="" class="photos__link">
+            <img src="img/IMG_4402.jpg" alt="" class="photos__photo" width="280" height="280">
+          </a>
+        </div>
+        <div class="photos__wrapper">
+          <a href="" class="photos__link">
+            <img src="img/IMG_4407.jpg" alt="" class="photos__photo" width="280" height="280">
+          </a>
+        </div>
+        <div class="photos__wrapper">
+          <a href="" class="photos__link">
+            <img src="img/IMG_4409.jpg" alt="" class="photos__photo" width="280" height="280">
+          </a>
+        </div>
+        <div class="photos__wrapper">
+          <a href="" class="photos__link">
+            <img src="img/IMG_4426.jpg" alt="" class="photos__photo" width="280" height="280">
+          </a>
+        </div>
       </div>
     </section>
   </main>
@@ -118,4 +123,37 @@
       </ul>
     </section>
   </footer>
+
+  <section class="modal hidden">
+    <button class="modal__close"></button>
+
+    <div class="modal__photo-container">
+      <img src="" alt="" class="modal__photo">
+      <button class="modal__previous"></button>
+      <button class="modal__next"></button>
+    </div>
+
+    <div class="modal__photoes-container">
+      <button class="modal__previous"></button>
+      <button class="modal__next"></button>
+      <ul class="modal__list">
+        <li class="modal__item">
+          <img src="" alt="" class="modal__photoes-preview">
+        </li>
+        <li class="modal__item">
+          <img src="" alt="" class="modal__photoes-preview">
+        </li>
+        <li class="modal__item">
+          <img src="" alt="" class="modal__photoes-preview">
+        </li>
+        <li class="modal__item">
+          <img src="" alt="" class="modal__photoes-preview">
+        </li>
+        <li class="modal__item">
+          <img src="" alt="" class="modal__photoes-preview">
+        </li>
+      </ul>
+    </div>
+  </section>
+
 </body>

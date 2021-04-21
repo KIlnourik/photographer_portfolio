@@ -1,4 +1,4 @@
-.photogallery__header {
+.photos__header {
   font-family: "celestina", "Arial", sans-serif;
   @media (max-width: $mobile-width-only) {
     margin-top: 40px;
@@ -18,50 +18,32 @@
     }
   }
 }
-.photogallery__list {
-  list-style: none;
+.photos__container {
+  margin: 0 auto;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
+  align-items: center;
   @media (max-width: $mobile-width-only) {
     flex-direction: row;
     padding: 0 20px;
   }
 }
-.photogallery__item {
-  padding: 10px;
+.photos__wrapper {
   display: flex;
-  background-color: $dark-grey;
-  border: 1px solid $grey-blue;
-  border-radius: 3px;
-  position: relative;
   @media (max-width: $mobile-width-only) {
-    margin: 5px auto;
-    width: 280px;
-    height: 280px;
+    margin: 5px 5px;
+    width: 130px;
+    height: 130px;
   }
 }
-.photogallery__link {
+.photos__link {
   display: block;
   text-align: center;
   text-decoration: none;
-  color: $cover_font;
-  font-weight: bold;
-  font-family: "celestina", "Arial", sans-serif;
-  z-index: 3;
+  flex: 1;
 }
-.photogallery__photosession-header {
-  position: absolute;
-  top: auto;
-  bottom: 10%;
-  left: 50%;
-  transform: translate(-50%, 0);
-  @media (max-width: $mobile-width-only) {
-    font-size: 30px;
-    line-height: 1.2;
-  }
-}
-.photogallery__photosession-cover {
+.photos__photo {
   flex-shrink: 0;
   object-fit: cover;
   @media (max-width: $mobile-width-only) {
