@@ -124,36 +124,21 @@
     </section>
   </footer>
 
-  <section class="modal hidden">
-    <button class="modal__close"></button>
+  <section class="modal">
+    <div class="modal__wrapper">
+      <button class="modal__close">
+        <svg class="modal__close-icon">
+          <use xlink:href="/img/sprite.svg#close"></use>
+        </svg>
+      </button>
 
-    <div class="modal__photo-container">
-      <img src="" alt="" class="modal__photo">
-      <button class="modal__previous"></button>
-      <button class="modal__next"></button>
+      <div class="modal__photo-container">
+        <img src="" alt="" class="modal__photo">
+        <button class="modal__previous"></button>
+        <button class="modal__next"></button>
+      </div>
     </div>
 
-    <div class="modal__photoes-container">
-      <button class="modal__previous"></button>
-      <button class="modal__next"></button>
-      <ul class="modal__list">
-        <li class="modal__item">
-          <img src="" alt="" class="modal__photoes-preview">
-        </li>
-        <li class="modal__item">
-          <img src="" alt="" class="modal__photoes-preview">
-        </li>
-        <li class="modal__item">
-          <img src="" alt="" class="modal__photoes-preview">
-        </li>
-        <li class="modal__item">
-          <img src="" alt="" class="modal__photoes-preview">
-        </li>
-        <li class="modal__item">
-          <img src="" alt="" class="modal__photoes-preview">
-        </li>
-      </ul>
-    </div>
   </section>
 
 </body>

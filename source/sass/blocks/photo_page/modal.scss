@@ -1,0 +1,39 @@
+.modal {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: auto;
+  background-color: $transparent_grey-blue;
+  @media (max-width: $mobile-width-only) {
+    width: 100vw;
+    height: 100vh;
+  }
+}
+.modal__wrapper {
+  position: relative;
+}
+.modal__close {
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  content: "";
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  &:hover {
+    opacity: 0.7;
+  }
+  &:active {
+    opacity: 0.3;
+  }
+  @media (max-width: $mobile-width-only) {
+    width: 20px;
+    height: 20px;
+    top: 20px;
+    right: 20px;
+  }
+}
+.modal__close-icon {
+  width: inherit;
+  height: inherit;
+}
