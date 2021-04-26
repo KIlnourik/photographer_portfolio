@@ -1,0 +1,15 @@
+.send-review__form {
+  display: flex;
+  flex-direction: column;
+  @media (max-width: $mobile-width-only) {
+    padding: 0 20px;
+    min-width: 100%;
+  }
+}
+.send-review__label {
+  min-width: 100%;
+  // flex: 1;
+}
+.send-review__input {
+  flex: 1;
+}

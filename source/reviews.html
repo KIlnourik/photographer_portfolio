@@ -50,25 +50,26 @@
     <section class="reviews">
       <ul class="reviews__list">
         <li class="reviews__item">
-          <p class="reviews__review"></p>
-          <div class="reviews__wrapper">
-            <img src="" alt="" class="reviews__avatar">
-            <p class="reviews__name"></p>
-          </div>
+          <p class="reviews__user-name">Михална, <span class="reviews__user-city">г. Сургут</span></p>
+          <blockquote class="reviews__user-review">Я была так потрясена работой Ларисы, меня аж до сих пор потрясает
+            иногда. Она смотрела в смотровое окно фотоаппарата с хладнокровностью и нескрываемым профессионализмом,
+            словно снайпер в оптический прицел. Фотографии восхитительны, великолепны. Лариса, ты просто космос!
+          </blockquote>
         </li>
         <li class="reviews__item">
-          <p class="reviews__review"></p>
-          <div class="reviews__wrapper">
-            <img src="" alt="" class="reviews__avatar">
-            <p class="reviews__name"></p>
-          </div>
+          <p class="reviews__user-name">Николавна, <span class="reviews__user-city">г. Сургут</span></p>
+          <blockquote class="reviews__user-review">Я была на фотодне. Фотографировалась с мужем. Нам все понравилось.
+            Особенно хаски.</blockquote>
         </li>
         <li class="reviews__item">
-          <p class="reviews__review"></p>
-          <div class="reviews__wrapper">
-            <img src="" alt="" class="reviews__avatar">
-            <p class="reviews__name"></p>
-          </div>
+          <p class="reviews__user-name">Ильнур, <span class="reviews__user-city">г. Сургут</span></p>
+          <blockquote class="reviews__user-review">Она пришла к нам домой. У нее был фотоаппарат. Она фотографировала.
+            Хорошо. Я хотел заплатить, но она сказала, что я заплачу своей кровью. Фотки супер! Но я опасаюсь - она ведь
+            знает, где я живу..</blockquote>
+        </li>
+        <li class="reviews__item">
+          <p class="reviews__user-name">Сеня, <span class="reviews__user-city">г. Сургут</span></p>
+          <blockquote class="reviews__user-review">Мяу.</blockquote>
         </li>
       </ul>
     </section>
@@ -77,87 +78,66 @@
       <form action="POST" class="send-review__form">
         <label for="name" class="send-review__label">
           <input type="text" name="name" id="name" class="send-review__input send-review__input--name"
-            placeholder="Ваше имя">
+            placeholder="Ваше имя*" required>
         </label>
         <label for="surname" class="send-review__label">
           <input type="text" name="surname" id="surname" class="send-review__input send-review__input--surname"
             placeholder="Ваша фамилия">
         </label>
-        <label for="phone" class="send-review__label">
-          <input type="tel" name="phone" id="phone" class="send-review__input send-review__input--phone"
-            placeholder="Ваш номер телефона">
+        <label for="city" class="send-review__label">
+          <input type="text" name="city" id="city" class="send-review__input send-review__input--city"
+            placeholder="Ваш город*">
         </label>
         <label for="email" class="send-review__label">
           <input type="email" name="email" id="email" class="send-review__input send-review__input--email"
-            placeholder="Ваш email">
+            placeholder="Ваш email*" required>
         </label>
 
         <label for="review" class="send-review__label">
-          <textarea name="review" id="review" cols="30" rows="10" class="send-review__textarea"
-            placeholder="Ваш отзыв"></textarea>
+          <textarea name="review" id="review" cols="30" rows="10" class="send-review__textarea" placeholder="Ваш отзыв*"
+            required></textarea>
         </label>
       </form>
+      <span class="send-review__notice">поля со звездочкой * обязательны к заполнению</span>
     </section>
   </main>
 
   <footer class="page-footer">
     <section class="page-footer__telephone telephone">
       <p class="telephone__text">
-        Есть вопросы? Позвони:
-        <a href="" class="telephone__tel"></a>
+        Хочешь фотосессию?<br>Позвони:
+        <a href="tel:+79120863617" class="telephone__link">+7 912 086 3617</a>
       </p>
-      <p class="tetphone__text">
-        Или оставьте свой номер телефона, я перезвоню:
-      </p>
-      <form action="" method="post" class="telephone__form">
-        <label for="caller_name">
-          <input type="text" class="telephone__name-input" placeholder="Имя" id="caller_name">
-        </label>
-        <label for="telnumber">
-          <input type="tel" class="telephone__tel-input" id="telnumber" placeholder="Номер телефона">
-        </label>
-        <button type="submit" class="telephone__send-button">
-          Заказать звонок
-        </button>
-      </form>
     </section>
 
-    <footer class="page-footer">
-      <section class="page-footer__telephone telephone">
-        <p class="telephone__text">
-          Хочешь фотосессию?<br>Позвони:
-          <a href="tel:+79120863617" class="telephone__link">+7 912 086 3617</a>
-        </p>
-      </section>
-
-      <section class="page-footer__social social">
-        <ul class="social__list">
-          <li class="social__item">
-            <a href="viber://chat?number=%2B79120863617" class="social__link social__link--viber" target="_blank">
-              <span class="visually-hidden">Viber</span>
-              <svg class="social__icon social__icon--viber">
-                <use xlink:href="/img/sprite.svg#viber"></use>
-              </svg>
-            </a>
-          </li>
-          <li class="social__item">
-            <a href="https://wa.me/79120863617" class="social__link social__link--whatsapp" target="_blank">
-              <span class="visually-hidden">Whatsapp</span>
-              <svg class="social__icon social__icon--whatsapp">
-                <use xlink:href="/img/sprite.svg#whatsapp"></use>
-              </svg>
-            </a>
-          </li>
-          <li class="social__item">
-            <a href="https://www.instagram.com/chaika__gaika/" class="social__link social__link--instagram"
-              target="_blank">
-              <span class="visually-hidden">Instagram</span>
-              <svg class="social__icon social__icon--instagram">
-                <use xlink:href="/img/sprite.svg#instagram"></use>
-              </svg>
-            </a>
-          </li>
-        </ul>
-      </section>
-    </footer>
+    <section class="page-footer__social social">
+      <ul class="social__list">
+        <li class="social__item">
+          <a href="viber://chat?number=%2B79120863617" class="social__link social__link--viber" target="_blank">
+            <span class="visually-hidden">Viber</span>
+            <svg class="social__icon social__icon--viber">
+              <use xlink:href="/img/sprite.svg#viber"></use>
+            </svg>
+          </a>
+        </li>
+        <li class="social__item">
+          <a href="https://wa.me/79120863617" class="social__link social__link--whatsapp" target="_blank">
+            <span class="visually-hidden">Whatsapp</span>
+            <svg class="social__icon social__icon--whatsapp">
+              <use xlink:href="/img/sprite.svg#whatsapp"></use>
+            </svg>
+          </a>
+        </li>
+        <li class="social__item">
+          <a href="https://www.instagram.com/chaika__gaika/" class="social__link social__link--instagram"
+            target="_blank">
+            <span class="visually-hidden">Instagram</span>
+            <svg class="social__icon social__icon--instagram">
+              <use xlink:href="/img/sprite.svg#instagram"></use>
+            </svg>
+          </a>
+        </li>
+      </ul>
+    </section>
+  </footer>
 </body>

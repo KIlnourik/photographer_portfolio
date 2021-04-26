@@ -3,7 +3,7 @@
   top: 0;
   left: 0;
   right: auto;
-  background-color: $transparent_grey-blue;
+  background-color: $light-grey;
   @media (max-width: $mobile-width-only) {
     width: 100vw;
     height: 100vh;
@@ -11,6 +11,7 @@
 }
 .modal__wrapper {
   position: relative;
+  padding-top: 80px;
 }
 .modal__close {
   margin: 0;
@@ -29,11 +30,62 @@
   @media (max-width: $mobile-width-only) {
     width: 20px;
     height: 20px;
-    top: 20px;
+    top: 30px;
     right: 20px;
   }
 }
 .modal__close-icon {
   width: inherit;
   height: inherit;
+}
+.modal__photo-container {
+  position: relative;
+  @media (max-width: $mobile-width-only) {
+    min-width: 100%;
+  }
+}
+.modal__photo {
+  @media (max-width: $mobile-width-only) {
+    width: 90%;
+    display: block;
+    margin: 0 auto;
+  }
+}
+.modal__button-container {
+  width: 90%;
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.modal__button {
+  background-color: transparent;
+  border: none;
+  padding: 5px 0;
+  text-align: center;
+  box-sizing: border-box;
+  color: $basic_black;
+  &:hover {
+    border: 1px solid $basic_black;
+    border-radius: 3px;
+  }
+  &:active {
+    opacity: 0.5;
+  }
+  @media (max-width: $mobile-width-only) {
+    width: 50px;
+    height: 55px;
+  }
+}
+.modal__icon {
+  font-size: 20px;
+  line-height: 20px;
+  width: 20px;
+  height: 45px;
+  &--previous {
+    transform: rotate(180deg);
+  }
 }

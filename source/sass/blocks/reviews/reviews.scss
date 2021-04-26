@@ -1,0 +1,126 @@
+.reviews {
+  margin: 0 auto;
+  margin-top: 20px;
+  padding: 0;
+}
+.reviews__header {
+  font-family: "celestina", "Arial", sans-serif;
+  @media (max-width: $mobile-width-only) {
+    margin-top: 10px;
+    margin-left: 40px;
+    margin-bottom: 15px;
+    font-size: 45px;
+    line-height: 65px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    &::after {
+      position: absolute;
+      content: "";
+      width: 100%;
+      height: 1px;
+      background-color: $basic_black;
+      top: 50px;
+      left: auto;
+      right: 0;
+    }
+  }
+}
+.reviews__list {
+  list-style: none;
+  @media (max-width: $mobile-width-only) {
+    padding: 0 20px;
+    font-size: 12px;
+    line-height: 16px;
+  }
+}
+.reviews__user-city,
+.reviews__user-name {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+.reviews__user-review {
+  position: relative;
+  @media (max-width: $mobile-width-only) {
+    font-size: 10px;
+    margin-left: 45px;
+    margin-top: 5px;
+    min-height: 40px;
+    &::before {
+      content: "\201C";
+      font-family: serif;
+      position: absolute;
+      top: 5px;
+      left: -50px;
+      color: $basic_white;
+      width: 30px;
+      height: 30px;
+      border-radius: 50%;
+      background: $grey-blue;
+      font-size: 30px;
+      font-weight: bold;
+      text-align: center;
+      line-height: 42px;
+    }
+    &::after {
+      content: "";
+      width: 2px;
+      background: $grey-blue;
+      position: absolute;
+      left: -10px;
+      top: 5px;
+      bottom: 5px;
+    }
+  }
+}
+.reviews__more {
+  margin-top: 15px;
+  margin-right: 74px;
+  display: block;
+  text-align: right;
+  text-decoration: none;
+  color: $basic_black;
+  position: relative;
+  &:hover {
+    font-weight: bold;
+  }
+  &:active {
+    opacity: 0.3;
+  }
+  &::after {
+    position: absolute;
+    content: "";
+    background: url("/img/Arrow.svg") no-repeat;
+    height: 10px;
+    width: 26px;
+    top: 50%;
+    left: auto;
+    right: -48px;
+    transform: translate(0, -50%);
+  }
+  @media (max-width: $mobile-width-only) {
+    font-size: 14px;
+  }
+}
+.reviews__send-review {
+  margin: 0 auto;
+  padding: 5px 0;
+  display: block;
+  text-decoration: none;
+  text-align: center;
+  border: 2px solid $sylver;
+  color: $basic_black;
+  box-sizing: border-box;
+  &:hover {
+    border: 2px solid $grey-blue;
+    font-weight: bold;
+  }
+  &:active {
+    border-color: $sylver;
+    color: $grey-blue;
+  }
+  @media (max-width: $mobile-width-only) {
+    max-width: 220px;
+    font-size: 14px;
+  }
+}

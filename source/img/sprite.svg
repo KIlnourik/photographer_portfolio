@@ -29,4 +29,7 @@
   <symbol viewBox="0 0 30 30" id="close">
     <path fill-rule="evenodd" clip-rule="evenodd" d="M15 19.5066L4.50663 30L0 25.4934L10.4934 15L0 4.50663L4.50663 0L15 10.4934L25.4934 0L30 4.50663L19.5066 15L30 25.4934L25.4934 30L15 19.5066Z" fill="currentColor"/>
   </symbol>
+  <symbol viewBox="0 0 42 73" fill="none" id="leaf_arrow">
+    <path fill-rule="evenodd" clip-rule="evenodd" d="M30.77 37L.4 6.61 6.28.72 42.56 37 6.28 73.28l-5.9-5.9L30.79 37z" fill="currentColor"/>
+  </symbol>
 </svg>
