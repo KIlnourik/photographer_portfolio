@@ -1,15 +1,32 @@
-.send-review__form {
-  display: flex;
-  flex-direction: column;
+.send-review__intro {
   @media (max-width: $mobile-width-only) {
     padding: 0 20px;
-    min-width: 100%;
+    min-width: 280px;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+  }
+}
+.send-review__form {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+
+  @media (max-width: $mobile-width-only) {
+    padding: 0 20px;
+    font-size: 14px;
+    line-height: 16px;
   }
 }
 .send-review__label {
-  min-width: 100%;
-  // flex: 1;
+  display: block;
+  // min-width: 100%;
 }
-.send-review__input {
+.send-review__input,
+.send-review__textarea {
+  box-sizing: border-box;
+  margin: 5px;
+  padding: 0;
+  min-width: 280px;
   flex: 1;
 }
