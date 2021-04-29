@@ -75,7 +75,8 @@
     </section>
 
     <section class="send-review">
-      <p class="send-review__intro">Понравилась фотосессия? Хочешь поделиться мнением?<br>Как говорил Шрек: "Не держи
+      <p class="send-review__intro">Понравилась фотосессия? Понравились фотографии? Хочешь поделиться мнением?<br>Как
+        говорил Шрек: "Не держи
         в
         себе!" Оставь отзыв ниже!</p>
       <form action="POST" class="send-review__form">
@@ -96,12 +97,15 @@
             placeholder="Ваш email*" required>
         </label>
 
-        <label for="review" class="send-review__label">
+        <label for="review" class="send-review__label send-review__label--textarea">
           <textarea name="review" id="review" cols="30" rows="10" class="send-review__textarea" placeholder="Ваш отзыв*"
             required></textarea>
         </label>
+        <!-- <span class="send-review__notice">* поля обязательныe к заполнению</span> -->
+
+        <button class="send-review__button" type="submit">Отправить отзыв</button>
       </form>
-      <span class="send-review__notice">поля со звездочкой * обязательны к заполнению</span>
+
     </section>
   </main>
 

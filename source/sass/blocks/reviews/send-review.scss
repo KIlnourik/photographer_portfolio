@@ -1,9 +1,15 @@
+.send-review {
+  @media (max-width: $mobile-width-only) {
+    margin-top: 50px;
+    padding: 0 20px;
+  }
+}
+
 .send-review__intro {
   @media (max-width: $mobile-width-only) {
-    padding: 0 20px;
-    min-width: 280px;
-    font-size: 14px;
-    line-height: 16px;
+    margin: 0 auto;
+    font-size: 16px;
+    line-height: 22px;
     text-align: center;
   }
 }
@@ -11,22 +17,46 @@
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-
+  justify-content: space-between;
   @media (max-width: $mobile-width-only) {
-    padding: 0 20px;
+    flex-direction: column;
+    margin: 0 auto;
+    max-width: 570px;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 20px;
   }
 }
 .send-review__label {
   display: block;
-  // min-width: 100%;
+  margin: 5px 0;
+  &--textarea {
+    min-width: 100%;
+  }
 }
 .send-review__input,
 .send-review__textarea {
   box-sizing: border-box;
-  margin: 5px;
-  padding: 0;
-  min-width: 280px;
-  flex: 1;
+  min-width: 100%;
+}
+.send-review__textarea {
+  min-width: 100%;
+}
+
+.send-review__button {
+  display: block;
+  margin: 0 auto;
+  padding-top: 8px;
+  padding-bottom: 9px;
+  width: 280px;
+  border: none;
+  background-color: $sylver;
+  color: $basic_white;
+  box-sizing: border-box;
+  cursor: pointer;
+  &:hover {
+    font-weight: bold;
+  }
+  &:active {
+    opacity: 0.7;
+  }
 }
