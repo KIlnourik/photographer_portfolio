@@ -45,7 +45,8 @@
   display: block;
   text-align: center;
   text-decoration: none;
-  color: $cover_font;
+  //записать выбранный цвет в переменные
+  color: rgb(163, 161, 58);
   font-weight: bold;
   font-family: "celestina", "Arial", sans-serif;
   z-index: 3;
