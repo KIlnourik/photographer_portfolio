@@ -10,4 +10,7 @@
 }
 .page__body {
   margin: 0;
+  &--photogallery {
+    background-color: $graphite;
+  }
 }

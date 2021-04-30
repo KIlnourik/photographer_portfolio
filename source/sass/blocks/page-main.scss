@@ -17,4 +17,10 @@
       left: -20px;
     }
   }
+  &--photogallery {
+    color: $basic_white;
+    &::after {
+      background-color: $basic_white;
+    }
+  }
 }
