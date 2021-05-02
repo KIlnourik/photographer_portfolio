@@ -1,14 +1,20 @@
 .telephone {
+  color: $basic_black;
+  &--photogallery {
+    color: $basic_white;
+  }
   @media (max-width: $mobile-width-only) {
     font-size: 14px;
     line-height: 18px;
-    color: $basic_black;
   }
 }
 .telephone__link {
   font-family: "celestina", "Arial", sans-serif;
   text-decoration: none;
   color: $basic_black;
+  &--photogallery {
+    color: $basic_white;
+  }
   &:active {
     color: $grey-blue;
   }
