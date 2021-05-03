@@ -7,6 +7,12 @@
     position: relative;
     color: $basic_white;
   }
+  @media (min-width: $tablet-width) {
+    padding: 0;
+    padding-top: 108px;
+    height: 639px;
+    background: url("/img/mobile/intro.jpg") no-repeat 90% 0;
+  }
 }
 .intro__name {
   margin: 0;
@@ -20,6 +26,12 @@
     top: 50%;
     left: 12%;
     transform: translate(0, -50%);
+  }
+  @media (min-width: $tablet-width) {
+    margin-left: 70px;
+
+    font-size: 60px;
+    line-height: 100px;
   }
 }
 .intro__profession {

@@ -14,12 +14,12 @@
       &::after {
         position: absolute;
         content: "";
-        width: 70%;
+        width: 80%;
         height: 1px;
         background-color: $basic_black;
         top: 70px;
         right: auto;
-        left: -20px;
+        left: 0;
       }
     }
   }
