@@ -12,6 +12,7 @@
     font-size: 45px;
     line-height: 65px;
     position: relative;
+    //зачем? почему? для чего?
     display: flex;
     flex-direction: column;
     &::after {
@@ -25,18 +26,49 @@
       right: 0;
     }
   }
+  @media (min-width: $tablet-width) {
+    margin-left: 70px;
+    font-size: 60px;
+    line-height: 100px;
+    position: relative;
+
+    &::after {
+      position: absolute;
+      content: "";
+      width: 70%;
+      height: 1px;
+      background-color: $basic_black;
+      top: auto;
+      bottom: 20px;
+      left: auto;
+      right: -70px;
+    }
+  }
 }
 .portfolio__image-container {
   padding: 0 20px;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
+
+  @media (min-width: $tablet-width) {
+    margin: 0 auto;
+    padding: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    // flex-direction: row;
+    // justify-content: space-between;
+  }
 }
 .portfolio__image {
   margin: 0 auto;
   @media (max-width: $mobile-width-only) {
     margin-top: 5px;
     max-width: 100%;
+    height: auto;
+  }
+  @media (min-width: $tablet-width) {
+    max-width: 390px;
     height: auto;
   }
 }

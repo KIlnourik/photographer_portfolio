@@ -6,6 +6,13 @@
     background: url("/img/mobile/about_mobile.jpg") no-repeat 95% 0,
       url("/img/mobile/about_1_mobile.jpg") no-repeat 10% 100%;
   }
+  @media (min-width: $tablet-width) {
+    padding: 0 70px;
+    height: 686px;
+    background: url("/img/about_img.jpg") no-repeat 100% 18%,
+      url("/img/about_img1.jpg") no-repeat 0 100%;
+      background-size: 180px auto, 330px auto;
+  }
 }
 .about__header {
   font-family: "celestina", "Arial", sans-serif;
@@ -27,6 +34,24 @@
       right: -20px;
     }
   }
+  @media (min-width: $tablet-width) {
+    margin-top: 0;
+    margin-left: 35vw;
+    font-size: 60px;
+    line-height: 100px;
+    position: relative;
+    &::after {
+      position: absolute;
+      content: "";
+      width: 110%;
+      height: 1px;
+      background-color: $basic_black;
+      top: auto;
+      bottom: 20px;
+      left: auto;
+      right: -70px;
+    }
+  }
 }
 .about__text {
   @media (max-width: $mobile-width-only) {
@@ -37,14 +62,11 @@
       margin-top: 0;
     }
   }
-}
-.about__examples-intro {
-  @media (max-width: $mobile-width-only) {
-    display: none;
-  }
-}
-.about__list {
-  @media (max-width: $mobile-width-only) {
-    display: none;
+  @media (min-width: $tablet-width) {
+    margin-top: 180px;
+    margin-left: 37vw;
+    width: 350px;
+    font-size: 18px;
+    line-height: 30px;
   }
 }
