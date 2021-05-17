@@ -5,26 +5,25 @@
 }
 .portfolio__header {
   font-family: "celestina", "Arial", sans-serif;
-  @media (max-width: $mobile-width-only) {
-    margin-top: 10px;
-    margin-left: 40px;
-    margin-bottom: 15px;
-    font-size: 45px;
-    line-height: 65px;
-    position: relative;
-    //зачем? почему? для чего?
-    display: flex;
-    flex-direction: column;
-    &::after {
-      position: absolute;
-      content: "";
-      width: 100%;
-      height: 1px;
-      background-color: $basic_black;
-      top: 50px;
-      left: auto;
-      right: 0;
-    }
+
+  margin-top: 10px;
+  margin-left: 40px;
+  margin-bottom: 15px;
+  font-size: 45px;
+  line-height: 65px;
+  position: relative;
+  //зачем? почему? для чего?
+  display: flex;
+  flex-direction: column;
+  &::after {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 1px;
+    background-color: $basic_black;
+    top: 50px;
+    left: auto;
+    right: 0;
   }
   @media (min-width: $tablet-width) {
     margin-left: 70px;
@@ -45,7 +44,7 @@
     }
   }
 }
-.portfolio__image-container {
+.portfolio__image-wrapper {
   padding: 0 20px;
   display: flex;
   flex-direction: column;
@@ -54,27 +53,37 @@
   @media (min-width: $tablet-width) {
     margin: 0 auto;
     padding: 0;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    // flex-direction: row;
-    // justify-content: space-between;
+    // display: grid;
+    // grid-template-columns: 1fr 1fr;
+    flex-direction: row;
+    justify-content: space-around;
   }
+  @media (min-width: $desktop-width) {
+  }
+}
+.portfolio__image-container {
+  margin: 0;
+  padding: 0;
 }
 .portfolio__image {
   margin: 0 auto;
-  @media (max-width: $mobile-width-only) {
-    margin-top: 5px;
-    max-width: 100%;
-    height: auto;
-  }
+  margin-top: 5px;
+  min-width: 100%;
+  height: auto;
   @media (min-width: $tablet-width) {
-    max-width: 390px;
-    height: auto;
+    object-fit: cover;
+    min-width: 390px;
+    height: 520px;
+  }
+  @media (min-width: $desktop-width) {
+    min-width: 390px;
+    height: 564px;
   }
 }
 .porfolio__more {
   margin-top: 15px;
   margin-right: 74px;
+  font-size: 14px;
   display: block;
   text-align: right;
   text-decoration: none;
@@ -82,6 +91,7 @@
   position: relative;
   &:hover {
     font-weight: bold;
+    text-transform: uppercase;
   }
   &:active {
     opacity: 0.3;
@@ -97,7 +107,8 @@
     right: -48px;
     transform: translate(0, -50%);
   }
-  @media (max-width: $mobile-width-only) {
-    font-size: 14px;
+  @media (min-width: $tablet-width) {
+    font-size: 16px;
+    margin-right: 100px;
   }
 }
