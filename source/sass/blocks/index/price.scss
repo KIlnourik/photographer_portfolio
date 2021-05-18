@@ -46,6 +46,7 @@
   width: 100%;
   border-collapse: collapse;
   @media (min-width: $tablet-width) {
+    margin-top: 50px;
   }
 }
 .price__table-row {

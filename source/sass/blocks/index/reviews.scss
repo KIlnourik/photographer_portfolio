@@ -1,9 +1,9 @@
-.reviews {
+.reviews-index {
   margin: 0 auto;
   margin-top: 20px;
   padding: 0;
 }
-.reviews__header {
+.reviews-index__header {
   font-family: "celestina", "Arial", sans-serif;
   margin-top: 10px;
   margin-left: 40px;
@@ -42,7 +42,7 @@
     }
   }
 }
-.reviews__list {
+.reviews-index__list {
   list-style: none;
   padding: 0 20px;
   font-size: 12px;
@@ -52,17 +52,17 @@
     padding: 0 70px;
   }
 }
-.reviews__item {
+.reviews-index__item {
   @media (min-width: $tablet-width) {
     margin-top: 35px;
   }
 }
-.reviews__user-city,
-.reviews__user-name {
+.reviews-index__user-city,
+.reviews-index__user-name {
   font-weight: bold;
   margin-bottom: 5px;
 }
-.reviews__user-review {
+.reviews-index__user-review {
   position: relative;
   font-size: 10px;
   margin-left: 45px;
@@ -111,17 +111,15 @@
     }
   }
 }
-.reviews__more {
+.reviews-index__more {
   margin-top: 15px;
+  margin-right: 74px;
   font-size: 14px;
   display: block;
   text-align: right;
   text-decoration: none;
   color: $basic_black;
   position: relative;
-  @media (max-width: $mobile-width-only) {
-    margin-right: 74px;
-  }
   &:hover {
     font-weight: bold;
     text-transform: uppercase;
@@ -141,12 +139,17 @@
     transform: translate(0, -50%);
   }
   @media (min-width: $tablet-width) {
+    margin-right: 100px;
     font-size: 16px;
+  }
+}
+@media (min-width: $tablet-width) {
+  .reviews-index__more {
     margin-right: 100px;
   }
 }
 
-.reviews__send-review {
+.reviews-index__send-review {
   margin: 0 auto;
   padding: 5px 0;
   display: block;
