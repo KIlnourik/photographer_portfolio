@@ -31,4 +31,9 @@
       background-color: $basic_white;
     }
   }
+  @media (min-width: $desktop-width) {
+    padding: 30px 110px;
+    font-size: 26px;
+    line-height: 40px;
+  }
 }

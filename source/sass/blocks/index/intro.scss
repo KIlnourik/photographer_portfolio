@@ -1,59 +1,74 @@
 .intro {
-  @media (max-width: $mobile-width-only) {
-    margin: 0 auto;
-    padding: 0 20px;
-    height: 765px;
-    background: url("/img/mobile/intro.jpg") no-repeat 50% 0;
-    position: relative;
-    color: $basic_white;
-  }
+  margin: 0 auto;
+  padding: 0 20px;
+  height: 765px;
+  background: url("/img/mobile/intro.jpg") no-repeat 50% 0;
+  position: relative;
+  color: $basic_white;
   @media (min-width: $tablet-width) {
+    // margin-bottom: 50px;
+    padding: 0 70px;
+    padding-top: 108px;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding: 70px;
-    padding-top: 108px;
     height: 639px;
     background: url("/img/mobile/intro.jpg") no-repeat 100% 0;
+    color: $basic_black;
+  }
+  @media (min-width: $desktop-width) {
+    padding: 0 110px;
+    height: 747px;
+    background: url("/img/intro_back.jpg") no-repeat 100% 50%;
+    background-size: 740px auto;
   }
 }
 .intro__name {
   margin: 0;
   display: block;
   font-family: "celestina", "Arial", sans-serif;
-  @media (max-width: $mobile-width-only) {
-    max-width: 280px;
-    font-size: 45px;
-    line-height: 90px;
-    position: absolute;
-    top: 50%;
-    left: 12%;
-    transform: translate(0, -50%);
-  }
+  max-width: 280px;
+  font-size: 45px;
+  line-height: 90px;
+  position: absolute;
+  top: 50%;
+  left: 12%;
+  transform: translate(0, -50%);
+
   @media (min-width: $tablet-width) {
+    position: static;
     font-size: 100px;
     line-height: 150px;
-    position: relative;
+    max-width: none;
+    transform: none;
+
     &::after {
       content: "";
-      width: 90%;
+      width: 65%;
       height: 1px;
       background-color: $basic_black;
       position: absolute;
-      left: 0;
+      left: 70px;
       right: auto;
-      top: auto;
+      top: 70%;
       bottom: 0;
+    }
+  }
+  @media (min-width: $desktop-width) {
+    &::after {
+      left: 110px;
+      top: 60%;
     }
   }
 }
 .intro__profession {
-  @media (max-width: $mobile-width-only) {
-    position: absolute;
-    top: 218px;
-    left: 12%;
-  }
+  position: absolute;
+  top: 218px;
+  left: 12%;
   @media (min-width: $tablet-width) {
+    position: static;
     margin-top: 50px;
+    position: static;
+    font-size: 26px;
   }
 }
