@@ -7,22 +7,21 @@
   @media (min-width: $tablet-width) {
     min-width: 80%;
     position: static;
+    &::after {
+      position: absolute;
+      content: "";
+      width: 80%;
+      height: 1px;
+      background-color: $basic_black;
+      top: 70px;
+      right: auto;
+      left: 0;
+    }
     &--index {
       position: absolute;
       top: 10px;
       bottom: auto;
       z-index: 10;
-
-      &::after {
-        position: absolute;
-        content: "";
-        width: 80%;
-        height: 1px;
-        background-color: $basic_black;
-        top: 70px;
-        right: auto;
-        left: 0;
-      }
     }
   }
   @media (min-width: $desktop-width) {

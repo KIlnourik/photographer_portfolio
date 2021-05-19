@@ -8,7 +8,7 @@
   }
   @media (min-width: $tablet-width) {
     padding: 0 70px;
-    min-height: 600px;
+    min-height: 700px;
     background: url("/img/about_img.jpg") no-repeat 100% 30%, url("/img/about_img1.jpg") no-repeat 0 50%;
     background-size: 180px auto, 330px auto;
   }
@@ -39,7 +39,6 @@
   @media (min-width: $tablet-width) {
     margin-top: 0;
     margin-left: 40vw;
-    // padding-top: 0;
     font-size: 60px;
     line-height: 100px;
     position: relative;

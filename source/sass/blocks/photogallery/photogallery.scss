@@ -1,82 +1,97 @@
 .photogallery__header {
   font-family: "celestina", "Arial", sans-serif;
-  @media (max-width: $mobile-width-only) {
-    margin-top: 40px;
-    margin-left: 20px;
-    font-size: 50px;
-    line-height: 65px;
-    position: relative;
-    &::after {
-      position: absolute;
-      content: "";
-      width: 100%;
-      height: 1px;
-      background-color: $graphite;
-      top: 50px;
-      right: auto;
-      left: -20px;
-    }
+  margin-top: 40px;
+  margin-left: 20px;
+  font-size: 50px;
+  line-height: 65px;
+  position: relative;
+  &::after {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 1px;
+    // background-color: $graphite;
+    top: 50px;
+    right: auto;
+    left: -20px;
+  }
+  @media (min-width: $tablet-width) {
+    font-size: 100px;
   }
 }
 .photogallery__list {
+  padding: 0;
   list-style: none;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  @media (max-width: $mobile-width-only) {
-    flex-direction: row;
-    padding: 0;
-    background-color: $graphite;
-  }
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  grid-template-rows: repeat(auto-fit, 1fr);
+  grid-auto-flow: dense;
+  gap: 20px;
 }
 .photogallery__item {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
   position: relative;
-  background: $graphite url("../../../img/plenka1.svg") no-repeat 50% 50%;
-
-  @media (max-width: $mobile-width-only) {
-    margin: 0 auto;
-    width: 320px;
-    height: 320px;
-  }
 }
 .photogallery__link {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
   text-align: center;
   text-decoration: none;
-  //записать выбранный цвет в переменные
-  // color: rgb(163, 161, 58);
+  background-color: $graphite;
   color: $basic_white;
   font-weight: bold;
   font-family: "celestina", "Arial", sans-serif;
   z-index: 3;
 }
 .photogallery__photosession-header {
-  // position: absolute;
-  // top: auto;
-  // bottom: 10%;
-  // left: 50%;
-  // transform: translate(-50%, 0);
-  @media (max-width: $mobile-width-only) {
-    margin: 0;
-    margin-top: 10px;
-    font-size: 25px;
-    line-height: 32px;
+  margin: 0;
+  font-size: 25px;
+  line-height: 32px;
+  position: absolute;
+  top: auto;
+  bottom: 10%;
+  left: 50%;
+  transform: translate(-50%, 0);
+  z-index: 10;
+  @media (min-width: $tablet-width) {
+    display: none;
+    font-size: 38px;
+    line-height: 50px;
   }
 }
 .photogallery__cover-wrapper {
-  display: flex;
-  margin-top: 10px;
-  width: 220px;
-  height: 220px;
+  width: 100%;
+  height: 100%;
   margin-bottom: auto;
-}
-.photogallery__photosession-cover {
-  flex-shrink: 0;
-  object-fit: cover;
-  @media (max-width: $mobile-width-only) {
+  position: relative;
+  &::after {
+    content: "";
     width: 100%;
     height: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+    background: linear-gradient(to bottom, transparent 45%, $graphite 100%);
   }
+  @media (min-width: $tablet-width) {
+    &::after {
+      display: none;
+    }
+  }
+}
+.photogallery__photosession-cover {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  background-color: $graphite;
+}
+
+.photogallery__link:hover > .photogallery__photosession-header,
+.photogallery__link:hover > .photogallery__cover-wrapper::after {
+  display: block;
+}
+.photogallery__link:active > .photogallery__photosession-header,
+.photogallery__link:active > .photogallery__cover-wrapper::after {
+  opacity: 0.3;
 }

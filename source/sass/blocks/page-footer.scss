@@ -25,12 +25,12 @@
       right: auto;
     }
   }
-  &--photogallery {
-    color: $basic_white;
-    &::before {
-      background-color: $basic_white;
-    }
-  }
+  // &--photogallery {
+  //   color: $basic_white;
+  //   &::before {
+  //     background-color: $basic_white;
+  //   }
+  // }
   @media (min-width: $desktop-width) {
     padding: 30px 110px;
     font-size: 26px;

@@ -18,10 +18,28 @@
   &--index {
     margin-top: 0;
   }
-  &--photogallery {
-    color: $basic_white;
+  @media (min-width: $tablet-width) {
+    font-size: 80px;
+    line-height: 200px;
+    margin-left: 100px;
     &::after {
-      background-color: $basic_white;
+      width: 90%;
+      top: auto;
+      bottom: 70px;
+      right: 0;
+      left: auto;
     }
   }
+  @media (min-width: $desktop-width) {
+    font-size: 100px;
+    &::after {
+      bottom: 60px;
+    }
+  }
+  // &--photogallery {
+  //   color: $basic_white;
+  //   &::after {
+  //     background-color: $basic_white;
+  //   }
+  // }
 }
