@@ -37,7 +37,6 @@
       top: auto;
       bottom: 20px;
       left: auto;
-      right: -70px;
     }
   }
   @media (min-width: $desktop-width) {
@@ -46,7 +45,6 @@
     line-height: 160px;
     &::after {
       width: 100%;
-      right: -110px;
       bottom: 45px;
     }
   }
