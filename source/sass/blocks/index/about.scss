@@ -68,15 +68,16 @@
     margin-top: 0;
   }
   @media (min-width: $tablet-width) {
-    margin-top: 180px;
+    margin-top: 120px;
     margin-left: 37vw;
     width: 350px;
     font-size: 18px;
     line-height: 30px;
   }
   @media (min-width: $desktop-width) {
-    margin-top: 120px;
+    margin-top: 80px;
     margin-left: 40vw;
+    margin-bottom: 40px;
     font-size: 20px;
   }
 }
