@@ -1,15 +1,13 @@
 .about {
-  @media (max-width: $mobile-width-only) {
     margin-top: 20px;
     padding: 0 20px;
-    height: 688px;
+    min-height: 688px;
     background: url("/img/mobile/about_mobile.jpg") no-repeat 95% 0,
       url("/img/mobile/about_1_mobile.jpg") no-repeat 10% 100%;
-  }
   @media (min-width: $tablet-width) {
     padding: 0 70px;
     min-height: 700px;
-    background: url("/img/about_img.jpg") no-repeat 100% 30%, url("/img/about_img1.jpg") no-repeat 0 50%;
+    background: url("/img/about_img.jpg") no-repeat 100% 20%, url("/img/about_img1.jpg") no-repeat 0 100%;
     background-size: 180px auto, 330px auto;
   }
   @media (min-width: $desktop-width) {
@@ -62,7 +60,7 @@
 }
 .about__text {
   margin-top: 67px;
-  margin-bottom: 0;
+  padding-bottom: 350px;
   font-size: 14px;
   &--end {
     margin-top: 0;
@@ -70,6 +68,7 @@
   @media (min-width: $tablet-width) {
     margin-top: 120px;
     margin-left: 37vw;
+    padding-bottom: 0;
     width: 350px;
     font-size: 18px;
     line-height: 30px;
