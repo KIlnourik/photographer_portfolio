@@ -70,7 +70,9 @@
   line-height: 12px;
   font-weight: bold;
   text-align: center;
+  width: 10%;
   @media (min-width: $tablet-width) {
+    width: 20%;
     font-size: 18px;
     line-height: 36px;
     padding: 20px 0;
@@ -80,10 +82,25 @@
     line-height: 62px;
   }
 }
+.price__price-cell {
+  font-size: 8px;
+  width: 25%;
+  padding: 5px;
+  @media (min-width: $tablet-width) {
+    font-size: 16px;
+    line-height: 32px;
+    padding: 20px 0;
+  }
+  @media (min-width: $desktop-width) {
+    width: 20%;
+    font-size: 28px;
+    line-height: 36px;
+  }
+}
 .price__description-cell {
   padding: 10px 0;
   font-size: 9px;
-  line-height: 10px;
+  line-height: 12px;
   width: 40%;
   @media (min-width: $tablet-width) {
     font-size: 14px;
@@ -92,6 +109,84 @@
   }
   @media (min-width: $desktop-width) {
     font-size: 22px;
+    line-height: 32px;
+  }
+}
+.price__table-list {
+  list-style-type: none;
+  @media (min-width: $tablet-width) {
+    padding: 0 30px;
+    margin: 22px 0;
+  }
+}
+.price__table-item {
+  position: relative;
+  margin: 5px 0;
+  &::before {
+    position: absolute;
+    content: "\2714";
+    left: -15px;
+  }
+  @media (min-width: $tablet-width) {
+    &::before {
+      left: -25px;
+    }
+  }
+}
+.price__link--instagram {
+  color: $basic_black;
+  text-decoration: none;
+  font-family: "celestina", "Arial", sans-serif;
+  font-size: 12px;
+  @media (min-width: $tablet-width) {
+    font-size: 22px;
+  }
+  @media (min-width: $desktop-width) {
+    font-size: 32px;
+  }
+}
+.price__text {
+  padding: 0 10px;
+  @media (min-width: $desktop-width) {
+    padding: 0 30px;
+  }
+}
+.price__note,
+.price__note-text {
+  margin: 5px 20px;
+  font-weight: bold;
+  font-size: 10px;
+  line-height: 14px;
+  @media (min-width: $tablet-width) {
+    margin: 10px 70px;
+    font-size: 16px;
+    line-height: 24px;
+  }
+  @media (min-width: $desktop-width) {
+    margin: 10px 120px;
+    font-size: 24px;
+    line-height: 32px;
+  }
+}
+.price__note {
+  color: $basic_red;
+  margin-top: 20px;
+}
+.price__note-list {
+  margin: 0 20px;
+  padding: 0;
+  list-style-type: circle;
+  font-size: 10px;
+  font-weight: bold;
+  line-height: 14px;
+  @media (min-width: $tablet-width) {
+    margin: 10px 70px;
+    font-size: 16px;
+    line-height: 24px;
+  }
+  @media (min-width: $desktop-width) {
+    margin: 10px 120px;
+    font-size: 24px;
     line-height: 32px;
   }
 }
