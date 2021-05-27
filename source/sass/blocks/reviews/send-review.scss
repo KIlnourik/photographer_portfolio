@@ -1,29 +1,29 @@
 .send-review {
-  @media (max-width: $mobile-width-only) {
-    margin-top: 50px;
-    padding: 0 20px;
+  margin-top: 50px;
+  padding: 0 20px;
+  @media (min-width: $tablet-width) {
+    padding: 0 70px;
   }
 }
 
 .send-review__intro {
-  @media (max-width: $mobile-width-only) {
-    margin: 0 auto;
-    font-size: 16px;
-    line-height: 22px;
-    text-align: center;
-  }
+  margin: 0 auto;
+  font-size: 16px;
+  line-height: 22px;
+  text-align: center;
 }
 .send-review__form {
+  margin: 0 auto;
   display: flex;
-  flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-between;
-  @media (max-width: $mobile-width-only) {
-    flex-direction: column;
-    margin: 0 auto;
-    max-width: 570px;
-    font-size: 14px;
-    line-height: 20px;
+  flex-direction: column;
+  max-width: 570px;
+  font-size: 14px;
+  line-height: 20px;
+  @media (min-width: $tablet-width) {
+    flex-direction: row;
+    max-width: none;
   }
 }
 .send-review__label {
@@ -37,6 +37,11 @@
 .send-review__textarea {
   box-sizing: border-box;
   min-width: 100%;
+}
+.send-review__input {
+  @media (min-width: $tablet-width) {
+    min-width: 40vw;
+  }
 }
 .send-review__textarea {
   min-width: 100%;
