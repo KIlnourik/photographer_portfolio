@@ -11,6 +11,11 @@
   font-size: 16px;
   line-height: 22px;
   text-align: center;
+  @media (min-width: $desktop-width) {
+    font-size: 28px;
+    line-height: 32px;
+    margin-bottom: 20px;
+  }
 }
 .send-review__form {
   margin: 0 auto;
@@ -25,6 +30,10 @@
     flex-direction: row;
     max-width: none;
   }
+  @media (min-width: $desktop-width) {
+    font-size: 20px;
+    line-height: 28px;
+  }
 }
 .send-review__label {
   display: block;
@@ -37,10 +46,16 @@
 .send-review__textarea {
   box-sizing: border-box;
   min-width: 100%;
+  @media (min-width: $desktop-width) {
+    padding: 10px;
+  }
 }
 .send-review__input {
   @media (min-width: $tablet-width) {
     min-width: 40vw;
+  }
+  @media (min-width: $desktop-width) {
+    min-width: 22vw;
   }
 }
 .send-review__textarea {
@@ -63,5 +78,9 @@
   }
   &:active {
     opacity: 0.7;
+  }
+  @media (min-width: $desktop-width) {
+    font-size: 24px;
+    line-height: 36px;
   }
 }

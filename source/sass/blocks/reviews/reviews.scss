@@ -37,6 +37,11 @@
     flex-wrap: wrap;
     justify-content: space-between;
   }
+  @media (min-width: $desktop-width) {
+    padding: 0 120px;
+    font-size: 24px;
+    line-height: 32px;
+  }
 }
 .reviews__item {
   @media (min-width: $tablet-width) {
@@ -81,8 +86,12 @@
     bottom: 5px;
   }
   @media (min-width: $tablet-width) {
-    font-size: 12px;
     margin-right: 10px;
+    font-size: 12px;
+  }
+  @media (min-width: $desktop-width) {
+    font-size: 18px;
+    line-height: 26px;
   }
 }
 .reviews__more {
