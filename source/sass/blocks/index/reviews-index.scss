@@ -155,9 +155,12 @@
   text-decoration: none;
   color: $basic_black;
   position: relative;
+  transition: text-transform 1s linear;
   &:hover {
-    font-weight: bold;
-    text-transform: uppercase;
+    // font-weight: bold;
+    // text-transform: uppercase;
+    // transition: font-weight 1.5s linear;
+    animation: link_hover 3s ease;
   }
   &:active {
     opacity: 0.3;
