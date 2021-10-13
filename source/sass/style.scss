@@ -3,6 +3,7 @@
 @import "global/variables.scss";
 @import "global/global.scss";
 
+@import "blocks/animations.scss";
 @import "blocks/page.scss";
 @import "blocks/main-nav.scss";
 @import "blocks/page-main.scss";
@@ -12,8 +13,10 @@
 
 //Index.html
 @import "blocks/index/intro.scss";
+@import "blocks/index/section-title.scss";
 @import "blocks/index/about.scss";
 @import "blocks/index/portfolio.scss";
+@import "blocks/index/more-link.scss";
 @import "blocks/index/price.scss";
 @import "blocks/index/reviews-index.scss";
 @import "blocks/index/blog.scss";

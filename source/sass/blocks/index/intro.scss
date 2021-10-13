@@ -1,21 +1,3 @@
-@keyframes appear{
-  from {
-    opacity: 0;
-  }
-  to {
-    opacity:1;
-  }
-}
-
-@keyframes underline {
-  from {
-
-  }
-  to {
-
-  }
-}
-
 .intro {
   margin: 0 auto;
   padding: 0 20px;
@@ -37,9 +19,9 @@
   }
   @media (min-width: $desktop-width) {
     padding: 0 110px;
-    height: 747px;
+    height: 100vh;
     background: url("/img/main.jpg") no-repeat 100% 50%;
-    background-size: auto 747px;
+    background-size: auto 150vh;
   }
 }
 .intro__name {

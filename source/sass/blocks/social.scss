@@ -16,6 +16,7 @@
   color: $sylver;
   &:hover .social__icon {
     color: $grey-blue;
+    transition: color 0.8s ease-in;
   }
   &:active .social__icon {
     opacity: 0.3;

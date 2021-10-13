@@ -1,0 +1,42 @@
+.section-title {
+  font-family: "celestina", "Arial", sans-serif;
+  margin-top: 0;
+  margin-left: 20px;
+  padding-top: 60px;
+  font-size: 45px;
+  line-height: 65px;
+  position: relative;
+  &::after {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 1px;
+    background-color: $basic_black;
+    top: 110px;
+    left: auto;
+    right: -20px;
+  }
+  @media (min-width: $tablet-width) {
+    margin-top: 0;
+    margin-left: 40vw;
+    font-size: 60px;
+    line-height: 100px;
+    position: relative;
+    &::after {
+      position: absolute;
+      content: "";
+      width: 110%;
+      height: 1px;
+      background-color: $basic_black;
+      top: auto;
+      bottom: 20px;
+      left: auto;
+      right: -70px;
+    }
+  }
+  @media (min-width: $desktop-width) {
+    &::after {
+      right: -110px;
+    }
+  }
+}
