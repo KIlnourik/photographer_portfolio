@@ -13,14 +13,3 @@
 .hidden {
   display: none;
 }
-
-@keyframes link_hover {
-  from {
-    font-weight: normal;
-    text-transform: none;
-  }
-  to {
-    font-weight: bold;
-    text-transform: uppercase;
-  }
-}

@@ -42,25 +42,6 @@
     line-height: 150px;
     max-width: none;
     transform: none;
-
-    &::after {
-      content: "";
-      width: 65%;
-      height: 1px;
-      background-color: $basic_black;
-      position: absolute;
-      left: 70px;
-      right: auto;
-      top: 70%;
-      bottom: 0;
-    }
-  }
-  @media (min-width: $desktop-width) {
-    &::after {
-      left: 110px;
-      top: 60%;
-      animation: underline 3s linear;
-    }
   }
 }
 .intro__profession {

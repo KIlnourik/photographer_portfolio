@@ -18,25 +18,27 @@
   }
   @media (min-width: $tablet-width) {
     margin-top: 0;
-    margin-left: 40vw;
+    margin-left: 50vw;
     font-size: 60px;
     line-height: 100px;
     position: relative;
     &::after {
       position: absolute;
       content: "";
-      width: 110%;
+      width: 90%;
       height: 1px;
       background-color: $basic_black;
       top: auto;
       bottom: 20px;
       left: auto;
-      right: -70px;
+      right: 0;
     }
   }
   @media (min-width: $desktop-width) {
     &::after {
-      right: -110px;
+      width: 0;
+      right: 0;
+      animation: underline 2s ease-in forwards;
     }
   }
 }

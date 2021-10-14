@@ -16,6 +16,7 @@
       top: 70px;
       right: auto;
       left: 0;
+      animation: underline 3s ease-in forwards;
     }
     &--index {
       position: absolute;
@@ -26,6 +27,7 @@
   }
   @media (min-width: $desktop-width) {
     width: 80%;
+
   }
 }
 .main-nav__list {
@@ -71,7 +73,7 @@
     font-weight: bold;
     line-height: 30px;
     margin: 0 50px;
-    text-decoration: solid underline 3px rgba(0, 0, 0, 0);
+    text-decoration: solid underline 2px rgba(0, 0, 0, 0);
     &:hover {
       text-decoration-color: rgba(0, 0, 0, 1);
       transition: text-decoration-color 2s;
