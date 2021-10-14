@@ -6,3 +6,23 @@
     width: 95%;
   }
 }
+
+@keyframes underline_nav {
+  0% {
+    width: 0;
+  }
+  100% {
+    opacity: 0.7;
+    width: 100%;
+    transform: translateX(-50%);
+  }
+}
+
+@keyframes hover_nav {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0.6;
+  }
+}

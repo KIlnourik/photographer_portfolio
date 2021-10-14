@@ -116,8 +116,8 @@
   &:hover {
     border: 2px solid $grey-blue;
     font-weight: bold;
-    border-radius: 20px;
-    transition: border-radius 0.5s linear;
+    border-radius: 10px;
+    transition: border-radius 0.5s ease;
   }
   &:active {
     border-color: $sylver;

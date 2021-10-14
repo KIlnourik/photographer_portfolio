@@ -7,17 +7,17 @@
   @media (min-width: $tablet-width) {
     min-width: 80%;
     position: static;
-    &::after {
-      position: absolute;
-      content: "";
-      width: 80%;
-      height: 1px;
-      background-color: $basic_black;
-      top: 70px;
-      right: auto;
-      left: 0;
-      animation: underline 3s ease-in forwards;
-    }
+    // &::after {
+    //   position: absolute;
+    //   content: "";
+    //   width: 80%;
+    //   height: 1px;
+    //   background-color: $basic_black;
+    //   top: 70px;
+    //   right: auto;
+    //   left: 0;
+    //   animation: underline 3s ease-in forwards;
+    // }
     &--index {
       position: absolute;
       top: 10px;
@@ -27,7 +27,6 @@
   }
   @media (min-width: $desktop-width) {
     width: 80%;
-
   }
 }
 .main-nav__list {
@@ -65,7 +64,7 @@
   text-align: center;
   &:hover,
   &--active {
-    opacity: 1;
+    opacity: 0.7;
     font-weight: bold;
   }
   @media (min-width: $tablet-width) {
@@ -73,17 +72,29 @@
     font-weight: bold;
     line-height: 30px;
     margin: 0 50px;
-    text-decoration: solid underline 2px rgba(0, 0, 0, 0);
+    position: relative;
     &:hover {
-      text-decoration-color: rgba(0, 0, 0, 1);
-      transition: text-decoration-color 2s;
+      animation: hover_nav 1s ease forwards;
     }
     &:active {
       opacity: 0.5;
     }
+    &::after {
+      position: absolute;
+      content: "";
+      width: 0;
+      height: 2px;
+      opacity: 1;
+      background-color: $basic_black;
+      top: auto;
+      bottom: -5px;
+      left: 50%;
+    }
   }
 }
-
+.main-nav__link:hover::after {
+  animation: underline_nav 0.3s linear forwards;
+}
 .main-nav__icon {
   width: 24px;
   height: 24px;

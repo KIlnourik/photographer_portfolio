@@ -1,0 +1,84 @@
+.price__card {
+  margin: 20px auto;
+  width: 90%;
+  border: solid 1px transparent;
+  border-radius: 20px;
+  box-sizing: border-box;
+  box-shadow: 1px 2px 20px $transparent_grey-blue;
+  &--standart {
+    background-image: url('/source/img/');
+  }
+}
+.price-card__title,
+.price-card__price {
+  margin: 25px auto 5px;
+  width: 90%;
+  font-size: 14px;
+  line-height: 12px;
+  font-weight: bold;
+  text-align: center;
+  @media (min-width: $tablet-width) {
+    width: 20%;
+    font-size: 18px;
+    line-height: 36px;
+    padding: 20px 0;
+  }
+  @media (min-width: $desktop-width) {
+    font-size: 32px;
+    line-height: 62px;
+  }
+}
+.price-card__price {
+  margin: 5px auto 25px;
+}
+.price-card__list {
+  list-style-type: none;
+  @media (min-width: $tablet-width) {
+    padding-left: 30px;
+    margin: 22px 0;
+  }
+}
+.price-card__item {
+  padding: 5px 0;
+  font-size: 12px;
+  line-height: 12px;
+  width: 90%;
+  @media (min-width: $tablet-width) {
+    font-size: 14px;
+    line-height: 18px;
+  }
+  @media (min-width: $desktop-width) {
+    font-size: 22px;
+    line-height: 32px;
+  }
+}
+.price-card__description {
+  position: relative;
+  margin: 5px 0;
+  &::before {
+    position: absolute;
+    content: "\2714";
+    left: -15px;
+  }
+  @media (min-width: $tablet-width) {
+    &::before {
+      left: -25px;
+    }
+  }
+}
+
+.price-card__text {
+  padding: 5px 0;
+  margin: 0 auto;
+  font-size: 12px;
+  line-height: 12px;
+  width: 80%;
+  @media (min-width: $tablet-width) {
+    font-size: 14px;
+    line-height: 18px;
+  }
+  @media (min-width: $desktop-width) {
+    font-size: 22px;
+    line-height: 32px;
+  }
+}
