@@ -18,5 +18,6 @@
   font-style: normal;
   font-display: swap;
   src: url("../../fonts/swanky-and-moo-moo.woff2") format("woff2"),
-  url("../../fonts/swanky-and-moo-moo.woff") format("woff");
+    url("../../fonts/swanky-and-moo-moo.woff") format("woff"),
+    url("../../fonts/swanky-and-moo-moo.otf") format("opentype");
 }
