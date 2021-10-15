@@ -1,5 +1,5 @@
 .section-title {
-  font-family: "celestina", "Arial", sans-serif;
+  font-family: "Swanky", "Arial", sans-serif;
   margin-top: 0;
   margin-left: 20px;
   padding-top: 60px;
@@ -35,6 +35,7 @@
     }
   }
   @media (min-width: $desktop-width) {
+    font-size: 85px;
     &::after {
       animation: underline 2s ease forwards;
     }

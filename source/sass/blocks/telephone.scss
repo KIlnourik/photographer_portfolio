@@ -9,7 +9,7 @@
   }
 }
 .telephone__link {
-  font-family: "celestina", "Arial", sans-serif;
+  font-family: "Swanky", "Arial", sans-serif;
   text-decoration: none;
   color: $basic_black;
   // &--photogallery {
@@ -19,6 +19,6 @@
     color: $grey-blue;
   }
   @media (max-width: $mobile-width-only) {
-    font-size: 18px;
+    font-size: 20px;
   }
 }

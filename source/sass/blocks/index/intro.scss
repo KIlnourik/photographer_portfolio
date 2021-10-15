@@ -21,13 +21,13 @@
     padding: 0 110px;
     height: 100vh;
     background: url("/img/main.jpg") no-repeat 100% 50%;
-    background-size: auto 150vh;
+    background-size: auto 120vh;
   }
 }
 .intro__name {
   margin: 0;
   display: block;
-  font-family: "celestina", "Arial", sans-serif;
+  font-family: "Swanky", "Arial", sans-serif;
   max-width: 280px;
   font-size: 2rem;
   line-height: 90px;
@@ -42,6 +42,8 @@
     line-height: 150px;
     max-width: none;
     transform: none;
+    color: $graphite;
+    text-shadow: 3px 3px 5px $transparent_white;
   }
 }
 .intro__profession {

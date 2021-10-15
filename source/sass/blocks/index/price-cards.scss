@@ -65,6 +65,8 @@
   text-align: center;
   z-index: 5;
   @media (min-width: $desktop-width) {
+    font-size: 20px;
+    line-height: 32px;
 
   }
 }
@@ -133,7 +135,7 @@
 .price-card__link--instagram {
   color: $basic_black;
   text-decoration: none;
-  font-family: "celestina", "Arial", sans-serif;
+  font-family: "Swanky", "Arial", sans-serif;
   font-size: 12px;
   @media (min-width: $tablet-width) {
     font-size: 22px;
