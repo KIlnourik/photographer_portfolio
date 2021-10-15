@@ -5,17 +5,17 @@
     "normalize.css": "^8.0.1"
   },
   "devDependencies": {
-    "autoprefixer": "^10.2.5",
-    "browser-sync": "^2.26.14",
-    "browserslist": "^4.16.3",
+    "autoprefixer": "^10.3.7",
+    "browser-sync": "^2.27.5",
+    "browserslist": "^4.17.4",
     "editorconfig-cli": "^0.3.0",
     "gulp": "^4.0.2",
     "gulp-plumber": "^1.2.1",
-    "gulp-postcss": "^9.0.0",
-    "gulp-sass": "^4.1.0",
+    "gulp-postcss": "^9.0.1",
+    "gulp-sass": "^4.1.1",
     "gulp-sourcemap": "^1.0.1",
     "gulp-sourcemaps": "^3.0.0",
-    "postcss": "^8.2.9"
+    "postcss": "^8.3.9"
   },
   "scripts": {
     "editorconfig": "editorconfig-cli",

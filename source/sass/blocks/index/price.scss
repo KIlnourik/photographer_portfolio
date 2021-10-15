@@ -2,10 +2,6 @@
   margin: 0 auto;
   margin-top: 20px;
   padding: 0;
-
-  @media (min-width: $desktop-width) {
-    height: 100vh;
-  }
 }
 
 .price__cards {
@@ -13,19 +9,28 @@
   list-style: none;
   margin: 0 auto;
   padding: 0;
-}
-.price__link--instagram {
-  color: $basic_black;
-  text-decoration: none;
-  font-family: "celestina", "Arial", sans-serif;
-  font-size: 12px;
   @media (min-width: $tablet-width) {
-    font-size: 22px;
-  }
-  @media (min-width: $desktop-width) {
-    font-size: 32px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
   }
 }
+
+.price__main-list,
+.price__add-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  @media (min-width: $tablet-width) {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+}
+
 .price__note,
 .price__note-text {
   margin: 5px 20px;

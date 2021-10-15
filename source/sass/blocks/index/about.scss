@@ -12,8 +12,8 @@
   }
   @media (min-width: $desktop-width) {
     padding-left: 0;
-    background: url("/img/about_img.jpg") no-repeat 100% 35%, url("/img/about_img1.jpg") no-repeat 0 50%;
-    background-size: 300px auto, 650px auto;
+    background: url("/img/about_img.jpg") no-repeat 100% 5%, url("/img/about_img1.jpg") no-repeat 0 20%;
+    background-size: 300px auto, 500px auto;
   }
 }
 .about__text {
@@ -32,8 +32,8 @@
     line-height: 30px;
   }
   @media (min-width: $desktop-width) {
-    width: 500px;
-    margin-top: 80px;
+    width: 450px;
+    margin-top: 60px;
     margin-left: 45vw;
     margin-bottom: 40px;
     font-size: 20px;
