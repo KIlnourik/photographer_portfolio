@@ -6,59 +6,18 @@
     margin-bottom: 50px;
   }
 }
-.blog__header {
-  font-family: "celestina", "Arial", sans-serif;
-  margin-top: 10px;
-  margin-left: 40px;
-  margin-bottom: 15px;
-  font-size: 45px;
-  line-height: 65px;
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  &::after {
-    position: absolute;
-    content: "";
-    width: 100%;
-    height: 1px;
-    background-color: $basic_black;
-    top: 50px;
-    left: auto;
-    right: 0;
-  }
-  @media (min-width: $tablet-width) {
-    margin-left: 70px;
-    font-size: 60px;
-    line-height: 100px;
-    position: relative;
-    &::after {
-      position: absolute;
-      content: "";
-      width: 70%;
-      height: 1px;
-      background-color: $basic_black;
-      top: auto;
-      bottom: 20px;
-      left: auto;
-    }
-  }
-  @media (min-width: $desktop-width) {
-    margin-left: 250px;
-    font-size: 80px;
-    line-height: 160px;
-    &::after {
-      width: 100%;
-      bottom: 45px;
-    }
-  }
-}
 .blog__list {
   list-style: none;
   padding: 0;
   margin: 0 20px;
   color: $basic_black;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  flex-wrap: wrap;
   @media (min-width: $tablet-width) {
     margin: 0 70px;
+
   }
   @media (min-width: $desktop-width) {
     display: flex;
@@ -67,36 +26,32 @@
   }
 }
 .blog__item {
-  margin: 0 auto;
-  position: relative;
-  font-size: 12px;
-  margin-bottom: 35px;
-  padding: 10px;
-  height: 120%;
+  margin: 10px 20px;
+  width: 90%;
+  max-width: 300px;
+  min-height: 50vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-radius: 20px;
+  box-sizing: border-box;
+  box-shadow: 1px 2px 20px $transparent_grey-blue;
+  overflow: hidden;
+  background-color: $basic_white;
   @media (min-width: $tablet-width) {
-    display: flex;
-    flex-direction: row;
-    height: 100%;
+    margin: 20px 15px;
+    width: 45%;
   }
   @media (min-width: $desktop-width) {
-    width: 600px;
+    width: 30%;
   }
 }
 .blog__image-container {
-  position: relative;
-  &::after {
-    content: "";
-    width: 100%;
-    height: 100%;
-    top: 0;
-    left: 0;
-    position: absolute;
-    background: linear-gradient(to bottom, $more_transparent_grey-blue 50%, $basic_white 100%);
-  }
+  margin: 0 auto;
+  width: 100%;
+  max-width: 450px;
   @media (min-width: $tablet-width) {
-    &::after {
-      display: none;
-    }
+    max-width: 800px;
   }
 }
 .blog__item-image {
@@ -107,32 +62,32 @@
   @media (min-width: $tablet-width) {
     object-fit: cover;
     margin-right: 30px;
-    width: 250px;
   }
   @media (min-width: $desktop-width) {
-    width: 275px;
   }
 }
 .blog__item-header,
 .blog__item-text {
-  position: absolute;
   @media (min-width: $tablet-width) {
     position: static;
   }
 }
+.blog__text-wrapper {
+  padding: 0 20px;
+}
 .blog__item-header {
-  margin: 5px 0;
-  top: 60%;
-  left: 10%;
+  margin: 15px;
+  text-align: center;
+  font-size: 20px;
   @media (min-width: $tablet-width) {
     font-size: 24px;
     line-height: 32px;
   }
 }
 .blog__item-text {
-  font-size: 10px;
+  margin: 5px;
+  font-size: 12px;
   line-height: 14px;
-  margin: 5px 0;
   top: 70%;
   left: 10%;
   width: 80%;
@@ -142,44 +97,21 @@
     width: 100%;
   }
   @media (min-width: $desktop-width) {
-    font-size: 18px;
-    line-height: 26px;
+    font-size: 16px;
+    line-height: 20px;
   }
 }
-.blog__more {
-  margin-top: 15px;
-  margin-right: 74px;
-  display: block;
-  font-size: 14px;
-  text-align: right;
+.blog__link {
+  margin: 20px auto;
   text-decoration: none;
-  color: $basic_black;
-  position: relative;
+  font-size: 16px;
+  color: $graphite;
+  cursor: pointer;
   &:hover {
-    font-weight: bold;
-    text-transform: uppercase;
-  }
-  &:active {
-    opacity: 0.3;
-  }
-  &::after {
-    position: absolute;
-    content: "";
-    background: url("/img/Arrow.svg") no-repeat;
-    height: 10px;
-    width: 26px;
-    top: 50%;
-    left: auto;
-    right: -48px;
-    transform: translate(0, -50%);
+    transition: color 0.5s linear;
+    color: $grey-blue;
   }
   @media (min-width: $tablet-width) {
-    margin-right: 100px;
-    font-size: 16px;
-  }
-  @media (min-width: $desktop-width) {
-    margin-top: 30px;
-    margin-right: 170px;
-    font-size: 20px;
+    font-size: 18px;
   }
 }
