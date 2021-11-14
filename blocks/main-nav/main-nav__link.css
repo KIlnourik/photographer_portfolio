@@ -1,0 +1,38 @@
+.main-nav__link {
+  text-decoration: none;
+  color: #000;
+  padding: 10px 5px;
+  display: block;
+  text-align: center;
+}
+.main-nav__link:hover::after {
+  animation: underline_nav 0.3s linear forwards;
+}
+
+@media (min-width: 768px) {
+  .main-nav__link{
+    padding: 0;
+    font-weight: bold;
+    line-height: 30px;
+    margin: 0 50px;
+    position: relative;
+    text-shadow: 5px 5px 4px rgba(255, 255, 255, 0.4);
+  }
+  .main-nav__link:hover {
+    animation: hover_nav 1s ease forwards;
+  }
+  .main-nav__link:active {
+    opacity: 0.5;
+  }
+  .main-nav__link::after {
+    position: absolute;
+    content: "";
+    width: 0;
+    height: 2px;
+    opacity: 1;
+    background-color: #000;
+    top: auto;
+    bottom: -5px;
+    left: 50%;
+  }
+}

@@ -1,0 +1,13 @@
+.telephone__link {
+  font-family: "Swanky", "Arial", sans-serif;
+  text-decoration: none;
+  color: #000;
+}
+.telephone__link:active {
+  color: #97a1b5;
+}
+@media (max-width: 767px) {
+  .telephone__link {
+    font-size: 20px;
+  }
+}

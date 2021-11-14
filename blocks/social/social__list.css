@@ -1,0 +1,14 @@
+.social__list {
+  padding: 0;
+  margin-bottom: 80px;
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  @media (min-width: $tablet-width) {
+    margin-bottom: 30px;
+    width: 200px;
+    justify-content: space-between;
+  }
+}
+

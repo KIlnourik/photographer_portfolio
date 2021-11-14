@@ -1,0 +1,39 @@
+/* vendor */
+@import url("../vendor/normalize.css");
+@import url("../vendor/fonts.css");
+/* global */
+@import url("../blocks/visually-hidden/visually-hidden.css");
+@import url("../blocks/hidden/hidden.css");
+@import url("../blocks/animation/animations.css");
+/* page */
+@import url("../blocks/page/page.css");
+/* header */
+@import url("../blocks/header/header.css");
+@import url("../blocks/main-nav/main-nav.css");
+@import url("../blocks/main-nav/main-nav--index.css");
+@import url("../blocks/main-nav/main-nav--active.css");
+@import url("../blocks/main-nav/main-nav__list.css");
+@import url("../blocks/main-nav/main-nav__link.css");
+@import url("../blocks/main-nav/main-nav__icon.css");
+/* page-main__header */
+@import url("../blocks/content/content__header.css");
+@import url("../blocks/content/content__header--index.css");
+/* index */
+
+@import url("../blocks/index/intro.css");
+@import url("../blocks/index/section-title.css");
+@import url("../blocks/index/about.css");
+@import url("../blocks/index/portfolio.css");
+@import url("../blocks/index/more-link.css");
+@import url("../blocks/index/price.css");
+@import url("../blocks/index/price-cards.css");
+@import url("../blocks/index/card.css");
+@import url("../blocks/index/reviews-index.css");
+@import url("../blocks/index/blog.css");
+/* footer */
+@import url("../blocks/footer/footer.css");
+@import url("../blocks/telephone/telephone.css");
+@import url("../blocks/telephone/telephone__link.css");
+@import url("../blocks/social/social__list.css");
+@import url("../blocks/social/social__link.css");
+@import url("../blocks/social/social__icon.css");
