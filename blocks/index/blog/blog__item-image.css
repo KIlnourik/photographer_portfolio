@@ -1,0 +1,12 @@
+.blog__item-image {
+  margin: 0 auto;
+  display: block;
+  width: 100%;
+  height: auto;
+}
+@media (min-width: 768px) {
+  .blog__item-image {
+    object-fit: cover;
+    margin-right: 30px;
+  }
+}

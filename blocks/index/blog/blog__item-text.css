@@ -1,0 +1,22 @@
+.blog__item-text {
+  margin: 5px;
+  font-size: 12px;
+  line-height: 14px;
+  top: 70%;
+  left: 10%;
+  width: 80%;
+}
+@media (min-width: 768px) {
+  .blog__item-text {
+    position: static;
+    font-size: 14px;
+    line-height: 20px;
+    width: 100%;
+  }
+}
+@media (min-width: 1200px) {
+  .blog__item-text {
+    font-size: 16px;
+    line-height: 20px;
+  }
+}

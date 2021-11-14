@@ -1,0 +1,4 @@
+.price-card__container--content {
+  background: url("../../../img/content-cover-resize.jpg") no-repeat 50% 50%;
+  background-size: cover;
+}

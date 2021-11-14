@@ -1,0 +1,25 @@
+.blog__item {
+  margin: 10px 20px;
+  width: 90%;
+  max-width: 300px;
+  min-height: 50vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-radius: 20px;
+  box-sizing: border-box;
+  box-shadow: 1px 2px 20px rgba(151, 161, 181, 0.7);
+  overflow: hidden;
+  background-color: #ffffff;
+}
+@media (min-width: 768px) {
+  .blog__item {
+    margin: 20px 15px;
+    width: 45%;
+  }
+}
+@media (min-width: 1200px) {
+  .blog__item {
+    width: 30%;
+  }
+}

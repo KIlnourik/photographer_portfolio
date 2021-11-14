@@ -1,0 +1,13 @@
+.intro__profession {
+  position: absolute;
+  top: 30%;
+  left: 12%;
+}
+
+@media (min-width: 768px) {
+  .intro__profession {
+    position: static;
+    margin-top: 50px;
+    font-size: 26px;
+  }
+}

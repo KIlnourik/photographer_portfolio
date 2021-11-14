@@ -1,4 +1,4 @@
-.main-nav--active {
+.main-nav__link--active {
   opacity: 0.7;
   font-weight: bold;
 }
