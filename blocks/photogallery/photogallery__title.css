@@ -11,7 +11,7 @@
 }
 @media (min-width: 768px) {
   .photogallery__title {
-    display: none;
+    opacity: 0;
     font-size: 38px;
     line-height: 50px;
   }

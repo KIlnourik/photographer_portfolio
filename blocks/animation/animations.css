@@ -26,3 +26,18 @@
     opacity: 0.6;
   }
 }
+
+@keyframes gray_filter {
+  0% {
+    filter: grayscale(1);
+  }
+  30% {
+    filter: grayscale(0.8);
+  }
+  60% {
+    filter: grayscale(0.5);
+  }
+  100% {
+    filter: grayscale(0);
+  }
+}
