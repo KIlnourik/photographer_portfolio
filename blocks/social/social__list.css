@@ -5,10 +5,11 @@
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  @media (min-width: $tablet-width) {
+}
+@media (min-width: 768px) {
+  .social__list {
     margin-bottom: 30px;
     width: 200px;
     justify-content: space-between;
   }
 }
-
