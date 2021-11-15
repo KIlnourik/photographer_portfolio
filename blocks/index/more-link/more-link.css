@@ -4,8 +4,8 @@
   font-size: 14px;
   font-weight: bold;
   text-transform: uppercase;
-  display: block;
-  text-align: right;
+  display: flex;
+  justify-content: end;
   text-decoration: none;
   color: #000000;
   position: relative;
