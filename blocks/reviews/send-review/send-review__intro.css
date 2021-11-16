@@ -1,0 +1,15 @@
+.send-review__intro {
+  margin: 0 auto;
+  max-width: 70%;
+  font-size: 16px;
+  line-height: 22px;
+  text-align: center;
+}
+@media (min-width: 1024px) {
+  .send-review__intro {
+    max-width: 90%;
+    font-size: 20px;
+    line-height: 1.2;
+    margin-bottom: 20px;
+  }
+}

@@ -1,15 +1,15 @@
 <!DOCTYPE html>
-<html lang="ru" class="page">
+<html lang="ru">
 
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Отзывы</title>
-  <link rel="stylesheet" type="text/css" href="/css/style.css">
+  <link rel="stylesheet" href="./pages/reviews.css">
 </head>
 
-<body class="page__body">
-  <header class="page-header">
+<body class="page">
+  <header class="page__header header">
     <nav class="main-nav">
       <ul class="main-nav__list">
         <li class="main-nav__item ">
@@ -44,8 +44,8 @@
     </nav>
   </header>
 
-  <main class="page-main">
-    <h1 class="page-main__header">Отзывы</h1>
+  <main class="page__content content">
+    <h1 class="content__header">Отзывы</h1>
 
     <section class="reviews">
       <ul class="reviews__list">
@@ -64,8 +64,7 @@
         <li class="reviews__item">
           <p class="reviews__user-name">Ильнур, <span class="reviews__user-city">г. Сургут</span></p>
           <blockquote class="reviews__user-review">Она пришла к нам домой. У нее был фотоаппарат. Она фотографировала.
-            Хорошо. Я хотел заплатить, но она сказала, что я заплачу своей кровью. Фотки супер! Но я опасаюсь - она ведь
-            знает, где я живу..</blockquote>
+            Хорошо. </blockquote>
         </li>
         <li class="reviews__item">
           <p class="reviews__user-name">Сеня, <span class="reviews__user-city">г. Сургут</span></p>
@@ -75,7 +74,8 @@
     </section>
 
     <section class="send-review">
-      <p class="send-review__intro">Понравилась фотосессия? Понравились фотографии? Хочешь поделиться мнением?<br class="send-review__br">Как
+      <p class="send-review__intro">Понравилась фотосессия? Понравились фотографии? Хочешь поделиться мнением?<br
+          class="send-review__br">Как
         говорил Шрек: "Не держи
         в
         себе!" Оставь отзыв ниже!</p>
@@ -103,21 +103,21 @@
         </label>
         <!-- <span class="send-review__notice">* поля обязательныe к заполнению</span> -->
 
-        <button class="send-review__button" type="submit">Отправить отзыв</button>
+        <input class="send-review__button" type="submit"></input>
       </form>
 
     </section>
   </main>
 
-  <footer class="page-footer">
-    <section class="page-footer__telephone telephone">
+  <footer class="page__footer footer">
+    <section class="footer__telephone telephone">
       <p class="telephone__text">
         Хочешь фотосессию?<br>Позвони:
         <a href="tel:+79120863617" class="telephone__link">+7 912 086 3617</a>
       </p>
     </section>
 
-    <section class="page-footer__social social">
+    <section class="footer__social social">
       <ul class="social__list">
         <li class="social__item">
           <a href="viber://chat?number=%2B79120863617" class="social__link social__link--viber" target="_blank">

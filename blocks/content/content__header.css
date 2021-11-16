@@ -1,9 +1,10 @@
 .content__header {
   font-family: "Swanky", "Arial", sans-serif;
-  margin-top: 40px;
+  margin: 0;
+  margin-top: 20px;
   margin-left: 20px;
   font-size: 50px;
-  line-height: 65px;
+  line-height: 1.2;
   position: relative;
 }
 .content__header::after {
@@ -32,7 +33,7 @@
   }
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 1024px) {
   .content__header {
     font-size: 100px;
   }
