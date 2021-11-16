@@ -6,6 +6,7 @@
 @import url("../blocks/visually-hidden/visually-hidden.css");
 @import url("../blocks/hidden/hidden.css");
 @import url("../blocks/animation/animations.css");
+@import url("../blocks/new-post/new-post.css");
 
 /* page */
 @import url("../blocks/page/page.css");

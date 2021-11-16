@@ -1,6 +1,11 @@
+.reviews-index__item {
+  margin: 0 auto;
+  max-width: 80%;
+  width: 100%;
+}
 @media (min-width: 768px) {
   .reviews-index__item {
-    margin-top: 35px;
+    max-width: 50%;
   }
 }
 @media (min-width: 1200px) {

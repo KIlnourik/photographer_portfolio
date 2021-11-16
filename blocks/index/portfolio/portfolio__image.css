@@ -8,7 +8,7 @@
 .portfolio__image:nth-child(10) {
   display: none;
 }
-@media (min-width: 1170px) {
+@media (min-width: 1321px) {
   .portfolio__image:nth-child(10) {
     display: block;
   }
