@@ -18,7 +18,7 @@
   }
   .photogallery__link:hover > .photogallery__cover-wrapper > .photogallery__cover,
   .photogallery__link:focus > .photogallery__cover-wrapper > .photogallery__cover {
-    animation: gray_filter 1s ease forwards;
+    animation: photo_hover 1s ease forwards;
   }
   .photogallery__link:active > .photogallery__title,
   .photogallery__link:active > .photogallery__cover-wrapper::after {

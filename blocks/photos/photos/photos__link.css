@@ -1,0 +1,5 @@
+.photos__link {
+  display: block;
+  text-decoration: none;
+  max-height: 220px;
+}

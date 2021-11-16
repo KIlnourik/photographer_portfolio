@@ -1,5 +1,5 @@
 .portfolio__image-wrapper {
-  padding: 0 12px;
+  padding: 0 20px;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
   grid-template-rows: repeat(auto-fit, 1fr);

@@ -1,0 +1,18 @@
+.photos__container {
+  margin: 0 auto;
+  padding: 0 20px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  grid-template-rows: repeat(auto-fit, 220px);
+  grid-auto-flow: dense;
+  gap: 10px;
+}
+@media (min-width: 768px) {
+  .photos__container {
+    gap: 20px;
+  }
+  .photos__container:nth-child(4n) {
+    grid-column: span 2;
+    grid-row: span 2;
+  }
+}

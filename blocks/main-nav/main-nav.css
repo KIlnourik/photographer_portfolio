@@ -2,12 +2,8 @@
   position: fixed;
   min-width: 100%;
   bottom: 0;
-  top: auto;
+  left: 0;
   z-index: 10;
-}
-.main-nav:hover {
-  opacity: 0.7;
-  font-weight: bold;
 }
 @media (min-width: 768px) {
   .main-nav{
