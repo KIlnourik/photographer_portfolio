@@ -6,13 +6,9 @@
   z-index: 10;
 }
 @media (min-width: 768px) {
-  .main-nav{
-    min-width: 80%;
-    position: static;
-  }
-}
-@media (min-width: 1024px) {
   .main-nav {
+    max-width: 80%;
     width: 80%;
+    position: static;
   }
 }

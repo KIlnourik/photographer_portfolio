@@ -10,14 +10,13 @@
   font-size: 10px;
   line-height: 12px;
   min-width: 100%;
+  box-sizing: border-box;
 }
 @media (min-width: 768px) {
   .main-nav__list {
     font-size: 16px;
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    margin-left: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(20px, 1fr));
+    gap: 10px;
     background-color: transparent;
     max-width: 80%;
     min-width: none;
@@ -25,7 +24,7 @@
 }
 @media (min-width: 1024px) {
   .main-nav__list {
-    margin-left: 110px;
+    margin: 0;
     font-size: 20px;
   }
 }
