@@ -1,0 +1,17 @@
+.reviews-index__list {
+  list-style: none;
+  padding: 0 20px;
+  font-size: 12px;
+  line-height: 16px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+@media (min-width: 768px) {
+  .reviews-index__list {
+    margin: 0 auto;
+    font-size: 16px;
+    padding: 0 70px;
+  }
+}

@@ -1,0 +1,20 @@
+.price-card__text {
+  margin: 5px 0;
+  width: 80%;
+  margin: 0 auto;
+  font-size: 12px;
+  line-height: 18px;
+  font-weight: bold;
+  z-index: 5;
+}
+@media (min-width: 768px) {
+  .price-card__text {
+    font-size: 14px;
+  }
+}
+@media (min-width: 1200px) {
+  .price-card__text {
+    font-size: 16px;
+    line-height: 24px;
+  }
+}

@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Фотограф Лариса Гайнуллина</title>
+  <link rel="stylesheet" href="./pages/index.css">
+</head>
+
+<body class="page">
+  <header class="page__header header">
+    <nav class="main-nav main-nav--index">
+      <ul class="main-nav__list">
+        <li class="main-nav__item ">
+          <a href="#" class="main-nav__link main-nav__link--active">
+            <svg class="main-nav__icon main-nav__icon--main">
+              <use xlink:href="./img/sprite.svg#main"></use>
+            </svg>
+            <br>Главная</a>
+        </li>
+        <li class="main-nav__item">
+          <a href="photogallery.html" class="main-nav__link">
+            <svg class="main-nav__icon main-nav__icon--photogallery">
+              <use xlink:href="/img/sprite.svg#photogallery"></use>
+            </svg>
+            <br>Фотогалерея</a>
+        </li>
+        <li class="main-nav__item">
+          <a href="reviews.html" class="main-nav__link">
+            <svg class="main-nav__icon main-nav__icon--reviews-index-index">
+              <use xlink:href="/img/sprite.svg#reviews"></use>
+            </svg>
+            <br>Отзывы</a>
+        </li>
+        <li class="main-nav__item">
+          <a href="blog.html" class="main-nav__link">
+            <svg class="main-nav__icon main-nav__icon--blog">
+              <use xlink:href="/img/sprite.svg#blog"></use>
+            </svg>
+            <br>Блог</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="page__content content">
+    <h1 class="content__header content__header--index visually-hidden">Главная страница</h1>
+
+    <section class="intro">
+      <p class="intro__name">Лариса<br>Гайнуллина</p>
+      <p class="intro__profession">Фотограф</p>
+    </section>
+
+    <section class="about">
+      <h2 class="about__header section-title">О себе</h2>
+      <p class="about__text">
+        Всем привет!<br>
+        Рада приветствовать Вас у себя на сайте)<br>
+        Меня зовут Лариса. И я, как Вы понимаете, фотограф.<br>Обучилась фотографии в сети фотошкол "Пикча", прошла
+        индивидуальное обучение у одного из лучших фотографов Сургута - Оли Власовой, также проходила фотокурсы по
+        домашней съемке у Анастасии Мукоид и другие он-лайн фотокурсы.<br>
+        Фотографирую с 2020-го года.<br>
+        Фотография для меня - это способ <i>самовыражения, люблю живые кадры и ловить красоту...</i>
+      </p>
+    </section>
+
+    <section class="portfolio">
+      <h2 class="portfolio__header section-title">Портфолио</h2>
+      <div class="portfolio__image-wrapper">
+        <img src="/img/portfolio_image1.jpg" alt="" class="portfolio__image" width="390" height="520">
+        <img src="/img/portfolio_image2.jpg" alt="" class="portfolio__image" width="390" height="520">
+        <img src="/img/portfolio_image3.jpg" alt="" class="portfolio__image" width="390" height="520">
+        <img src="/img/portfolio_image4.jpg" alt="" class="portfolio__image" width="390" height="590">
+        <img src="/img/portfolio_image5.jpg" alt="" class="portfolio__image portfolio__image--horizontal" width="795"
+          height="590">
+        <img src="/img/portfolio_image6.jpg" alt="" class="portfolio__image" width="390" height="564">
+        <img src="/img/portfolio_image8.jpg" alt="" class="portfolio__image" width="390" height="564">
+        <img src="/img/portfolio_image7.jpg" alt="" class="portfolio__image" width="390" height="564">
+        <img src="/img/portfolio_image9.jpg" alt="" class="portfolio__image portfolio__image--horizontal" width="795"
+          height="520">
+        <img src="/img/portfolio_image10.jpg" alt="" class="portfolio__image" width="390" height="520">
+        <img src="/img/portfolio_image11.jpg" alt="" class="portfolio__image" width="390" height="520">
+        <img src="/img/portfolio_image12.jpg" alt="" class="portfolio__image portfolio__image--horizontal" width="795"
+          height="520">
+      </div>
+      <a href="photogallery.html" class="more-link">Больше фото</a>
+    </section>
+
+    <section class="price">
+      <h2 class="section-title">Услуги</h2>
+      <ul class="price__cards">
+        <li class="price__main">
+          <ul class="price__list price__list--main">
+            <li class="price__card price-card">
+              <div class="price-card__container price-card__container--standart">
+                <h3 class="price-card__title">Пакет "Standart"</h3>
+                <ul class="price-card__list">
+                  <li class="price-card__item">
+                    <p class="price-card__text">
+                      Съемка 60 минут (прогулка, у Вас дома, студия (оплачивается отдельно))
+                    </p>
+                  </li>
+                  <li class="price-card__item">
+                    <p class="price-card__text">
+                      25 фотографий в авторской обработке, остальные в цвето-свето-коррекции
+                    </p>
+                  </li>
+                  <li class="price-card__item">
+                    <p class="price-card__text">
+                      срок готовности 21-40 дней (в зависимости от загруженности)
+                    </p>
+                  </li>
+                </ul>
+                <p class="price-card__price">Первый час 4000&nbsp;р.<br>Следующие - 2500&nbsp;р.</p>
+              </div>
+            </li>
+
+            <li class="price__card price-card">
+              <div class="price-card__container price-card__container--comfort">
+                <h3 class="price-card__title">Пакет "Comfort"</h3>
+                <ul class="price-card__list">
+                  <li class="price-card__item">
+                    <p class="price-card__text">
+                      Съемка 60 минут (прогулка, у Вас дома, студия (оплачивается отдельно))
+                    </p>
+                  </li>
+                  <li class="price-card__item">
+                    <p class="price-card__text">
+                      40 фотографий в авторской обработке, остальные в цвето-свето-коррекции
+                    </p>
+                  </li>
+                  <li class="price-card__item">
+                    <p class="price-card__text">
+                      срок готовности 21-40 дней (в зависимости от загруженности)
+                    </p>
+                  </li>
+                  <li class="price-card__item">
+                    <p class="price-card__text">
+                      консультация по подготовке образов к фотосессии
+                    </p>
+                  </li>
+                </ul>
+                <p class="price-card__price">Первый час 5000&nbsp;р.<br>Следующие - 3000&nbsp;р.</p>
+              </div>
+            </li>
+
+            <li class="price__card price-card">
+              <div class="price-card__container price-card__container--premium">
+                <h3 class="price-card__title">Пакет "Premium"</h3>
+                <ul class="price-card__list">
+                  <li class="price-card__item">
+                    <p class="price-card__text">
+                      Съемка 90 минут (прогулка, у Вас дома, студия (оплачивается отдельно))
+                    </p>
+                  </li>
+                  <li class="price-card__item">
+                    <p class="price-card__text">
+                      40 фотографий в авторской обработке, остальные в цвето-свето-коррекции
+                    </p>
+                  </li>
+                  <li class="price-card__item">
+                    <p class="price-card__text">
+                      срок готовности 21-40 дней (в зависимости от загруженности)
+                    </p>
+                  </li>
+                  <li class="price-card__item">
+                    <p class="price-card__text">
+                      консультация по подготовке образов к фотосессии
+                    </p>
+                  </li>
+                  <li class="price-card__item">
+                    <p class="price-card__text">
+                      создание фотокниги из серии фото проведенной фотосессии (на Ваш выбор)
+                    </p>
+                  </li>
+                </ul>
+                <p class="price-card__price">Первые полтора часа 7500&nbsp;р.<br>Следующие часы - 3000&nbsp;р.</p>
+              </div>
+            </li>
+          </ul>
+        </li>
+        <li class="price__additional">
+          <ul class="price__list price__list--add">
+            <li class="price__card price-card">
+              <div class="price-card__container price-card__container--photoday">
+                <h3 class="price-card__title">Фотодень</h3>
+                <p class="price-card__text">
+                  Хотите поучаствовать в увлекательной тематической фотосессии, побыть в стильном образе?<br>Или
+                  прикоснуться
+                  к сказке и окунуться в предпраздничное настроение?<br>
+                  Участие в фотодне станет для Вас незабываемым приключением!<br>
+                  Участие в Фотоднях возможно по предоплате.
+                  <br>Вся информация по фотодням будет на странице в Instagram
+                  <a href="https://www.instagram.com/chaika__gaika/" class="price-card__link"
+                    target="_blank">@chaika__gaika</a>
+                </p>
+
+                <p class="price-card__price">Стоимость зависит от тематики и условий съемки</p>
+              </div>
+            </li>
+
+            <li class="price__card price-card">
+              <div class="price-card__container price-card__container--content">
+                <h3 class="price-card__title">Контент съёмка</h3>
+                <p class="price-card__text">
+                  Приелась аватарка в соцсетях и хочется новую?<br> Хотите наполнить новый сайт красивыми
+                  фотографиями?<br>
+                  Появился
+                  новый товар и нужны фото для каталогов?<br>Могу Вам в этом помочь!
+                </p>
+
+                <p class="price-card__price">Стоимость обговаривается индивидуально</p>
+              </div>
+            </li>
+          </ul>
+        </li>
+      </ul>
+
+      <p class="price__note price__note--alert">Важная информация! Обязательно к прочтению!</p>
+      <p class="price__note">
+        <i>Все сделанные фото используются мной в портфолио.</i><br>Конфиденциальная съемка +1000&nbsp;р. к
+        стоимости.<br>Ускорение сроков выдачи до недели +1500&nbsp;р.<br>
+      </p>
+      <ul class="price__note-list">Дополнительно оплачиваются:
+        <li class="price__note-item">макияж и прическа;</li>
+        <li class="price__note-item">аренда студии.</li>
+      </ul>
+    </section>
+
+    <section class="reviews-index">
+      <h2 class="section-title">Отзывы</h2>
+      <ul class="reviews-index__list">
+        <li class="reviews-index__item">
+          <p class="reviews-index__user-name">Михална, <span class="reviews-index__user-city">г. Сургут</span></p>
+          <blockquote class="reviews-index__user-review">Я была так потрясена работой Ларисы, меня аж до сих пор
+            потрясает
+            иногда. Она смотрела в смотровое окно фотоаппарата с хладнокровностью и нескрываемым профессионализмом,
+            словно снайпер в оптический прицел. Фотографии восхитительны, великолепны. Лариса, ты просто космос!
+          </blockquote>
+        </li>
+        <li class="reviews-index__item">
+          <p class="reviews-index__user-name">Николавна, <span class="reviews-index__user-city">г. Сургут</span></p>
+          <blockquote class="reviews-index__user-review">Я была на фотодне. Фотографировалась с мужем. Нам все
+            понравилось.
+            Особенно хаски.</blockquote>
+        </li>
+        <li class="reviews-index__item">
+          <p class="reviews-index__user-name">Ильнур, <span class="reviews-index__user-city">г. Сургут</span></p>
+          <blockquote class="reviews-index__user-review">Она пришла к нам домой. У нее был фотоаппарат. Она
+            фотографировала.
+            Хорошо. Я хотел заплатить, но она сказала, что я заплачу своей кровью. Фотки супер! Но я опасаюсь - она ведь
+            знает, где я живу..</blockquote>
+        </li>
+        <li class="reviews-index__item">
+          <p class="reviews-index__user-name">Сеня, <span class="reviews-index__user-city">г. Сургут</span></p>
+          <blockquote class="reviews-index__user-review">Мяу.</blockquote>
+        </li>
+      </ul>
+      <a href="reviews-index-index.html" class="reviews-index__send-review">Оставить свой отзыв</a>
+      <a href="reviews-index-index.html" class="more-link">Больше отзывов</a>
+    </section>
+
+    <section class="blog">
+      <h2 class="section-title">Блог</h2>
+      <ul class="blog__list">
+        <li class="blog__item new-post">
+          <div class="blog__image-container">
+            <img src="../img/blog-img1.jpg" alt="мой новый фотоаппарат Canon" class="blog__item-image" width="280">
+          </div>
+          <div class="blog__text-wrapper">
+            <h3 class="blog__item-header">Купила фотик</h3>
+            <p class="blog__item-text">Купила вчера фотик, решила, что буду фотографом. Вот.</p>
+          </div>
+          <a href="#" class="blog__link">Подробнее</a>
+        </li>
+        <li class="blog__item">
+          <div class="blog__image-container">
+            <img src="../img/blog-img2.jpg" alt="просто очаровательная лошадь" class="blog__item-image" width="280">
+          </div>
+          <div class="blog__text-wrapper">
+            <h3 class="blog__item-header">Красивая лошадка</h3>
+            <p class="blog__item-text">Вчера фоткала подругу. Попала в кадр лошадка. В итоге вся флешка забита фотками
+              лошадки. Подруга обиделась... Жаль кобыла не сможет заплатить. Это я про лошадь, не про подругу.</p>
+          </div>
+          <a href="#" class="blog__link">Подробнее</a>
+        </li>
+        <li class="blog__item">
+          <div class="blog__image-container">
+            <img src="../img/blog-img2.jpg" alt="просто очаровательная лошадь" class="blog__item-image" width="280">
+          </div>
+          <div class="blog__text-wrapper">
+            <h3 class="blog__item-header">Красивая лошадка</h3>
+            <p class="blog__item-text">Вчера фоткала подругу. Попала в кадр лошадка. В итоге вся флешка забита фотками
+              лошадки. Подруга обиделась... Жаль кобыла не сможет заплатить. Это я про лошадь, не про подругу.</p>
+          </div>
+          <a href="#" class="blog__link">Подробнее</a>
+        </li>
+      </ul>
+      <a href="blog.html" class="more-link">Больше постов</a>
+    </section>
+  </main>
+
+  <footer class="page__footer footer">
+    <section class="footer__telephone telephone">
+      <p class="telephone__text">
+        Хочешь фотосессию?<br>Позвони:
+        <a href="tel:+79120863617" class="telephone__link">+7 912 086 3617</a>
+      </p>
+    </section>
+
+    <section class="footer__social social">
+      <ul class="social__list">
+        <li class="social__item">
+          <a href="viber://chat?number=%2B79120863617" class="social__link social__link--viber" target="_blank">
+            <span class="visually-hidden">Viber</span>
+            <svg class="social__icon social__icon--viber">
+              <use xlink:href="/img/sprite.svg#viber"></use>
+            </svg>
+          </a>
+        </li>
+        <li class="social__item">
+          <a href="https://wa.me/79120863617" class="social__link social__link--whatsapp" target="_blank">
+            <span class="visually-hidden">Whatsapp</span>
+            <svg class="social__icon social__icon--whatsapp">
+              <use xlink:href="/img/sprite.svg#whatsapp"></use>
+            </svg>
+          </a>
+        </li>
+        <li class="social__item">
+          <a href="https://www.instagram.com/chaika__gaika/" class="social__link social__link--instagram"
+            target="_blank">
+            <span class="visually-hidden">Instagram</span>
+            <svg class="social__icon social__icon--instagram">
+              <use xlink:href="/img/sprite.svg#instagram"></use>
+            </svg>
+          </a>
+        </li>
+      </ul>
+    </section>
+  </footer>
+</body>
+
+</html>

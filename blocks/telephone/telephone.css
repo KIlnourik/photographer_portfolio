@@ -1,0 +1,9 @@
+.telephone {
+  color: #000;
+}
+@media (max-width: 767px) {
+  .telephone {
+    font-size: 14px;
+    line-height: 18px;
+  }
+}

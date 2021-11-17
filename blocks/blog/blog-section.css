@@ -1,0 +1,19 @@
+.blog-section {
+  list-style: none;
+  padding: 0 20px;
+  color: #000000;
+  max-width: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min-content, 320px));
+  grid-auto-flow: dense;
+  gap: 10px;
+  box-sizing: border-box;
+  justify-content: center;
+  align-content: center;
+}
+@media (min-width: 768px) {
+  .blog-section {
+    padding: 0 70px;
+    gap: 20px;
+  }
+}

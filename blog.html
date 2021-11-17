@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Блог</title>
+  <link rel="stylesheet" href="./pages/blog.css">
+</head>
+
+<body class="page">
+  <header class="page__header header">
+    <nav class="main-nav">
+      <ul class="main-nav__list">
+        <li class="main-nav__item ">
+          <a href="index.html" class="main-nav__link">
+            <svg class="main-nav__icon main-nav__icon--main">
+              <use xlink:href="/img/sprite.svg#main"></use>
+            </svg>
+            <br>Главная</a>
+        </li>
+        <li class="main-nav__item">
+          <a href="photogallery.html" class="main-nav__link">
+            <svg class="main-nav__icon main-nav__icon--photogallery">
+              <use xlink:href="/img/sprite.svg#photogallery"></use>
+            </svg>
+            <br>Фотогалерея</a>
+        </li>
+        <li class="main-nav__item">
+          <a href="reviews.html" class="main-nav__link main-nav__link--active">
+            <svg class="main-nav__icon main-nav__icon--reviews">
+              <use xlink:href="/img/sprite.svg#reviews"></use>
+            </svg>
+            <br>Отзывы</a>
+        </li>
+        <li class="main-nav__item">
+          <a href="#" class="main-nav__link">
+            <svg class="main-nav__icon main-nav__icon--blog">
+              <use xlink:href="/img/sprite.svg#blog"></use>
+            </svg>
+            <br>Блог</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="page__content content">
+    <h1 class="content__header">Блог</h1>
+    <section class="blog-section">
+      <article class="article new-post">
+        <div class="article__image-container">
+          <img src="../img/blog-img1.jpg" alt="мой новый фотоаппарат Canon" class="article__image" width="280">
+        </div>
+        <div class="article__text-wrapper">
+          <h2 class="article__header">Купила фотик</h2>
+          <p class="article__text">Купила вчера фотик, решила, что буду фотографом. Вот.</p>
+        </div>
+        <a href="#" class="article__link">Подробнее</a>
+      </article>
+      <article class="article">
+        <div class="article__image-container">
+          <img src="../img/blog-img1.jpg" alt="мой новый фотоаппарат Canon" class="article__image" width="280">
+        </div>
+        <div class="article__text-wrapper">
+          <h2 class="article__header">Купила фотик</h2>
+          <p class="article__text">Купила вчера фотик, решила, что буду фотографом. Вот.</p>
+        </div>
+        <a href="#" class="article__link">Подробнее</a>
+      </article>
+      <article class="article">
+        <div class="article__image-container">
+          <img src="../img/blog-img2.jpg" alt="просто очаровательная лошадь" class="article__image" width="280">
+        </div>
+        <div class="article__text-wrapper">
+          <h2 class="article__header">Красивая лошадка</h2>
+          <p class="article__text">Вчера фоткала подругу. Попала в кадр лошадка. В итоге вся флешка забита фотками
+            лошадки. Подруга обиделась... Жаль кобыла не сможет заплатить. Это я про лошадь, не про подругу.</p>
+        </div>
+        <a href="#" class="article__link">Подробнее</a>
+      </article>
+    </section>
+
+  </main>
+
+  <footer class="page__footer footer">
+    <section class="footer__telephone telephone">
+      <p class="telephone__text">
+        Хочешь фотосессию?<br>Позвони:
+        <a href="tel:+79120863617" class="telephone__link">+7 912 086 3617</a>
+      </p>
+    </section>
+
+    <section class="footer__social social">
+      <ul class="social__list">
+        <li class="social__item">
+          <a href="viber://chat?number=%2B79120863617" class="social__link social__link--viber" target="_blank">
+            <span class="visually-hidden">Viber</span>
+            <svg class="social__icon social__icon--viber">
+              <use xlink:href="/img/sprite.svg#viber"></use>
+            </svg>
+          </a>
+        </li>
+        <li class="social__item">
+          <a href="https://wa.me/79120863617" class="social__link social__link--whatsapp" target="_blank">
+            <span class="visually-hidden">Whatsapp</span>
+            <svg class="social__icon social__icon--whatsapp">
+              <use xlink:href="/img/sprite.svg#whatsapp"></use>
+            </svg>
+          </a>
+        </li>
+        <li class="social__item">
+          <a href="https://www.instagram.com/chaika__gaika/" class="social__link social__link--instagram"
+            target="_blank">
+            <span class="visually-hidden">Instagram</span>
+            <svg class="social__icon social__icon--instagram">
+              <use xlink:href="/img/sprite.svg#instagram"></use>
+            </svg>
+          </a>
+        </li>
+      </ul>
+    </section>
+  </footer>
+</body>

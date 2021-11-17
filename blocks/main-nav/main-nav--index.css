@@ -1,0 +1,8 @@
+@media (min-width: 768px) {
+  .main-nav--index {
+    position: absolute;
+    top: 10px;
+    bottom: auto;
+    z-index: 10;
+  }
+}

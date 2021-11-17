@@ -1,0 +1,87 @@
+/* vendor */
+@import url("../vendor/normalize.css");
+@import url("../vendor/fonts.css");
+
+/* global */
+@import url("../blocks/visually-hidden/visually-hidden.css");
+@import url("../blocks/hidden/hidden.css");
+@import url("../blocks/animation/animations.css");
+@import url("../blocks/new-post/new-post.css");
+
+/* page */
+@import url("../blocks/page/page.css");
+
+/* header */
+@import url("../blocks/header/header.css");
+@import url("../blocks/main-nav/main-nav.css");
+@import url("../blocks/main-nav/main-nav--index.css");
+@import url("../blocks/main-nav//main-nav__link--active.css");
+@import url("../blocks/main-nav/main-nav__list.css");
+@import url("../blocks/main-nav/main-nav__link.css");
+@import url("../blocks/main-nav/main-nav__icon.css");
+
+/* page-main__header */
+@import url("../blocks/content/content__header.css");
+@import url("../blocks/content/content__header--index.css");
+
+/* index */
+@import url("../blocks/index/section-title/section-title.css");
+@import url("../blocks/index/more-link/more-link.css");
+/* intro */
+@import url("../blocks/index/intro/intro.css");
+@import url("../blocks/index/intro/intro__name.css");
+@import url("../blocks/index/intro/intro__profession.css");
+/* about */
+@import url("../blocks/index/about/about.css");
+@import url("../blocks/index/about/about__text.css");
+/* portfolio */
+@import url("../blocks/index/portfolio/portfolio.css");
+@import url("../blocks/index/portfolio/portfolio__image-wrapper.css");
+@import url("../blocks/index/portfolio/portfolio__image.css");
+@import url("../blocks/index/portfolio/porfolio__image--horizontal.css");
+/* price */
+@import url("../blocks/index/price/price.css");
+@import url("../blocks/index/price/price__cards.css");
+@import url("../blocks/index/price/price__list.css");
+@import url("../blocks/index/price/price__note.css");
+@import url("../blocks/index/price/price__note-list.css");
+@import url("../blocks/index/price/price__note--alert.css");
+/* price-card */
+@import url("../blocks/index/price-card/price-card.css");
+@import url("../blocks/index/price-card/price-card__container.css");
+@import url("../blocks/index/price-card/price-card__container--standart.css");
+@import url("../blocks/index/price-card/price-card__container--comfort.css");
+@import url("../blocks/index/price-card/price-card__container--premium.css");
+@import url("../blocks/index/price-card/price-card__container--photoday.css");
+@import url("../blocks/index/price-card/price-card__container--content.css");
+@import url("../blocks/index/price-card/price-card__title.css");
+@import url("../blocks/index/price-card/price-card__list.css");
+@import url("../blocks/index/price-card/price-card__item.css");
+@import url("../blocks/index/price-card/price-card__text.css");
+@import url("../blocks/index/price-card/price-card__link.css");
+@import url("../blocks/index/price-card/price-card__price.css");
+/* reviews-index */
+@import url("../blocks/index/reviews-index/reviews-index.css");
+@import url("../blocks/index/reviews-index/reviews-index__list.css");
+@import url("../blocks/index/reviews-index/reviews-index__item.css");
+@import url("../blocks/index/reviews-index/reviews-index__user-name.css");
+@import url("../blocks/index/reviews-index/reviews-index__user-review.css");
+@import url("../blocks/index/reviews-index/reviews-index__send-review.css");
+/* blog */
+@import url("../blocks/index/blog/blog.css");
+@import url("../blocks/index/blog/blog__list.css");
+@import url("../blocks/index/blog/blog__item.css");
+@import url("../blocks/index/blog/blog__image-container.css");
+@import url("../blocks/index/blog/blog__item-image.css");
+@import url("../blocks/index/blog/blog__text-wrapper.css");
+@import url("../blocks/index/blog/blog__item-header.css");
+@import url("../blocks/index/blog/blog__item-text.css");
+@import url("../blocks/index/blog/blog__link.css");
+
+/* footer */
+@import url("../blocks/footer/footer.css");
+@import url("../blocks/telephone/telephone.css");
+@import url("../blocks/telephone/telephone__link.css");
+@import url("../blocks/social/social__list.css");
+@import url("../blocks/social/social__link.css");
+@import url("../blocks/social/social__icon.css");

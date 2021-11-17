@@ -1,0 +1,7 @@
+.modal__photo-container {
+  margin: auto;
+  position: relative;
+  box-sizing: border-box;
+  overflow: hidden;
+  display: flex;
+}

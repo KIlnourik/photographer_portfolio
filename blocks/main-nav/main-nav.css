@@ -1,0 +1,18 @@
+.main-nav {
+  position: fixed;
+  min-width: 100%;
+  bottom: 0;
+  left: 0;
+  z-index: 10;
+}
+@media (min-width: 768px) {
+  .main-nav{
+    min-width: 80%;
+    position: static;
+  }
+}
+@media (min-width: 1024px) {
+  .main-nav {
+    width: 80%;
+  }
+}

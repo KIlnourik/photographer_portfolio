@@ -1,0 +1,11 @@
+.main-nav__icon {
+  width: 24px;
+  height: 24px;
+  fill: #000;
+}
+
+@media (min-width: 768px) {
+  .main-nav__icon{
+    display: none;
+  }
+}
