@@ -1,10 +1,15 @@
-@media (min-width: 768px) {
-  .new-post {
-    grid-template-columns: 400px 1fr min-content;
-    grid-template-rows: 1fr;
-    grid-column: span 2;
-    max-width: 100%;
-    width: 100%;
-    min-height: 400px;
-  }
+.new-post {
+  position: relative;
+}
+.new-post::after {
+  position: absolute;
+  content: "NEW";
+  width: 50px;
+  height: 20px;
+  top: 5px;
+  right: 20px;
+  font-weight: bold;
+  color: red;
+  animation: fontColorChange 1s ease-in infinite;
+  z-index: 10px;
 }
