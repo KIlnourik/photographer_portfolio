@@ -23,7 +23,7 @@
     min-width: none;
   }
 }
-@media (min-width: 1200px) {
+@media (min-width: 1024px) {
   .main-nav__list {
     margin-left: 110px;
     font-size: 20px;

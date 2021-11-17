@@ -24,7 +24,16 @@
 @import url("../blocks/content/content__header.css");
 @import url("../blocks/content/content__header--index.css");
 
-
+/* blog */
+@import url("../blocks/blog/blog-section.css");
+/* article */
+@import url("../blocks/blog/article/article.css");
+@import url("../blocks/blog/article/article__image-container.css");
+@import url("../blocks/blog/article/article__image.css");
+@import url("../blocks/blog/article/article__text-wrapper.css");
+@import url("../blocks/blog/article/article__header.css");
+@import url("../blocks/blog/article/article__text.css");
+@import url("../blocks/blog/article/article__link.css");
 
 /* footer */
 @import url("../blocks/footer/footer.css");
