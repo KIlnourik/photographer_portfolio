@@ -11,7 +11,7 @@
   content: "";
   width: 15px;
   height: 15px;
-  background: url("../../../img/photocamera.svg") no-repeat 50% 50%;
+  background: url("../../../img/svg/photocamera.svg") no-repeat 50% 50%;
   background-size: contain;
 }
 @media (min-width: 768px) {

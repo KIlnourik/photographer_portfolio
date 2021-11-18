@@ -6,6 +6,7 @@
 @import url("../blocks/visually-hidden/visually-hidden.css");
 @import url("../blocks/hidden/hidden.css");
 @import url("../blocks/animation/animations.css");
+@import url("../blocks/modal-open/modal-open.css");
 
 /* page */
 @import url("../blocks/page/page.css");
@@ -25,7 +26,6 @@
 /* photos */
 @import url("../blocks/photos/photos/photos__container.css");
 @import url("../blocks/photos/photos/photos__link.css");
-@import url("../blocks/photos/photos/photos__wrapper.css");
 @import url("../blocks/photos/photos/photots__photo.css");
 /* modal */
 @import url("../blocks/photos/modal/modal.css");
