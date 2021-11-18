@@ -6,7 +6,6 @@ const modal = document.querySelector('.modal');
 const photoLinks = document.querySelectorAll('.photos__link');
 const closeButton = document.querySelector('.modal__close');
 const page = document.querySelector('.page');
-console.log(photoLinks);
 
 const onModalEscKeydown = (evt) => {
   if (isEscEvent(evt)) {
