@@ -2,12 +2,7 @@
   color: #ffffff;
   text-decoration: none;
   font-family: "Swanky", "Arial", sans-serif;
-  font-size: 12px;
-}
-@media (min-width: 768px) {
-  .price-card__link {
-    font-size: 22px;
-  }
+  font-size: 22px;
 }
 @media (min-width: 1200px) {
   .price-card__link {
