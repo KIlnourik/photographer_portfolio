@@ -1,7 +1,8 @@
 .send-review__intro {
   margin: 0 auto;
-  max-width: 70%;
-  font-size: 16px;
+  margin-bottom: 20px;
+  max-width: 80%;
+  font-size: 14px;
   line-height: 22px;
   text-align: center;
 }

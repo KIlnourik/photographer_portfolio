@@ -1,7 +1,7 @@
 .intro {
   margin: 0 auto;
   padding: 0 20px;
-  height: 100vh;
+  height: 92vh;
   background: url("../../../img/main.jpg") no-repeat 50% 0;
   background-size: cover;
   position: relative;
@@ -11,21 +11,18 @@
 @media (min-width: 768px) {
   .intro {
     padding: 0 70px;
-    padding-top: 108px;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    height: 639px;
+    height: 100vh;
     background-position: 100% 0;
-    background-size: auto 750px;
+    background-size: auto 120vh;
     color: #000000;
   }
 }
-@media (min-width: 1200px) {
+@media (min-width: 1024px) {
   .intro {
     padding: 0 110px;
-    height: 100vh;
     background-position: 100% 50%;
-    background-size: auto 120vh;
   }
 }

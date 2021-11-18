@@ -1,16 +1,15 @@
 .price-card__list {
-  list-style    : none;
-  padding       : 0;
-  display       : flex;
+  list-style: none;
+  padding: 0;
+  display: flex;
   flex-direction: column;
-  align-items   : center;
-  z-index       : 5;
+  align-items: center;
+  z-index: 5;
 }
 
 @media (min-width: 768px) {
   .price-card__list {
     padding-left: 30px;
-    margin      : 22px 0;
-
+    margin: 22px 0;
   }
 }
