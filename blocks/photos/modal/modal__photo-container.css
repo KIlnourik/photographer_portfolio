@@ -1,7 +1,11 @@
 .modal__photo-container {
-  padding-top: 50px;
   margin: auto;
   box-sizing: border-box;
-  overflow: hidden;
   display: flex;
+  height: 100%;
+}
+@media (min-width: 768px) {
+  .modal__photo-container {
+    padding-top: 0;
+  }
 }
