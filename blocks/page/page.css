@@ -5,7 +5,8 @@
   font-weight: normal;
   font-size: 18px;
   line-height: 20px;
-  background-color: #f2f2f2;
+  background-color: #545454;
+  color: #ffffff;
   display: grid;
   grid-template-rows: min-content 1fr min-content;
 }

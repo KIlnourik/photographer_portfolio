@@ -2,4 +2,15 @@
   display: block;
   text-decoration: none;
   max-height: 220px;
+  position: relative;
+}
+.photos__link::after {
+  content: "";
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  color: #c0c0c0;
+  background: url("../../../img/svg/zoom_24dp.svg");
+  top: 20px;
+  left: 20px;
 }

@@ -17,7 +17,7 @@
     height: 100vh;
     background-position: 100% 0;
     background-size: auto 120vh;
-    color: #000000;
+    /* color: #000000; */
   }
 }
 @media (min-width: 1024px) {

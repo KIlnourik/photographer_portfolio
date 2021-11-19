@@ -17,7 +17,7 @@
     line-height: 150px;
     max-width: none;
     transform: none;
-    color: #2e3033;
+    /* color: #2e3033; */
     text-shadow: 3px 3px 5px rgba(255, 255, 255, 0.4);
   }
 }
