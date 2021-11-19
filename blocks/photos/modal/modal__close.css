@@ -21,13 +21,13 @@
 @media (min-width: 768px) {
   .modal__close {
     top: 0;
-    right: 35px;
+    right: 0;
   }
 }
 @media (min-width: 1024px) {
   .modal__close {
     width: 30px;
     height: 30px;
-    right: 40px;
+    right: 0;
   }
 }

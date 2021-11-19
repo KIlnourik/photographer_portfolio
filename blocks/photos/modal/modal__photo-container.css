@@ -1,4 +1,5 @@
 .modal__photo-container {
+  padding-top: 50px;
   margin: auto;
   box-sizing: border-box;
   overflow: hidden;

@@ -1,8 +1,8 @@
 .modal__button {
   margin: 0;
   padding: 0;
-  width: 24px;
-  height: 24px;
+  width: 50px;
+  height: 50px;
   background-color: transparent;
   border: none;
   text-align: center;
@@ -19,10 +19,4 @@
 }
 .modal__button:active {
   opacity: 0.5;
-}
-@media (min-width: 768px) {
-  .modal__button {
-    width: 50px;
-    height: 50px;
-  }
 }
