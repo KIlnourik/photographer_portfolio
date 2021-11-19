@@ -6,12 +6,11 @@
   max-width: 220px;
   font-size: 14px;
   text-align: center;
-  border: 2px solid #c0c0c0;
-  color: #000000;
+  border: 2px solid #fff;
+  color: #fff;
   box-sizing: border-box;
 }
 .reviews-index__send-review:hover {
-  border: 2px solid #97a1b5;
   font-weight: bold;
   border-radius: 10px;
   transition: border-radius 0.5s ease;
@@ -20,7 +19,7 @@
   border-color: #c0c0c0;
   color: #97a1b5;
 }
-@media (min-width: 1200px) {
+@media (min-width: 1024px) {
   .reviews-index__send-review {
     padding: 15px 0;
     max-width: 360px;

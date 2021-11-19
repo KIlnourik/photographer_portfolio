@@ -16,7 +16,6 @@
     font-weight: bold;
     line-height: 30px;
     position: relative;
-    /* text-shadow: 5px 5px 4px rgba(255, 255, 255, 0.4); */
   }
   .main-nav__link:hover {
     animation: hover_nav 1s ease forwards;

@@ -10,7 +10,7 @@
   content: "";
   width: 90%;
   height: 1px;
-  background-color: #000;
+  background-color: #fff;
   top: 0;
   bottom: auto;
   right: 0;
@@ -28,7 +28,7 @@
     right: auto;
   }
 }
-@media (min-width: 1200px) {
+@media (min-width: 1024px) {
   .footer {
     padding: 30px 110px;
     font-size: 26px;
