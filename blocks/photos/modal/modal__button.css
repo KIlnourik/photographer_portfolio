@@ -7,12 +7,12 @@
   border: none;
   text-align: center;
   box-sizing: border-box;
-  color: #000000;
+  color: #fff;
   opacity: 0.3;
 }
 .modal__button:hover,
 .modal__button:focus {
-  border: 1px solid #000;
+  border: 1px solid #fff;
   border-radius: 3px;
   cursor: pointer;
   opacity: 1;

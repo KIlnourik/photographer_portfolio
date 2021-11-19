@@ -8,4 +8,11 @@ const isEnterEvent = (evt) => {
   return evt.key === 'Enter';
 };
 
-export {isEscEvent, isEnterEvent};
+const isLeftArrowEvent = (evt) => {
+  return evt.key === 'ArrowLeft';
+}
+const isRightArrowEvent = (evt) => {
+  return evt.key === 'ArrowRight';
+}
+
+export {isEscEvent, isEnterEvent, isLeftArrowEvent, isRightArrowEvent};
