@@ -4,6 +4,7 @@
   padding: 10px 5px;
   display: block;
   text-align: center;
+  opacity: 0.6;
 }
 .main-nav__link:hover::after {
   animation: underline_nav 0.3s linear forwards;
@@ -18,18 +19,15 @@
     position: relative;
   }
   .main-nav__link:hover {
-    animation: hover_nav 1s ease forwards;
-  }
-  .main-nav__link:active {
-    opacity: 0.5;
+    animation: hover_nav 0.5s ease forwards;
   }
   .main-nav__link::after {
     position: absolute;
     content: "";
     width: 0;
     height: 2px;
-    opacity: 1;
-    background-color: #000;
+    opacity: 0.6;
+    background-color: #fff;
     top: auto;
     bottom: -5px;
     left: 50%;
