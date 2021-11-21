@@ -39,6 +39,5 @@
   }
   .content__header::after {
     bottom: 60px;
-    animation: underline 2s ease forwards;
   }
 }

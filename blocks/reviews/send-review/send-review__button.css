@@ -4,8 +4,8 @@
   padding-top: 8px;
   padding-bottom: 9px;
   width: 280px;
-  border: none;
-  background-color: #c0c0c0;
+  border: 2px solid #fff;
+  background-color: #545454;
   color: #ffffff;
   box-sizing: border-box;
   cursor: pointer;

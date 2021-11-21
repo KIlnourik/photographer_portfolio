@@ -39,7 +39,4 @@
   .section-title {
     font-size: 85px;
   }
-  .section-title::after {
-    animation: underline 2s ease forwards;
-  }
 }

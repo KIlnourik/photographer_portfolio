@@ -3,7 +3,6 @@
 @import url("../vendor/fonts.css");
 
 /* global */
-@import url("../blocks/html/html.css");
 @import url("../blocks/visually-hidden/visually-hidden.css");
 @import url("../blocks/hidden/hidden.css");
 @import url("../blocks/animation/animations.css");
