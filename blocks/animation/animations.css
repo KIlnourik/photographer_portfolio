@@ -1,9 +1,9 @@
-@keyframes underline {
+@keyframes appear {
   0% {
-    width: 0;
+    transform: scale(0);
   }
   100% {
-    width: 95%;
+    transform: scale(1);
   }
 }
 

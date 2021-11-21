@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Фотограф Лариса Гайнуллина</title>
   <link rel="stylesheet" href="./pages/index.css">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   <link rel="apple-touch-icon" sizes="180x180" href="./img/favicon/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="./img/favicon/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="./img/favicon/favicon-16x16.png">
@@ -52,12 +53,15 @@
     <h1 class="content__header content__header--index visually-hidden">Главная страница</h1>
 
     <section class="intro">
-      <p class="intro__name">Лариса<br>Гайнуллина</p>
-      <p class="intro__profession">Фотограф</p>
+      <p class="intro__name" data-aos="fade-right" data-aos-easing="ease-in-sine" data-aos-delay="200"
+        data-aos-duration="1000">
+        Лариса<br>Гайнуллина</p>
+      <p class="intro__profession" data-aos="fade-right" data-aos-easing="ease" data-aos-duration="1000"
+        data-aos-delay="1200">Фотограф</p>
     </section>
 
     <section class="about">
-      <h2 class="about__header section-title">О себе</h2>
+      <h2 class="section-title" data-aos="fade-right" data-aos-duration="1000">О себе</h2>
       <p class="about__text">
         Всем привет!<br>
         Рада приветствовать Вас у&nbsp;себя на&nbsp;сайте)<br>
@@ -72,33 +76,43 @@
     </section>
 
     <section class="portfolio">
-      <h2 class="portfolio__header section-title">Портфолио</h2>
+      <h2 class="section-title" data-aos="fade-right" data-aos-duration="1000">Портфолио</h2>
       <div class="portfolio__image-wrapper">
-        <img src="./img/portfolio_image1.jpg" alt="" class="portfolio__image" loading="lazy">
-        <img src="./img/portfolio_image2.jpg" alt="" class="portfolio__image" loading="lazy">
-        <img src="./img/portfolio_image3.jpg" alt="" class="portfolio__image" loading="lazy">
-        <img src="./img/portfolio_image4.jpg" alt="" class="portfolio__image" loading="lazy">
+        <img src="./img/portfolio_image1.jpg" alt="" class="portfolio__image" data-aos="zoom-in" data-aos-duration="500"
+          data-aos-delay="200">
+        <img src="./img/portfolio_image2.jpg" alt="" class="portfolio__image" data-aos="zoom-in" data-aos-duration="500"
+          data-aos-delay="200">
+        <img src="./img/portfolio_image3.jpg" alt="" class="portfolio__image" data-aos="zoom-in" data-aos-duration="500"
+          data-aos-delay="200">
+        <img src="./img/portfolio_image4.jpg" alt="" class="portfolio__image" data-aos="zoom-in" data-aos-duration="500"
+          data-aos-delay="200">
         <img src="./img/portfolio_image5.jpg" alt="" class="portfolio__image portfolio__image--horizontal"
-          loading="lazy">
-        <img src="./img/portfolio_image6.jpg" alt="" class="portfolio__image" loading="lazy">
-        <img src="./img/portfolio_image8.jpg" alt="" class="portfolio__image" loading="lazy">
-        <img src="./img/portfolio_image7.jpg" alt="" class="portfolio__image" loading="lazy">
+          data-aos="zoom-in" data-aos-duration="500" data-aos-delay="200">
+        <img src="./img/portfolio_image6.jpg" alt="" class="portfolio__image" data-aos="zoom-in" data-aos-duration="500"
+          data-aos-delay="200">
+        <img src="./img/portfolio_image8.jpg" alt="" class="portfolio__image" data-aos="zoom-in" data-aos-duration="500"
+          data-aos-delay="200">
+        <img src="./img/portfolio_image7.jpg" alt="" class="portfolio__image" data-aos="zoom-in" data-aos-duration="500"
+          data-aos-delay="200">
         <img src="./img/portfolio_image9.jpg" alt="" class="portfolio__image portfolio__image--horizontal"
-          loading="lazy">
-        <img src="./img/portfolio_image10.jpg" alt="" class="portfolio__image" loading="lazy">
-        <img src="./img/portfolio_image11.jpg" alt="" class="portfolio__image" loading="lazy">
+          data-aos="zoom-in" data-aos-duration="500" data-aos-delay="200">
+        <img src="./img/portfolio_image10.jpg" alt="" class="portfolio__image" data-aos="zoom-in"
+          data-aos-duration="500" data-aos-delay="200">
+        <img src="./img/portfolio_image11.jpg" alt="" class="portfolio__image" data-aos="zoom-in"
+          data-aos-duration="500" data-aos-delay="200">
         <img src="./img/portfolio_image12.jpg" alt="" class="portfolio__image portfolio__image--horizontal"
-          loading="lazy">
+          data-aos="zoom-in" data-aos-duration="500" data-aos-delay="200">
       </div>
       <a href="photogallery.html" class="more-link">Больше фото</a>
     </section>
 
     <section class="price">
-      <h2 class="section-title">Услуги</h2>
+      <h2 class="section-title" data-aos="fade-right" data-aos-duration="1000">Услуги
+      </h2>
       <ul class="price__cards">
         <li class="price__main">
           <ul class="price__list price__list--main">
-            <li class="price__card price-card">
+            <li class="price__card price-card" data-aos="zoom-in" data-aos-delay="200" data-aos-duration="1000">
               <div class="price-card__container price-card__container--standart">
                 <h3 class="price-card__title">Пакет "Standart"</h3>
                 <ul class="price-card__list">
@@ -122,7 +136,7 @@
               </div>
             </li>
 
-            <li class="price__card price-card">
+            <li class="price__card price-card" data-aos="zoom-in" data-aos-delay="1000" data-aos-duration="1000">
               <div class="price-card__container price-card__container--comfort">
                 <h3 class="price-card__title">Пакет "Comfort"</h3>
                 <ul class="price-card__list">
@@ -151,7 +165,7 @@
               </div>
             </li>
 
-            <li class="price__card price-card">
+            <li class="price__card price-card" data-aos="zoom-in" data-aos-delay="1500" data-aos-duration="1000">
               <div class="price-card__container price-card__container--premium">
                 <h3 class="price-card__title">Пакет "Premium"</h3>
                 <ul class="price-card__list">
@@ -188,7 +202,7 @@
         </li>
         <li class="price__additional">
           <ul class="price__list price__list--add">
-            <li class="price__card price-card">
+            <li class="price__card price-card" data-aos="zoom-in" data-aos-delay="200" data-aos-duration="1000">
               <div class="price-card__container price-card__container--photoday">
                 <h3 class="price-card__title">Фотодень</h3>
                 <p class="price-card__text">
@@ -207,7 +221,7 @@
               </div>
             </li>
 
-            <li class="price__card price-card">
+            <li class="price__card price-card" data-aos="zoom-in" data-aos-delay="1000" data-aos-duration="1000">
               <div class="price-card__container price-card__container--content">
                 <h3 class="price-card__title">Контент съёмка</h3>
                 <p class="price-card__text">
@@ -236,7 +250,8 @@
     </section>
 
     <section class="reviews-index">
-      <h2 class="section-title">Отзывы</h2>
+      <h2 class="section-title" data-aos="fade-right" data-aos-duration="1000">Отзывы
+      </h2>
       <ul class="reviews-index__list">
         <li class="reviews-index__item">
           <p class="reviews-index__user-name">Михална, <span class="reviews-index__user-city">г. Сургут</span></p>
@@ -270,9 +285,9 @@
     </section>
 
     <section class="blog">
-      <h2 class="section-title">Блог</h2>
+      <h2 class="section-title" data-aos="fade-right" data-aos-duration="1000">Блог</h2>
       <ul class="blog__list">
-        <li class="blog__item new-post">
+        <li class="blog__item new-post" data-aos="zoom-in" data-aos-delay="500" data-aos-duration="1000">
           <div class="blog__image-container">
             <img src="./img/blog-img1.jpg" alt="мой новый фотоаппарат Canon" class="blog__item-image" width="280">
           </div>
@@ -282,7 +297,7 @@
           </div>
           <a href="#" class="blog__link">Подробнее</a>
         </li>
-        <li class="blog__item">
+        <li class="blog__item" data-aos="zoom-in" data-aos-delay="1000" data-aos-duration="1000">
           <div class="blog__image-container">
             <img src="./img/blog-img2.jpg" alt="просто очаровательная лошадь" class="blog__item-image" width="280">
           </div>
@@ -293,7 +308,7 @@
           </div>
           <a href="#" class="blog__link">Подробнее</a>
         </li>
-        <li class="blog__item">
+        <li class="blog__item" data-aos="zoom-in" data-aos-delay="1500" data-aos-duration="1000">
           <div class="blog__image-container">
             <img src="./img/blog-img2.jpg" alt="просто очаровательная лошадь" class="blog__item-image" width="280">
           </div>
@@ -349,7 +364,12 @@
       </ul>
     </section>
   </footer>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
   <script type="module" src="./js/index.js"></script>
+
 </body>
 
 </html>
