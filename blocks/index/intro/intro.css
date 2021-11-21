@@ -4,6 +4,7 @@
   height: 92vh;
   background: url("../../../img/main.jpg") no-repeat 50% 0;
   background-size: cover;
+  background-attachment: fixed;
   position: relative;
   color: #fff;
 }
