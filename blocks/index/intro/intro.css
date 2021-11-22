@@ -2,7 +2,7 @@
   margin: 0 auto;
   padding: 0 20px;
   height: 92vh;
-  background: url("../../../img/main.jpg") no-repeat 50% 0;
+  background: url("../../../img/index/intro.jpeg") no-repeat 50% 0;
   background-size: cover;
   background-attachment: fixed;
   position: relative;
@@ -16,9 +16,8 @@
     flex-direction: column;
     justify-content: center;
     height: 100vh;
-    background-position: 100% 0;
-    background-size: auto 120vh;
-    /* color: #000000; */
+    background-position: 50% 0;
+    background-size: auto 150vh;
   }
 }
 @media (min-width: 1024px) {
