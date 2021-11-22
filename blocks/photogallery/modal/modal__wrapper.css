@@ -1,0 +1,22 @@
+.modal__wrapper {
+  padding: 0;
+  margin: auto;
+  max-width: 95%;
+  width: 95%;
+  max-height: 95%;
+  height: 95%;
+  box-sizing: border-box;
+  position: relative;
+  overflow: hidden;
+}
+
+.modal__wrapper .swiper-pagination {
+  bottom: 10;
+}
+.modal__wrapper .swiper-pagination-fraction {
+  line-height: 26px;
+  font-size: 30px;
+  font-family: "Swanky";
+  color: #fff;
+  z-index: 120;
+}

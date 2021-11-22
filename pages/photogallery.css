@@ -6,6 +6,7 @@
 @import url("../blocks/visually-hidden/visually-hidden.css");
 @import url("../blocks/hidden/hidden.css");
 @import url("../blocks/animation/animations.css");
+@import url("../blocks/modal-open/modal-open.css");
 
 /* page */
 @import url("../blocks/page/page.css");
@@ -23,12 +24,24 @@
 @import url("../blocks/content/content__header.css");
 
 /* photogallery */
-@import url("../blocks/photogallery/photogallery__list.css");
-@import url("../blocks/photogallery/photogallery__item.css");
-@import url("../blocks/photogallery/photogallery__title.css");
-@import url("../blocks/photogallery/photogallery__link.css");
-@import url("../blocks/photogallery/photogallery__cover-wrapper.css");
-@import url("../blocks/photogallery/photogallery__cover.css");
+@import url("../blocks/photogallery/photogallery/photogallery__list.css");
+@import url("../blocks/photogallery/photogallery/photogallery__item.css");
+@import url("../blocks/photogallery/photogallery/photogallery__title.css");
+@import url("../blocks/photogallery/photogallery/photogallery__link.css");
+@import url("../blocks/photogallery/photogallery/photogallery__cover-wrapper.css");
+@import url("../blocks/photogallery/photogallery/photogallery__cover.css");
+/* modal */
+@import url("../blocks/photogallery/modal/modal.css");
+@import url("../blocks/photogallery/modal/modal--opened.css");
+@import url("../blocks/photogallery/modal/modal__photo-container.css");
+@import url("../blocks/photogallery/modal/modal__wrapper.css");
+@import url("../blocks/photogallery/modal/modal__photo-wrapper.css");
+@import url("../blocks/photogallery/modal/modal__photo.css");
+@import url("../blocks/photogallery/modal/modal__close.css");
+@import url("../blocks/photogallery/modal/modal__close-icon.css");
+@import url("../blocks/photogallery/modal/modal__button-container.css");
+@import url("../blocks/photogallery/modal/modal__button.css");
+@import url("../blocks/photogallery/modal/modal__icon.css");
 
 /* footer */
 @import url("../blocks/footer/footer.css");
