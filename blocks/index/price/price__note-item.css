@@ -1,0 +1,15 @@
+.price__note-item {
+  margin: 0 20px;
+}
+
+@media (min-width: 768px) {
+  .price__note-item {
+    margin: 10px 70px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .price__note-item {
+    margin: 10px 120px;
+  }
+}

@@ -16,7 +16,7 @@
 .modal__wrapper .swiper-pagination-fraction {
   line-height: 26px;
   font-size: 30px;
-  font-family: "Swanky";
+  font-family: "Comforter", "Arial", sans-serif;
   color: #fff;
   z-index: 120;
 }

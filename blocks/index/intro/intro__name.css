@@ -1,11 +1,11 @@
 .intro__name {
   margin: 0;
   display: block;
-  font-family: "Swanky", "Arial", sans-serif;
+  font-family: "Comforter", "Arial", sans-serif;
+  font-style: italic;
   max-width: 280px;
   font-size: 50px;
   line-height: 50px;
-  letter-spacing: 10px;
   position: absolute;
   top: 50%;
   left: 12%;
@@ -18,7 +18,6 @@
     line-height: 150px;
     max-width: none;
     transform: none;
-    /* color: #2e3033; */
     text-shadow: 3px 3px 5px rgba(255, 255, 255, 0.4);
   }
 }

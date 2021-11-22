@@ -10,6 +10,6 @@
   right: 20px;
   font-weight: bold;
   color: red;
-  animation: fontColorChange 1s ease-in infinite;
+  animation: fontColorChange 0.5s ease infinite;
   z-index: 10px;
 }

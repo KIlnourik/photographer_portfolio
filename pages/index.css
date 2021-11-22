@@ -46,6 +46,7 @@
 @import url("../blocks/index/price/price__list.css");
 @import url("../blocks/index/price/price__note.css");
 @import url("../blocks/index/price/price__note-list.css");
+@import url("../blocks/index/price/price__note-item.css");
 @import url("../blocks/index/price/price__note--alert.css");
 /* price-card */
 @import url("../blocks/index/price-card/price-card.css");
