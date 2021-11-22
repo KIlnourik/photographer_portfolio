@@ -16,13 +16,14 @@
     flex-direction: column;
     justify-content: center;
     height: 100vh;
-    background-position: 50% 0;
-    background-size: auto 150vh;
+    background-position: 100% 0;
+    background-size: auto 120vh;
   }
 }
 @media (min-width: 1024px) {
   .intro {
     padding: 0 110px;
     background-position: 100% 50%;
+    background-size: auto 150vh;
   }
 }

@@ -7,15 +7,15 @@
   <title>Фотограф Лариса Гайнуллина</title>
   <link rel="stylesheet" href="./pages/index.css">
   <link href="./vendor/aos.css" rel="stylesheet">
-  <link rel="apple-touch-icon" sizes="180x180" href="./img/index/favicon/apple-touch-icon.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="./img/index/favicon/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="./img/index/favicon/favicon-16x16.png">
-  <link rel="manifest" href="./img/index/favicon/site.webmanifest">
+  <link rel="apple-touch-icon" sizes="180x180" href="./img/favicon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="./img/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="./img/favicon/favicon-16x16.png">
+  <link rel="manifest" href="./img/favicon/site.webmanifest">
 </head>
 
 <body class="page">
   <header class="page__header header">
-    <nav class="main-nav main-nav--index">
+    <nav class="main-nav main-nav--index" id="nav">
       <ul class="main-nav__list">
         <li class="main-nav__item ">
           <a href="#" class="main-nav__link main-nav__link--active">
@@ -243,7 +243,8 @@
         <i>Все сделанные фото используются мной в портфолио.</i><br>Конфиденциальная съемка +1000&nbsp;р. к
         стоимости.<br>Ускорение сроков выдачи до недели +1500&nbsp;р.<br>
       </p>
-      <ul class="price__note-list">Дополнительно оплачиваются:
+      <ul class="price__note-list">
+        <p class="price__note">Дополнительно оплачиваются:</p>
         <li class="price__note-item">макияж и прическа;</li>
         <li class="price__note-item">аренда студии.</li>
       </ul>
@@ -364,6 +365,9 @@
       </ul>
     </section>
   </footer>
+
+  <a class="page__up" href="#nav" aria-label="Наверх"></a>
+
   <script src="./js/aos.js"></script>
   <script>
     AOS.init();

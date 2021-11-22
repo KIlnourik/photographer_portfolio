@@ -10,6 +10,7 @@
 
 /* page */
 @import url("../blocks/page/page.css");
+@import url("../blocks/page/page__up.css");
 
 /* header */
 @import url("../blocks/header/header.css");

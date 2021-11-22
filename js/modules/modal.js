@@ -1,6 +1,7 @@
 'use strict';
 
 import { isEscEvent } from "./functions.js";
+import { upLink } from "./up-link.js";
 
 const modal = document.querySelector('.modal');
 const photoLinks = document.querySelectorAll('.photogallery__item');
@@ -16,11 +17,13 @@ const onModalEscKeydown = (evt) => {
 const openModal = () => {
   page.classList.add('modal-open');
   modal.classList.add('modal--opened');
+  upLink.style.display = ('none');
   document.addEventListener('keydown', onModalEscKeydown);
 }
 const closeModal = () => {
   page.classList.remove('modal-open');
   modal.classList.remove('modal--opened');
+  upLink.style.display = ('block');
   document.removeEventListener('keydown', onModalEscKeydown);
 }
 
