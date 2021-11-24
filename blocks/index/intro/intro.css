@@ -1,7 +1,7 @@
 .intro {
   margin: 0 auto;
-  padding: 50px 50px;
-  height: 92vh;
+  padding: 60px 50px;
+  height: 90vh;
   background: url("../../../img/index/intro.jpeg") no-repeat 100% 0;
   background-size: auto 92vh;
   background-attachment: fixed;
