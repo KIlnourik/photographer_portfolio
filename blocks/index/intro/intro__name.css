@@ -1,15 +1,11 @@
 .intro__name {
   margin: 0;
+  margin-top: 100px;
   display: block;
   font-family: "Comforter", "Arial", sans-serif;
-  font-style: italic;
   max-width: 280px;
   font-size: 50px;
   line-height: 50px;
-  position: absolute;
-  top: 50%;
-  left: 12%;
-  transform: translate(0, -50%);
 }
 @media (min-width: 768px) {
   .intro__name {

@@ -2,7 +2,7 @@
   margin-top: 20px;
   padding: 0 20px;
   min-height: 100vh;
-  background: url("../../../img/mobile/about_mobile.jpg") no-repeat 95% 0,
+  background: url("../../../img/mobile/about_mobile.jpg") no-repeat 100% 0,
     url("../../../img/mobile/about_1_mobile.jpg") no-repeat 10% 100%;
 }
 @media (min-width: 768px) {
