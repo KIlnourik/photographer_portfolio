@@ -12,6 +12,7 @@
     background: url("../../../img/index/about_img.jpg") no-repeat 100% 20%,
       url("../../../img/index/about_img1.jpg") no-repeat 0 100%;
     background-size: 180px auto, 330px auto;
+    background-color: #545454;
   }
 }
 @media (min-width: 1200px) {

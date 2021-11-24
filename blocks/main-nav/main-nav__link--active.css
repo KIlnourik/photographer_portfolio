@@ -1,17 +1,25 @@
 .main-nav__link--active {
-  opacity: 0.7;
+  opacity: 1;
   font-weight: bold;
-  position: relative;
+  color: #000;
+  fill: #000;
 }
 @media (min-width: 768px) {
+  .main-nav__link--active {
+    color: #fff;
+    fill: #fff;
+  }
   .main-nav__link--active::after {
     position: absolute;
     content: "";
-    width: 100%;
+    width: 80%;
     height: 2px;
-    background-color: #000;
+    background-color: #fff;
+    color: #fff;
+    fill: #fff;
     top: auto;
     bottom: -5px;
-    left: 0;
+    left: 50%;
+    transform: translate(-50%, 0);
   }
 }
