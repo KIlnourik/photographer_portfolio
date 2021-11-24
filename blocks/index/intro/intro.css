@@ -6,6 +6,7 @@
   height: 90vh;
   background: url("../../../img/index/intro.jpeg") no-repeat center;
   background-size: cover;
+  -webkit-background-size: cover;
   background-attachment: fixed;
   position: relative;
   color: #fff;
