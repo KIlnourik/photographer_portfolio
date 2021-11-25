@@ -30,6 +30,7 @@
 @import url("../blocks/index/more-link/more-link.css");
 /* intro */
 @import url("../blocks/index/intro/intro.css");
+@import url("../blocks/index/intro/intro__wrapper.css");
 @import url("../blocks/index/intro/intro__name.css");
 @import url("../blocks/index/intro/intro__profession.css");
 /* about */
