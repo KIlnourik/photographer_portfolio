@@ -3,7 +3,7 @@
   padding: 0;
   max-width: 100vw;
   width: 100%;
-  max-height: 90vh;
+  max-height: 95vh;
   height: 100%;
   background: url("../../../img/index/intro.jpg") no-repeat 100% 50%;
   background-attachment: fixed;
@@ -12,7 +12,6 @@
 }
 @media (min-width: 768px) {
   .intro {
-    /* padding: 0 70px; */
     max-height: 100vh;
     background-position: 100% 0;
     background-size: auto 120vh;
@@ -20,7 +19,6 @@
 }
 @media (min-width: 1024px) {
   .intro__wrapper {
-    /* padding: 0 110px; */
     background-position: 100% 50%;
     background-size: auto 150vh;
   }
