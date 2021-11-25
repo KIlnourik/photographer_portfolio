@@ -5,4 +5,26 @@
   width: 100%;
   max-height: 90vh;
   height: 100%;
+  background: url("../../../img/index/intro.jpg") no-repeat;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -o-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
 }
+@media (min-width: 768px) {
+  .intro {
+    padding: 0 70px;
+    max-height: 100vh;
+    background-position: 100% 0;
+    background-size: auto 120vh;
+  }
+}
+@media (min-width: 1024px) {
+  .intro__wrapper {
+    padding: 0 110px;
+    background-position: 100% 50%;
+    background-size: auto 150vh;
+  }
+}
+
