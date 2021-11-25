@@ -12,7 +12,7 @@
 }
 @media (min-width: 768px) {
   .intro {
-    padding: 0 70px;
+    /* padding: 0 70px; */
     max-height: 100vh;
     background-position: 100% 0;
     background-size: auto 120vh;
@@ -20,7 +20,7 @@
 }
 @media (min-width: 1024px) {
   .intro__wrapper {
-    padding: 0 110px;
+    /* padding: 0 110px; */
     background-position: 100% 50%;
     background-size: auto 150vh;
   }

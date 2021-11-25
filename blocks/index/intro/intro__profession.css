@@ -1,4 +1,10 @@
 .intro__profession {
   position: static;
-  font-size: 26px;
+  font-size: 18px;
+}
+@media (min-width: 1024px) {
+  .intro__profession {
+    font-size: 26px;
+    line-height: 30px;
+  }
 }

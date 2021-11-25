@@ -2,16 +2,23 @@
   margin: 0;
   display: block;
   font-family: "Comforter", "Arial", sans-serif;
-  max-width: 280px;
-  font-size: 50px;
+  max-width: 250px;
+  font-size: 40px;
   line-height: 50px;
 }
 @media (min-width: 768px) {
   .intro__name {
+    max-width: 280px;
+    font-size: 50px;
+    line-height: 52px;
+  }
+}
+@media (min-width: 1024px) {
+  .intro__name {
     position: static;
     font-size: 100px;
     line-height: 150px;
-    max-width: none;
+    max-width: 300px;
     transform: none;
     text-shadow: 3px 3px 5px rgba(255, 255, 255, 0.4);
   }
