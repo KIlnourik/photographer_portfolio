@@ -29,6 +29,7 @@
 @import url("../blocks/reviews/reviews/reviews__item.css");
 @import url("../blocks/reviews/reviews/reviews__user-name.css");
 @import url("../blocks/reviews/reviews/reviews__user-review.css");
+@import url("../blocks/reviews/reviews/reviews__more.css");
 /* send-review */
 @import url("../blocks/reviews/send-review/send-review.css");
 @import url("../blocks/reviews/send-review/send-review__intro.css");

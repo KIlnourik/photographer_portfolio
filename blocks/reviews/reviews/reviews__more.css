@@ -1,4 +1,4 @@
-.send-review__button {
+.reviews__more {
   display: block;
   margin: 0 auto;
   padding-top: 8px;
@@ -10,7 +10,7 @@
   box-sizing: border-box;
   cursor: pointer;
 }
-.send-review__button:hover, .send-review__button:focus {
+.reviews__more:hover, .reviews__more:focus {
   font-weight: bold;
   border-radius: 10px;
   background-color: #fff;
@@ -18,11 +18,11 @@
   transition: border-radius 0.5s ease;
   transition: background-color 0.3s ease;
 }
-.send-review__button:active {
+.reviews__more:active {
   opacity: 0.7;
 }
 @media (min-width: 1200px) {
-  .send-review__button {
+  .reviews__more {
     font-size: 24px;
     line-height: 36px;
   }

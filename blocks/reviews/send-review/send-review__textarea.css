@@ -11,6 +11,8 @@
 .send-review__textarea:focus {
   outline: 1px solid #fff;
   border-radius: 5px;
+  background-color: #fff;
+  color: #545454;
 }
 @media (min-width: 1024px) {
   .send-review__textarea {
