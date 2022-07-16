@@ -1,0 +1,13 @@
+.footer__icon8 {
+  font-size: 16px;
+  margin-bottom: 80px;
+  display: flex;
+  justify-content: start;
+  gap: 5px;
+}
+
+@media (min-width: 768px) {
+  .footer__icon8 {
+    margin-bottom: 30px;
+  }
+}

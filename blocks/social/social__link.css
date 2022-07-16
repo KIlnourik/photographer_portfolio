@@ -1,6 +1,8 @@
 .social__link {
   display: block;
   color: #fff;
+  text-align: center;
+  align-items: center;
 }
 .social__link:hover .social__icon {
   color: #97a1b5;

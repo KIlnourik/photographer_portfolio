@@ -1,6 +1,4 @@
 .footer {
-  display: flex;
-  flex-direction: column;
   padding: 0 20px;
   margin-top: 20px;
   position: relative;
@@ -19,8 +17,7 @@
 @media (min-width: 768px) {
   .footer {
     padding: 0 70px;
-    flex-direction: row;
-    justify-content: space-between;
+
   }
   .footer::before {
     width: 70%;

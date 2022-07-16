@@ -6,6 +6,8 @@
 @import url("../blocks/visually-hidden/visually-hidden.css");
 @import url("../blocks/hidden/hidden.css");
 @import url("../blocks/animation/animations.css");
+@import url("../blocks/button/button.css");
+@import url("../blocks/input/input.css");
 
 /* page */
 @import url("../blocks/page/page.css");
@@ -42,6 +44,9 @@
 
 /* footer */
 @import url("../blocks/footer/footer.css");
+@import url("../blocks/footer/footer__section-wrapper.css");
+@import url("../blocks/footer/footer__icon8.css");
+@import url("../blocks/footer/footer__link.css");
 @import url("../blocks/telephone/telephone.css");
 @import url("../blocks/telephone/telephone__link.css");
 @import url("../blocks/social/social__list.css");

@@ -4,8 +4,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Отзывы</title>
-  <link rel="stylesheet" href="./pages/reviews.css">
+  <title>Блог</title>
+  <link rel="stylesheet" href="./pages/contacts-page.css">
   <link rel="apple-touch-icon" sizes="180x180" href="./img/favicon/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="./img/favicon/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="./img/favicon/favicon-16x16.png">
@@ -55,72 +55,50 @@
       </ul>
     </nav>
   </header>
-
   <main class="page__content content">
-    <h1 class="content__header">Отзывы</h1>
-
-    <section class="reviews">
-      <ul class="reviews__list">
-        <li class="reviews__item">
-          <p class="reviews__user-name">Катя Деопик, <span class="reviews__user-city">г. Сургут</span></p>
-          <blockquote class="reviews__user-review">Я была так потрясена работой Ларисы, меня аж до сих пор потрясает
-            иногда. Она смотрела в смотровое окно фотоаппарата с хладнокровностью и нескрываемым профессионализмом,
-            словно снайпер в оптический прицел. Фотографии восхитительны, великолепны. Лариса, ты просто космос!
-          </blockquote>
-        </li>
-        <li class="reviews__item">
-          <p class="reviews__user-name">Катя Глухова, <span class="reviews__user-city">г. Сургут</span></p>
-          <blockquote class="reviews__user-review">Я была на фотодне. Фотографировалась с мужем. Нам все понравилось.
-            Особенно хаски.</blockquote>
-        </li>
-        <li class="reviews__item">
-          <p class="reviews__user-name">Ильнур, <span class="reviews__user-city">г. Сургут</span></p>
-          <blockquote class="reviews__user-review">Она пришла к нам домой. У нее был фотоаппарат. Она фотографировала.
-            Хорошо. </blockquote>
-        </li>
-        <li class="reviews__item">
-          <p class="reviews__user-name">Сеня, <span class="reviews__user-city">г. Сургут</span></p>
-          <blockquote class="reviews__user-review">Мяу.</blockquote>
-        </li>
-      </ul>
-      <button class="reviews__more button">Больше отзывов</button>
-    </section>
-
-    <section class="send-review">
-      <p class="send-review__intro">Понравилась фотосессия? Понравились фотографии? Хочешь поделиться мнением?<br
-          class="send-review__br">Как
-        говорил Шрек: "Не держи
-        в
-        себе!" Оставь отзыв ниже!</p>
-      <form action="POST" class="send-review__form">
-        <label for="name" class="send-review__label">
-          <input type="text" name="name" id="name" class="send-review__input send-review__input--name input"
-            placeholder="Ваше имя*" required>
-        </label>
-        <label for="surname" class="send-review__label">
-          <input type="text" name="surname" id="surname" class="send-review__input send-review__input--surname input"
-            placeholder="Ваша фамилия">
-        </label>
-        <label for="city" class="send-review__label">
-          <input type="text" name="city" id="city" class="send-review__input send-review__input--city input"
-            placeholder="Ваш город*">
-        </label>
-        <label for="email" class="send-review__label">
-          <input type="email" name="email" id="email" class="send-review__input send-review__input--email input"
-            placeholder="Ваш email*" required>
-        </label>
-
-        <label for="review" class="send-review__label send-review__label--textarea">
-          <textarea name="review" id="review" cols="30" rows="10" class="send-review__textarea" placeholder="Ваш отзыв*"
-            required></textarea>
-        </label>
-
-        <input class="send-review__button button" type="submit"></input>
-      </form>
-
+    <h1 class="content__header">Контакты</h1>
+    <section class="contacts">
+      <div class="contacts__photo-wrapper">
+        <img src="./img/contacts/main.jpg" alt="Фото меня с фотоаппаратом. Красивое" class="contacts__photo">
+      </div>
+      <div class="contacts__container">
+        <div class="contacts__contacts-wrapper">
+          <p class="contacts__intro">
+            Можете связаться со мной по контактам, указанным ниже
+          </p>
+          <ul class="contacts__list">
+            <li class="contacts__item">
+              <a href="tel:+79120863617" class="contacts__link">Телефон: +7 912 086 3617</a>
+            </li>
+            <li class="contacts__item">
+              <a href="https://wa.me/79120863617" class="contacts__link">Whatsapp</a>
+            </li>
+            <li class="contacts__item">
+              <a href="viber://chat?number=%2B79120863617" class="contacts__link">Viber</a>
+            </li>
+            <li class="contacts__item">
+              <a href="https://vk.com/l.sultanshina" class="contacts__link">Вконтакте</a>
+            </li>
+          </ul>
+        </div>
+        <div class="contacts__call-request-wrapper">
+          <p class="contacts__intro">
+            Или можете оставить контакты в форме ниже, и я свяжусь с Вами
+          </p>
+          <form action="" method="post" class="contacts__form">
+            <label for="name" class="contacts__label">Имя:<br>
+              <input type="text" name="name" id="name" class="contacts__input input" required>
+            </label>
+            <label for="" class="contacts__label">Номер телефона:<br>
+              <input type="tel" name="phone" id="phone" class="contacts__input input" required>
+            </label>
+            <label for="submit_btn" class="contacts__label visually-hidden">Отправить</label>
+            <input type="submit" name="submit_btn" id="submit_btn" class="contacts__form-submit button">
+          </form>
+        </div>
+      </div>
     </section>
   </main>
-
   <footer class="page__footer footer">
     <div class="footer__section-wrapper">
       <section class="footer__telephone telephone">
@@ -173,8 +151,7 @@
       <a href="https://icons8.com" class="footer__link">icon8.com</a>
     </p>
   </footer>
-
   <a class="page__up" href="#nav"></a>
 
-  <script type="module" src="./js/reviews.js"></script>
+  <script type="module" src="./js/contacts.js"></script>
 </body>

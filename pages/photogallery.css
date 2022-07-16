@@ -46,6 +46,9 @@
 
 /* footer */
 @import url("../blocks/footer/footer.css");
+@import url("../blocks/footer/footer__section-wrapper.css");
+@import url("../blocks/footer/footer__icon8.css");
+@import url("../blocks/footer/footer__link.css");
 @import url("../blocks/telephone/telephone.css");
 @import url("../blocks/telephone/telephone__link.css");
 @import url("../blocks/social/social__list.css");

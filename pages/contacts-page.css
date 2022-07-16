@@ -6,7 +6,8 @@
 @import url("../blocks/visually-hidden/visually-hidden.css");
 @import url("../blocks/hidden/hidden.css");
 @import url("../blocks/animation/animations.css");
-@import url("../blocks/new-post/new-post.css");
+@import url("../blocks/button/button.css");
+@import url("../blocks/input/input.css");
 
 /* page */
 @import url("../blocks/page/page.css");
@@ -23,18 +24,20 @@
 
 /* page-main__header */
 @import url("../blocks/content/content__header.css");
-@import url("../blocks/content/content__header--index.css");
 
-/* blog */
-@import url("../blocks/blog/blog-section.css");
-/* article */
-@import url("../blocks/blog/article/article.css");
-@import url("../blocks/blog/article/article__image-container.css");
-@import url("../blocks/blog/article/article__image.css");
-@import url("../blocks/blog/article/article__text-wrapper.css");
-@import url("../blocks/blog/article/article__header.css");
-@import url("../blocks/blog/article/article__text.css");
-@import url("../blocks/blog/article/article__link.css");
+/* contacts */
+@import url("../blocks/contacts/contacts.css");
+@import url("../blocks/contacts/contacts__container.css");
+@import url("../blocks/contacts/contacts__photo-wrapper.css");
+@import url("../blocks/contacts/contacts__photo.css");
+@import url("../blocks/contacts/contacts__contacts-wrapper.css");
+@import url("../blocks/contacts/contacts__intro.css");
+@import url("../blocks/contacts/contacts__list.css");
+@import url("../blocks/contacts/contacts__item.css");
+@import url("../blocks/contacts/contacts__link.css");
+@import url("../blocks/contacts/contacts__form.css");
+@import url("../blocks/contacts/contacts__input.css");
+@import url("../blocks/contacts/contacts__form-submit.css");
 
 /* footer */
 @import url("../blocks/footer/footer.css");

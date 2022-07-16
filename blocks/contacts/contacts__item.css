@@ -1,0 +1,15 @@
+.contacts__item {
+  position: relative;
+  padding: 10px 0;
+  padding-left: 30px;
+  width: 90%;
+}
+.contacts__item::before {
+  position: absolute;
+  content: "";
+  width: 20px;
+  height: 20px;
+  left: 0px;
+  background: url("../../../img/svg/photocamera.svg") no-repeat 50% 50%;
+  background-size: contain;
+}

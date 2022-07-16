@@ -1,0 +1,30 @@
+.input {
+  padding: 0;
+  padding-bottom: 8px;
+  box-sizing: border-box;
+  min-width: 270px;
+  max-width: 80%;
+  border: none;
+  border-bottom: 1px solid #fff;
+  background-color: #545454;
+  color: #fff;
+  font-weight: bold;
+}
+.input:focus {
+  outline: 1px solid #545454;
+  border-radius: 5px;
+  background-color: #fff;
+  color: #545454;
+  transition: background-color 0.5s ease-in-out;
+}
+
+@media (min-width: 768px) {
+  .input {
+    min-width: 40vw;
+  }
+}
+@media (min-width: 1200px) {
+  .input {
+    padding: 15px;
+  }
+}

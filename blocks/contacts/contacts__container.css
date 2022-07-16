@@ -1,0 +1,12 @@
+.contacts__container {
+  height: 100%;
+}
+
+@media (min-width: 1200px) {
+  .contacts__container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+}
+

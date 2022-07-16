@@ -1,0 +1,10 @@
+.contacts__contacts-wrapper {
+  gap: 20px;
+}
+
+@media (min-width: 1024px) {
+  .contacts__contacts-wrapper {
+    gap: 40px;
+  }
+}
+

@@ -1,0 +1,17 @@
+.contacts__photo-wrapper {
+  display: none;
+}
+
+@media (min-width: 768px) {
+  .contacts__photo-wrapper {
+    display: block;
+    box-sizing: border-box;
+    width: 100%;
+  }
+}
+
+@media (min-width: 1200px) {
+  .contacts__photo-wrapper{
+    overflow: hidden;
+  }
+}
