@@ -86,12 +86,14 @@
             Или можете оставить контакты в форме ниже, и я свяжусь с Вами
           </p>
           <form action="" method="post" class="contacts__form">
-            <label for="name" class="contacts__label">Имя:<br>
+            <fieldset class="contacts__field">
+              <label for="name" class="contacts__label">Ваше&nbsp;имя:</label>
               <input type="text" name="name" id="name" class="contacts__input input" required>
-            </label>
-            <label for="" class="contacts__label">Номер телефона:<br>
+            </fieldset>
+            <fieldset class="contacts__field">
+              <label for="" class="contacts__label">Номер&nbsp;телефона:</label>
               <input type="tel" name="phone" id="phone" class="contacts__input input" required>
-            </label>
+            </fieldset>
             <label for="submit_btn" class="contacts__label visually-hidden">Отправить</label>
             <input type="submit" name="submit_btn" id="submit_btn" class="contacts__form-submit button">
           </form>

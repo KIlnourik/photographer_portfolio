@@ -1,0 +1,15 @@
+.contacts__field {
+  margin: 0;
+  padding: 0;
+  border: none;
+  display: flex;
+  text-align: start;
+  align-items: center;
+  flex-direction: column;
+}
+
+@media (min-width: 1024px) {
+  .contacts__field {
+    flex-direction: row;
+  }
+}
