@@ -19,7 +19,6 @@
     gap: 10px;
     background-color: transparent;
     max-width: 80%;
-    min-width: none;
   }
 }
 @media (min-width: 1024px) {

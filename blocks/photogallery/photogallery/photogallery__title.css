@@ -9,7 +9,7 @@
   transform: translate(-50%, 0);
   z-index: 10;
 }
-@media (min-width: 768px) {
+@media (min-width: 1024px) {
   .photogallery__title {
     opacity: 0;
     font-size: 38px;

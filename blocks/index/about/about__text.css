@@ -13,11 +13,11 @@
     line-height: 30px;
   }
 }
-@media (min-width: 1200px) {
+@media (min-width: 1024px) {
   .about__text {
     width: 450px;
     margin-top: 60px;
-    margin-left: 45vw;
+    margin-left: 45%;
     margin-bottom: 40px;
     font-size: 20px;
   }

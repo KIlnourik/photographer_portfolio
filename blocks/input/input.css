@@ -20,7 +20,7 @@
 
 @media (min-width: 768px) {
   .input {
-    min-width: 40vw;
+    min-width: 500px;
   }
 }
 @media (min-width: 1200px) {
