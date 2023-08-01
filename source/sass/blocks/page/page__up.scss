@@ -1,0 +1,29 @@
+.page__up {
+  display: none;
+
+  @media (min-width: 768px) {
+    .page__up {
+      width: 40px;
+      height: 40px;
+      text-decoration: none;
+      text-transform: uppercase;
+      position: fixed;
+      bottom: 25%;
+      right: 5%;
+      color: $white;
+      opacity: 0.7;
+      z-index: 120;
+      transition: opacity 0.3s ease;
+      background-image: url("../../img/svg/arrow_upward_black_24dp.svg");
+      background-size: cover;
+      border: 2px solid $white;
+      border-radius: 50%;
+    }
+  }
+
+  .page__up:hover {
+    @media (min-width: 768px) {
+      opacity: 1;
+    }
+  }
+}

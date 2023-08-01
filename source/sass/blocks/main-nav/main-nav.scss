@@ -1,0 +1,14 @@
+.main-nav {
+  position: fixed;
+  min-width: 100%;
+  bottom: 0;
+  left: 0;
+  z-index: 100;
+
+  @media (min-width: $tablet-width) {
+    max-width: 80%;
+    width: 80%;
+    min-width: 0;
+    position: static;
+  }
+}

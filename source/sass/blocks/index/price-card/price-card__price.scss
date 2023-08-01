@@ -1,0 +1,15 @@
+.price-card__price {
+  margin: 5px auto 25px;
+  width: 90%;
+  font-size: 24px;
+  line-height: 28px;
+  font-weight: bold;
+  text-align: center;
+  z-index: 5;
+  letter-spacing: 1px;
+
+  @media (min-width: $desktop-width) {
+    font-size: 28px;
+    line-height: 32px;
+  }
+}

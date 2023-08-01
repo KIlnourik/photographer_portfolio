@@ -1,0 +1,27 @@
+.main-nav__link--active {
+  opacity: 1;
+  font-weight: bold;
+  color: $black;
+  fill: $black;
+
+  @media (min-width: $tablet-width) {
+    color: $white;
+    fill: $white;
+  }
+
+  &::after {
+    @media (min-width: $tablet-width) {
+      position: absolute;
+      content: "";
+      width: 80%;
+      height: 2px;
+      background-color: $white;
+      color: $white;
+      fill: $white;
+      top: auto;
+      bottom: -5px;
+      left: 50%;
+      transform: translate(-50%, 0);
+    }
+  }
+}

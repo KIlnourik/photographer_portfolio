@@ -1,0 +1,27 @@
+.main-nav__list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  bottom: 0;
+  top: auto;
+  background-color: $grey-blue;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  font-size: 12px;
+  line-height: 14px;
+  min-width: 100%;
+  box-sizing: border-box;
+
+  @media (min-width: $tablet-width) {
+    font-size: 36px;
+    grid-template-columns: repeat(auto-fit, minmax(20px, 1fr));
+    gap: 10px;
+    background-color: transparent;
+    max-width: 80%;
+  }
+
+  @media (min-width: 1024px) {
+    margin: 0;
+    font-size: 44px;
+  }
+}

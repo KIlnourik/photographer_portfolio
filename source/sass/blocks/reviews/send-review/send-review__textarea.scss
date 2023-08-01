@@ -1,0 +1,28 @@
+.send-review__textarea {
+  margin: 0 auto;
+  padding: 10px 5px;
+  box-sizing: border-box;
+  font-size: 20px;
+  min-width: 80%;
+  border-color: $white;
+  background-color: $dark-green;
+  color: $white;
+  font-weight: bold;
+
+  @media (min-width: $tablet-width) {
+    font-size: 32px;
+  }
+
+  @media (min-width: 1024px) {
+    font-size: 36px;
+    padding: 20px;
+  }
+
+  .send-review__textarea:focus {
+    outline: 1px solid $white;
+    border-radius: 5px;
+    background-color: $white;
+    color: $dark-green;
+    transition: background-color 0.3s ease-in-out;
+  }
+}

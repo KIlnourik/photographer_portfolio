@@ -1,0 +1,7 @@
+.header {
+  position: relative;
+
+  @media (min-width: $tablet-width) {
+    max-width: 80%;
+  }
+}
