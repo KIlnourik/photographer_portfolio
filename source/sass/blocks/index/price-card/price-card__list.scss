@@ -1,0 +1,13 @@
+.price-card__list {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  z-index: 5;
+
+  @media (min-width: $tablet-width) {
+    padding-left: 30px;
+    margin: 22px 0;
+  }
+}

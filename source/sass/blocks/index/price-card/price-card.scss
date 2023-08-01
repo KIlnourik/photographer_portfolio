@@ -1,0 +1,20 @@
+.price-card {
+  margin: 20px auto;
+  width: 90%;
+  min-height: 70vh;
+  display: flex;
+  color: $white;
+  border-radius: 20px;
+  box-sizing: border-box;
+  /* box-shadow: 1px 5px 15px rgba(151, 161, 181, 0.7); */
+  overflow: hidden;
+
+  @media (min-width: $tablet-width) {
+    margin: 20px 0;
+    width: 45%;
+  }
+
+  @media (min-width: $desktop-width) {
+    width: 30%;
+  }
+}

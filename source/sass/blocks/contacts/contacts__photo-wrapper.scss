@@ -1,0 +1,13 @@
+.contacts__photo-wrapper {
+  display: none;
+
+  @media (min-width: 1024px) {
+    display: block;
+    box-sizing: border-box;
+    width: 100%;
+  }
+
+  @media (min-width: $desktop-width) {
+    overflow: hidden;
+  }
+}

@@ -1,0 +1,10 @@
+.price-card__link {
+  color: $white;
+  text-decoration: none;
+  font-family: "Comforter", "Arial", sans-serif;
+  font-size: 22px;
+
+  @media (min-width: 1200px) {
+    font-size: 32px;
+  }
+}

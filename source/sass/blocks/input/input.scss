@@ -1,0 +1,30 @@
+.input {
+  padding: 0;
+  padding-bottom: 8px;
+  font-size: 20px;
+  box-sizing: border-box;
+  min-width: 270px;
+  max-width: 70%;
+  border: none;
+  border-bottom: 1px solid $white;
+  background-color: $dark-green;
+  color: $white;
+  font-weight: bold;
+
+  @media (min-width: $tablet-width) {
+    min-width: 500px;
+    font-size: 32px;
+  }
+
+  @media (min-width: $desktop-width) {
+    padding: 15px;
+  }
+
+  .input:focus {
+    outline: 1px solid $dark-green;
+    border-radius: 5px;
+    background-color: $white;
+    color: $dark-green;
+    transition: background-color 0.3s ease-in-out;
+  }
+}

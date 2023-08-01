@@ -1,0 +1,12 @@
+.footer__icon8 {
+  font-size: 20px;
+  margin-bottom: 80px;
+  display: flex;
+  justify-content: start;
+  gap: 5px;
+  letter-spacing: 1px;
+
+  @media (min-width: $tablet-width) {
+    margin-bottom: 26px;
+  }
+}

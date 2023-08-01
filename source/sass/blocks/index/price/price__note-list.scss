@@ -1,0 +1,19 @@
+.price__note-list {
+  padding: 0;
+  padding-left: 10px;
+  list-style-type: circle;
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 22px;
+  letter-spacing: 2px;
+
+  @media (min-width: $tablet-width) {
+    font-size: 28px;
+    line-height: 32px;
+  }
+
+  @media (min-width: $desktop-width) {
+    font-size: 32px;
+    line-height: 36px;
+  }
+}

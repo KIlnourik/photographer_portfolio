@@ -1,0 +1,5 @@
+.portfolio__image--horizontal {
+  @media (min-width: 639px) {
+    grid-column: span 2;
+  }
+}

@@ -1,0 +1,70 @@
+.reviews-index__user-review {
+  position: relative;
+  font-size: 24px;
+  margin-left: 45px;
+  margin-top: 5px;
+  margin-right: 0;
+  min-height: 40px;
+
+  @media (min-width: $tablet-width) {
+    font-size: 26px;
+    line-height: 28px;
+    margin-left: 60px;
+    margin-right: 20px;
+  }
+
+  @media (min-width: $desktop-width) {
+    font-size: 30px;
+    line-height: 32px;
+  }
+
+  &::before {
+    content: "\201C";
+    font-family: serif;
+    position: absolute;
+    top: 5px;
+    left: -50px;
+    color: #ffffff;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background: $hover-grey;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 42px;
+
+    @media (min-width: $tablet-width) {
+      width: 40px;
+      height: 40px;
+      top: 2px;
+      left: -60px;
+      font-size: 40px;
+      line-height: 50px;
+    }
+
+    @media (min-width: $desktop-width) {
+      width: 50px;
+      height: 50px;
+      top: 2px;
+      left: -70px;
+      font-size: 50px;
+      line-height: 67px;
+    }
+  }
+
+  &::after {
+    content: "";
+    width: 2px;
+    background: $hover-grey;
+    position: absolute;
+    left: -10px;
+    top: 5px;
+    bottom: 5px;
+
+    @media (min-width: $tablet-width) {
+      top: 5px;
+      bottom: 0;
+    }
+  }
+}

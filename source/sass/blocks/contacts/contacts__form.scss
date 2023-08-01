@@ -1,0 +1,9 @@
+.contacts__form,
+.contacts__form > div > form,
+.contacts__form > div > form > p {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  font-size: 16px;
+  line-height: 20px;
+}

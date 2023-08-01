@@ -1,0 +1,23 @@
+.modal__button {
+  margin: 0;
+  padding: 0;
+  width: 50px;
+  height: 50px;
+  background-color: transparent;
+  border: none;
+  text-align: center;
+  box-sizing: border-box;
+  color: $white;
+  opacity: 0.3;
+
+  &:hover,
+  &:focus {
+    border: 1px solid $white;
+    border-radius: 3px;
+    cursor: pointer;
+    opacity: 1;
+  }
+  &:active {
+    opacity: 0.5;
+  }
+}

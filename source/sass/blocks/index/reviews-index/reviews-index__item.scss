@@ -1,0 +1,14 @@
+.reviews-index__item {
+  margin: 0 auto;
+  max-width: 80%;
+  width: 100%;
+
+  @media (min-width: $tablet-width) {
+    max-width: 50%;
+  }
+
+  @media (min-width: $desktop-width) {
+    width: 40%;
+    margin: 10px 40px;
+  }
+}

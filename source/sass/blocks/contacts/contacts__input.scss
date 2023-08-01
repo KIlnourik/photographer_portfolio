@@ -1,0 +1,11 @@
+.contacts__input {
+  padding: 5px;
+  font-size: 16px;
+  line-height: 20px;
+
+  @media (min-width: $tablet-width) {
+    font-size: 20px;
+    line-height: 24px;
+    max-width: 100px;
+  }
+}
