@@ -6,4 +6,9 @@
     line-height: 22px;
     width: 200px;
   }
+
+  @media (min-width: 1024px) {
+    font-size: 36px;
+    line-height: 42px;
+  }
 }

@@ -7,16 +7,14 @@
   fill: $white;
 
   @media (min-width: $tablet-width) {
-    .main-nav__link {
-      opacity: 0.5;
-      padding: 0;
-      margin: 0;
-      margin-top: 20px;
-      font-weight: bold;
-      line-height: 30px;
-      position: relative;
-      color: $white;
-    }
+    opacity: 0.5;
+    padding: 0;
+    margin: 0;
+    margin-top: 20px;
+    font-weight: bold;
+    line-height: 30px;
+    position: relative;
+    color: $white;
   }
 
   &:hover {
@@ -43,3 +41,4 @@
     animation: underline_nav 0.3s linear forwards;
   }
 }
+

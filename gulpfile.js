@@ -48,20 +48,20 @@ const scripts = () => {
 // Images
 
 const optimizeImages = () => {
-  return gulp.src('source/img/**/*.{png,jpg}')
+  return gulp.src('source/img/**/*.{png,jpg,jpeg}')
     .pipe(squoosh())
     .pipe(gulp.dest('build/img'))
 }
 
 const copyImages = () => {
-  return gulp.src('source/img/**/*.{png,jpg}')
+  return gulp.src('source/img/**/*.{png,jpg,jpeg}')
     .pipe(gulp.dest('build/img'))
 }
 
 // WebP
 
 const createWebp = () => {
-  return gulp.src('source/img/**/*.{png,jpg}')
+  return gulp.src('source/img/**/*.{png,jpg,jpeg}')
     .pipe(squoosh({
       webp: {}
     }))
@@ -71,12 +71,12 @@ const createWebp = () => {
 // SVG
 
 const svg = () =>
-  gulp.src('source/img/svg/**/*.svg')
+  gulp.src('source/img/svg/*.svg')
     .pipe(svgo())
     .pipe(gulp.dest('build/img/svg'));
 
 const sprite = () => {
-  return gulp.src('source/img/svg/**/*.svg')
+  return gulp.src('source/img/svg/icons/*.svg')
     .pipe(svgo())
     .pipe(svgstore({
       inlineSvg: true
@@ -92,7 +92,6 @@ const copy = (done) => {
     'source/fonts/*.{woff2,woff}',
     'source/*.ico',
     'source/*.webmanifest',
-    'source/img/svg/*.svg',
   ], {
     base: 'source'
   })

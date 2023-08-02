@@ -12,11 +12,15 @@ const toggleReviews = () => {
 
 showMoreBtn.addEventListener('click', () => {
   toggleReviews();
-  if (reviews.length >= REVIEW_PER_PAGE) {
+  if (reviews.length > REVIEW_PER_PAGE) {
     reviews.slice(0, REVIEW_PER_PAGE - 1);
     showMoreBtn.style.display = 'none';
   }
 });
+
+if (reviews.length <= REVIEW_PER_PAGE) {
+  showMoreBtn.style.display = 'none';
+}
 
 
 toggleReviews();
