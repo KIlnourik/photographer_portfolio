@@ -2,10 +2,9 @@
   margin-top: 20px;
   padding: 0 20px;
   min-height: 100vh;
-  background-repeat: no-repeat;
-  background-position:
-    100% 0,
-    10% 100%;
+  background:
+    url("../../../img/index/about_img.jpg") no-repeat 100% 0,
+    url("../../../img/index/intro_back.jpg") no-repeat 10% 100%;
   background-size:
     auto 170px,
     227px auto;
