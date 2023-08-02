@@ -7,8 +7,8 @@ import csso from 'postcss-csso';
 import rename from 'gulp-rename';
 import squoosh from 'gulp-libsquoosh';
 import svgo from 'gulp-svgmin';
-import { stacksvg } from 'gulp-stacksvg';
 import del from 'del';
+import svgstore from 'gulp-svgstore';
 import browser from 'browser-sync';
 import htmlmin from 'gulp-htmlmin';
 import terser from 'gulp-terser';
@@ -39,7 +39,7 @@ const html = () => {
 // Scripts
 
 const scripts = () => {
-  return gulp.src('source/js/*.js')
+  return gulp.src('source/js/**/*.js')
     .pipe(terser())
     .pipe(gulp.dest('build/js'))
     .pipe(browser.stream());
@@ -71,15 +71,18 @@ const createWebp = () => {
 // SVG
 
 const svg = () =>
-  gulp.src(['source/img/*.svg', '!source/img/icons/*.svg'])
+  gulp.src('source/img/svg/**/*.svg')
     .pipe(svgo())
-    .pipe(gulp.dest('build/img'));
+    .pipe(gulp.dest('build/img/svg'));
 
 const sprite = () => {
-  return gulp.src('source/img/icons/sprite-icons/*.svg')
+  return gulp.src('source/img/svg/**/*.svg')
     .pipe(svgo())
-    .pipe(stacksvg({ output: `sprite.svg` }))
-    .pipe(gulp.dest('build/img/icons'));
+    .pipe(svgstore({
+      inlineSvg: true
+    }))
+    .pipe(rename('sprite.svg'))
+    .pipe(gulp.dest('build/img/svg'));
 }
 
 // Copy
@@ -89,7 +92,7 @@ const copy = (done) => {
     'source/fonts/*.{woff2,woff}',
     'source/*.ico',
     'source/*.webmanifest',
-    'source/img/icons/*svg',
+    'source/img/svg/*.svg',
   ], {
     base: 'source'
   })
