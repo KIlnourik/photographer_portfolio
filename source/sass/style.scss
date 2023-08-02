@@ -27,6 +27,7 @@
 
 /* page-main__header */
 @import "./blocks/content/content__header.scss";
+@import "./blocks/content/content__header--index.scss";
 
 /* index-page */
 @import "./blocks/index/section-title/section-title.scss";
@@ -76,8 +77,8 @@
 /* photogallery-page */
 @import "./blocks/photogallery/photogallery/photogallery__list.scss";
 @import "./blocks/photogallery/photogallery/photogallery__item.scss";
-@import "./blocks/photogallery/photogallery/photogallery__title.scss";
 @import "./blocks/photogallery/photogallery/photogallery__link.scss";
+@import "./blocks/photogallery/photogallery/photogallery__title.scss";
 @import "./blocks/photogallery/photogallery/photogallery__cover-wrapper.scss";
 @import "./blocks/photogallery/photogallery/photogallery__cover.scss";
 /* modal */
