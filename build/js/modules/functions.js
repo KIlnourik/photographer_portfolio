@@ -1,0 +1,1 @@
+"use strict";const isEscEvent=e=>"Escape"===e.key,isEnterEvent=e=>"Enter"===e.key,isLeftArrowEvent=e=>"ArrowLeft"===e.key,isRightArrowEvent=e=>"ArrowRight"===e.key;export{isEscEvent,isEnterEvent,isLeftArrowEvent,isRightArrowEvent};
