@@ -14,4 +14,8 @@
     line-height: 42px;
     min-width: 300px;
   }
+
+  @media (min-width: $desktop-width) {
+    min-width: 500px;
+  }
 }
