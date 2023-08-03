@@ -2,7 +2,7 @@
   padding: 0 12px;
   list-style: none;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 480px));
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
   grid-template-rows: repeat(auto-fit, 1fr);
   grid-auto-flow: dense;
   gap: 20px;
