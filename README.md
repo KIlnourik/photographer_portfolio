@@ -16,4 +16,4 @@
 5. Vanilla Javascript
 6. Препроцессор Sass
 7. Сборщик Gulp
-8. Библиотека AOS
+8. Библиотеки AOS, Swiper
