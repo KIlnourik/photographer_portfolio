@@ -6,7 +6,7 @@ const navHeight = nav.offsetHeight;
 let navCoords = nav.getBoundingClientRect();
 
 const hideUpLink = () => {
-  if (window.pageYOffset > navCoords.bottom) {
+  if (window.scrollY > navCoords.bottom) {
     upLink.style.display = ('block');
   } else {
     upLink.style.display = ('none');
