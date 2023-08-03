@@ -14,13 +14,13 @@
   }
 
   @media (min-width: 1024px) {
-    padding: 0 110px;
     grid-template-columns: 1fr 1fr;
-    font-size: 40px;
-    line-height: 52px;
+    font-size: 36px;
+    line-height: 42px;
   }
 
   @media (min-width: 1200px) {
+    padding: 0 110px;
     min-height: 50%;
   }
 }
