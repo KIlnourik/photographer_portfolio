@@ -4,7 +4,7 @@ import { isEscEvent } from "./functions.js";
 import { upLink } from "./up-link.js";
 
 const modal = document.querySelector('.modal');
-const photoLinks = document.querySelectorAll('.photogallery__item');
+
 const closeButton = document.querySelector('.modal__close');
 const page = document.querySelector('.page');
 
@@ -27,7 +27,6 @@ const closeModal = () => {
   document.removeEventListener('keydown', onModalEscKeydown);
 }
 
-photoLinks.forEach(photoLink => { photoLink.addEventListener('click', openModal) });
 closeButton.addEventListener('click', closeModal);
 
 export { openModal, closeModal };
