@@ -12,6 +12,7 @@
   font-weight: bold;
 
   @media (min-width: $tablet-width) {
+    padding: 10px;
     min-width: 500px;
     font-size: 32px;
   }

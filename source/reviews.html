@@ -100,7 +100,7 @@
         </label>
         <label for="city" class="send-review__label">
           <input type="text" name="city" id="city" class="send-review__input send-review__input--city input"
-            placeholder="Ваш город*">
+            placeholder="Ваш город*" required>
         </label>
         <label for="email" class="send-review__label">
           <input type="email" name="email" id="email" class="send-review__input send-review__input--email input"
@@ -173,15 +173,15 @@
 
   <a class="page__up" href="#nav"></a>
 
-  <div class="modal modal--success modal--opened">
+  <div class="modal modal--success">
     <div class="modal__container">
       <h2 class="modal__title">И это успех!</h2>
       <p class="modal__text">Ваш отзыв успешно отправлен</p>
-      <button class="modal__button modal__button--close button">Закрыть</button>
+      <button class="modal__button modal__button--close button">ОК</button>
     </div>
   </div>
 
-  <div class="modal modal--fail modal--opened">
+  <div class="modal modal--fail ">
     <div class="modal__container">
       <h2 class="modal__title">Что-то пошло не так!</h2>
       <p class="modal__text">Ваш отзыв, к сожалению, не был отправлен</p>

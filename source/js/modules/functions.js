@@ -15,4 +15,10 @@ const isRightArrowEvent = (evt) => {
   return evt.key === 'ArrowRight';
 }
 
-export {isEscEvent, isEnterEvent, isLeftArrowEvent, isRightArrowEvent};
+const inputLengthValidate = (inputFieldValue, minLength, maxLength) =>
+  (inputFieldValue && inputFieldValue.length > minLength ||
+    inputFieldValue && inputFieldValue.length <= maxLength) ? true : false;
+
+const inputRegexpValidate = (inputFieldValue, regular_expr) => !regular_expr.test(inputFieldValue) ? false : true;
+
+export {isEscEvent, isEnterEvent, isLeftArrowEvent, isRightArrowEvent, inputLengthValidate, inputRegexpValidate};
