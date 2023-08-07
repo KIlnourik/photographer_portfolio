@@ -1,0 +1,97 @@
+.send-review {
+  margin-top: 50px;
+  padding: 0 20px;
+
+  @media (min-width: $tablet-width) {
+    padding: 0 70px;
+  }
+}
+
+.send-review__intro {
+  margin: 0 auto;
+  margin-bottom: 20px;
+  max-width: 80%;
+  font-size: 34px;
+  line-height: 1.2;
+  text-align: center;
+
+  @media (min-width: 1024px) {
+    max-width: 90%;
+    font-size: 46px;
+    line-height: 1.2;
+    margin-bottom: 20px;
+  }
+}
+
+.send-review__form,
+.send-review__form > div > form > p {
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  flex-direction: column;
+  max-width: 570px;
+  font-size: 14px;
+  line-height: 20px;
+
+  @media (min-width: $tablet-width) {
+    flex-direction: row;
+    max-width: none;
+  }
+
+  @media (min-width: $desktop-width) {
+    font-size: 20px;
+    line-height: 28px;
+  }
+}
+
+.send-review__label {
+  display: block;
+  margin: 10px auto;
+
+  &--textarea {
+    margin: 20px auto;
+    margin-top: 10px;
+    max-width: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+.send-review__textarea {
+  margin: 0 auto;
+  padding: 10px 5px;
+  box-sizing: border-box;
+  font-size: 20px;
+  min-width: 80%;
+  border-color: $white;
+  background-color: $dark-green;
+  color: $white;
+  font-weight: bold;
+
+  @media (min-width: $tablet-width) {
+    font-size: 32px;
+  }
+
+  @media (min-width: 1024px) {
+    font-size: 36px;
+    padding: 20px;
+  }
+
+  &:focus {
+    outline: 1px solid $white;
+    border-radius: 5px;
+    background-color: $white;
+    color: $dark-green;
+    transition: background-color 0.3s ease-in-out;
+  }
+}
+
+.send-review__button {
+  display: block;
+  margin: 0 auto;
+  padding-top: 8px;
+  padding-bottom: 9px;
+  width: 280px;
+}

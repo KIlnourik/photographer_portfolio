@@ -7,123 +7,41 @@
 @import "./global/animations.scss";
 
 /* Общие блоки */
-@import "./blocks/button/button.scss";
-@import "./blocks/input/input.scss";
+@import "./blocks/button.scss";
+@import "./blocks/input.scss";
 
 /* page */
-@import "./blocks/page/page.scss";
-@import "./blocks/page/page__up.scss";
+@import "./blocks/page.scss";
 
 /* header */
-@import "./blocks/header/header.scss";
-@import "./blocks/main-nav/main-nav.scss";
-@import "./blocks/main-nav/main-nav__list.scss";
-@import "./blocks/main-nav/main-nav__link.scss";
-@import "./blocks/main-nav/main-nav__icon.scss";
-@import "./blocks/main-nav/main-nav__text.scss";
+@import "./blocks/header.scss";
+@import "./blocks/main-nav.scss";
 
 /* page-main__header */
-@import "./blocks/content/content__header.scss";
+@import "./blocks/content.scss";
 
 /* index-page */
-@import "./blocks/index/section-title/section-title.scss";
-@import "./blocks/index/more-link/more-link.scss";
-/* intro */
-@import "./blocks/index/intro/intro.scss";
-@import "./blocks/index/intro/intro__name.scss";
-@import "./blocks/index/intro/intro__profession.scss";
-/* about */
-@import "./blocks/index/about/about.scss";
-@import "./blocks/index/about/about__text.scss";
-/* portfolio */
-@import "./blocks/index/portfolio/portfolio.scss";
-@import "./blocks/index/portfolio/portfolio__image-wrapper.scss";
-@import "./blocks/index/portfolio/portfolio__image.scss";
-/* price */
-@import "./blocks/index/price/price.scss";
-@import "./blocks/index/price/price__cards.scss";
-@import "./blocks/index/price/price__list.scss";
-@import "./blocks/index/price/price__note.scss";
-@import "./blocks/index/price/price__note-list.scss";
-@import "./blocks/index/price/price__note-item.scss";
-/* price-card */
-@import "./blocks/index/price-card/price-card.scss";
-@import "./blocks/index/price-card/price-card__container.scss";
-@import "./blocks/index/price-card/price-card__title.scss";
-@import "./blocks/index/price-card/price-card__list.scss";
-@import "./blocks/index/price-card/price-card__item.scss";
-@import "./blocks/index/price-card/price-card__text.scss";
-@import "./blocks/index/price-card/price-card__link.scss";
-@import "./blocks/index/price-card/price-card__price.scss";
-/* reviews-index */
-@import "./blocks/index/reviews-index/reviews-index.scss";
-@import "./blocks/index/reviews-index/reviews-index__list.scss";
-@import "./blocks/index/reviews-index/reviews-index__item.scss";
-@import "./blocks/index/reviews-index/reviews-index__user-name.scss";
-@import "./blocks/index/reviews-index/reviews-index__user-review.scss";
-@import "./blocks/index/reviews-index/reviews-index__send-review.scss";
+@import "./blocks/section-title.scss";
+@import "./blocks/more-link.scss";
+@import "./blocks/intro.scss";
+@import "./blocks/about.scss";
+@import "./blocks/portfolio.scss";
+@import "./blocks/price.scss";
+@import "./blocks/price-card.scss";
+@import "./blocks/reviews.scss";
 
 /* photogallery-page */
-@import "./blocks/photogallery/photogallery/photogallery__list.scss";
-@import "./blocks/photogallery/photogallery/photogallery__item.scss";
-@import "./blocks/photogallery/photogallery/photogallery__link.scss";
-@import "./blocks/photogallery/photogallery/photogallery__title.scss";
-@import "./blocks/photogallery/photogallery/photogallery__cover-wrapper.scss";
-@import "./blocks/photogallery/photogallery/photogallery__cover.scss";
-/* modal */
-@import "./blocks/photogallery/modal/modal.scss";
-@import "./blocks/modal-open/modal-open.scss";
-@import "./blocks/photogallery/modal/modal__photo-container.scss";
-@import "./blocks/photogallery/modal/modal__wrapper.scss";
-@import "./blocks/photogallery/modal/modal__photo-wrapper.scss";
-@import "./blocks/photogallery/modal/modal__photo.scss";
-@import "./blocks/photogallery/modal/modal__close.scss";
-@import "./blocks/photogallery/modal/modal__close-icon.scss";
-@import "./blocks/photogallery/modal/modal__button-container.scss";
-@import "./blocks/photogallery/modal/modal__button.scss";
-@import "./blocks/photogallery/modal/modal__icon.scss";
-@import "./blocks/photogallery/modal/modal__container.scss";
-@import "./blocks/photogallery/modal/modal__title.scss";
-@import "./blocks/photogallery/modal/modal__text.scss";
+@import "./blocks/photogallery.scss";
+@import "./blocks/modal.scss";
+@import "./blocks/modal-open.scss";
 
 /* reviews-page */
-/* reviews */
-@import "./blocks/reviews/reviews/reviews.scss";
-@import "./blocks/reviews/reviews/reviews__list.scss";
-@import "./blocks/reviews/reviews/reviews__item.scss";
-@import "./blocks/reviews/reviews/reviews__user-name.scss";
-@import "./blocks/reviews/reviews/reviews__user-review.scss";
-@import "./blocks/reviews/reviews/reviews__more.scss";
-/* send-review */
-@import "./blocks/reviews/send-review/send-review.scss";
-@import "./blocks/reviews/send-review/send-review__intro.scss";
-@import "./blocks/reviews/send-review/send-review__form.scss";
-@import "./blocks/reviews/send-review/send-review__label.scss";
-@import "./blocks/reviews/send-review/send-review__textarea.scss";
-@import "./blocks/reviews/send-review/send-review__button.scss";
+@import "./blocks/send-review.scss";
 
 /* contacts-page */
-@import "./blocks/contacts/contacts.scss";
-@import "./blocks/contacts/contacts__container.scss";
-@import "./blocks/contacts/contacts__photo-wrapper.scss";
-@import "./blocks/contacts/contacts__photo.scss";
-@import "./blocks/contacts/contacts__contacts-wrapper.scss";
-@import "./blocks/contacts/contacts__list.scss";
-@import "./blocks/contacts/contacts__item.scss";
-@import "./blocks/contacts/contacts__link.scss";
-@import "./blocks/contacts/contacts__form.scss";
-@import "./blocks/contacts/contacts__field.scss";
-@import "./blocks/contacts/contacts__label.scss";
-@import "./blocks/contacts/contacts__input.scss";
-@import "./blocks/contacts/contacts__form-submit.scss";
+@import "./blocks/contacts.scss";
 
 /* footer */
-@import "./blocks/footer/footer.scss";
-@import "./blocks/footer/footer__section-wrapper.scss";
-@import "./blocks/footer/footer__icon8.scss";
-@import "./blocks/footer/footer__link.scss";
-@import "./blocks/telephone/telephone.scss";
-@import "./blocks/telephone/telephone__link.scss";
-@import "./blocks/social/social__list.scss";
-@import "./blocks/social/social__link.scss";
-@import "./blocks/social/social__icon.scss";
+@import "./blocks/footer.scss";
+@import "./blocks/telephone.scss";
+@import "./blocks/social.scss";

@@ -1,0 +1,145 @@
+.main-nav {
+  position: fixed;
+  min-width: 100%;
+  bottom: 0;
+  left: 0;
+  z-index: 100;
+
+  @media (min-width: $tablet-width) {
+    max-width: 80%;
+    width: 80%;
+    min-width: 0;
+    position: static;
+  }
+
+  &--index {
+    @media (min-width: 768px) {
+      position: absolute;
+      top: 0;
+      bottom: auto;
+      left: 0;
+      right: 0;
+      z-index: 10;
+      max-width: 1440px;
+    }
+  }
+}
+
+.main-nav__list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  bottom: 0;
+  top: auto;
+  background-color: $grey-blue;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  font-size: 12px;
+  line-height: 14px;
+  min-width: 100%;
+  box-sizing: border-box;
+
+  @media (min-width: $tablet-width) {
+    font-size: 36px;
+    grid-template-columns: repeat(auto-fit, minmax(20px, 1fr));
+    gap: 10px;
+    background-color: transparent;
+    max-width: 80%;
+  }
+
+  @media (min-width: 1024px) {
+    margin: 0;
+    font-size: 44px;
+  }
+}
+
+.main-nav__link {
+  text-decoration: none;
+  color: $white;
+  padding: 10px 5px;
+  display: block;
+  text-align: center;
+  fill: $white;
+
+  @media (min-width: $tablet-width) {
+    opacity: 0.5;
+    padding: 0;
+    margin: 0;
+    margin-top: 20px;
+    font-weight: bold;
+    line-height: 30px;
+    position: relative;
+    color: $white;
+  }
+
+  &:hover {
+    @media (min-width: $tablet-width) {
+      animation: hover_nav 0.3s ease forwards;
+    }
+  }
+
+  &::after {
+    @media (min-width: $tablet-width) {
+      position: absolute;
+      content: "";
+      width: 0;
+      height: 2px;
+      opacity: 0.6;
+      background-color: $white;
+      top: auto;
+      bottom: -5px;
+      left: 50%;
+    }
+  }
+
+  &:hover::after {
+    animation: underline_nav 0.3s linear forwards;
+  }
+
+  &--active {
+    opacity: 1;
+    font-weight: bold;
+    color: $black;
+    fill: $black;
+
+    @media (min-width: $tablet-width) {
+      color: $white;
+      fill: $white;
+    }
+
+    &::after {
+      @media (min-width: $tablet-width) {
+        position: absolute;
+        content: "";
+        width: 80%;
+        height: 2px;
+        background-color: $white;
+        color: $white;
+        fill: $white;
+        top: auto;
+        bottom: -5px;
+        left: 50%;
+        transform: translate(-50%, 0);
+      }
+    }
+  }
+}
+
+.main-nav__text {
+  margin: 0;
+  padding: 0;
+  display: none;
+
+  @media (min-width: $tablet-width) {
+    display: block;
+  }
+}
+
+.main-nav__icon {
+  width: 24px;
+  height: 24px;
+
+  @media (min-width: $tablet-width) {
+    display: none;
+  }
+}

@@ -1,0 +1,27 @@
+.telephone {
+  color: $white;
+  font-size: 24px;
+  line-height: 28px;
+  letter-spacing: 1px;
+
+  @media (min-width: $tablet-width) {
+    font-size: 36px;
+    line-height: 1.2;
+  }
+}
+
+.telephone__link {
+  font-family: "Comforter", "Arial", sans-serif;
+  text-decoration: none;
+  color: $white;
+  font-size: 20px;
+
+  @media (min-width: $tablet-width) {
+    font-size: 26px;
+    line-height: 1.2;
+  }
+
+  &:active {
+    color: $hover-grey;
+  }
+}
