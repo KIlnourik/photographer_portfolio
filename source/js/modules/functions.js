@@ -1,5 +1,3 @@
-'use strict';
-
 const isEscEvent = (evt) => {
   return evt.key === ('Escape' || 'Esc');
 };

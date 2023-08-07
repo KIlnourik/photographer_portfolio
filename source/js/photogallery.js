@@ -1,5 +1,3 @@
-'use strict';
-
 import { openPhotoModal, closeModal } from './modules/modal.js';
 import './modules/menu-nav.js';
 import './modules/modal.js';

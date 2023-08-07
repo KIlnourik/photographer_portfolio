@@ -1,5 +1,3 @@
-'use strict';
-
 const upLink = document.querySelector('.page__up');
 const nav = document.querySelector('.main-nav');
 const navHeight = nav.offsetHeight;

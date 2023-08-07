@@ -1,10 +1,10 @@
 /* Глобальные стили, шрифты, миксины и переменные */
-@import "./global/normalize.scss";
+@import "./vendor/normalize.scss";
+@import "./vendor/aos.scss";
+@import "./vendor/fonts.scss";
 @import "./global/variables.scss";
 @import "./global/global.scss";
 @import "./global/animations.scss";
-@import "./global/fonts.scss";
-@import "./global/aos.scss";
 
 /* Общие блоки */
 @import "./blocks/button/button.scss";
@@ -17,16 +17,13 @@
 /* header */
 @import "./blocks/header/header.scss";
 @import "./blocks/main-nav/main-nav.scss";
-@import "./blocks/main-nav/main-nav--index.scss";
 @import "./blocks/main-nav/main-nav__list.scss";
 @import "./blocks/main-nav/main-nav__link.scss";
-@import "./blocks/main-nav/main-nav__link--active.scss";
 @import "./blocks/main-nav/main-nav__icon.scss";
 @import "./blocks/main-nav/main-nav__text.scss";
 
 /* page-main__header */
 @import "./blocks/content/content__header.scss";
-@import "./blocks/content/content__header--index.scss";
 
 /* index-page */
 @import "./blocks/index/section-title/section-title.scss";
@@ -42,7 +39,6 @@
 @import "./blocks/index/portfolio/portfolio.scss";
 @import "./blocks/index/portfolio/portfolio__image-wrapper.scss";
 @import "./blocks/index/portfolio/portfolio__image.scss";
-@import "./blocks/index/portfolio/porfolio__image--horizontal.scss";
 /* price */
 @import "./blocks/index/price/price.scss";
 @import "./blocks/index/price/price__cards.scss";
@@ -50,15 +46,9 @@
 @import "./blocks/index/price/price__note.scss";
 @import "./blocks/index/price/price__note-list.scss";
 @import "./blocks/index/price/price__note-item.scss";
-@import "./blocks/index/price/price__note--alert.scss";
 /* price-card */
 @import "./blocks/index/price-card/price-card.scss";
 @import "./blocks/index/price-card/price-card__container.scss";
-@import "./blocks/index/price-card/price-card__container--standart.scss";
-@import "./blocks/index/price-card/price-card__container--comfort.scss";
-@import "./blocks/index/price-card/price-card__container--premium.scss";
-@import "./blocks/index/price-card/price-card__container--photoday.scss";
-@import "./blocks/index/price-card/price-card__container--content.scss";
 @import "./blocks/index/price-card/price-card__title.scss";
 @import "./blocks/index/price-card/price-card__list.scss";
 @import "./blocks/index/price-card/price-card__item.scss";
@@ -83,7 +73,6 @@
 /* modal */
 @import "./blocks/photogallery/modal/modal.scss";
 @import "./blocks/modal-open/modal-open.scss";
-@import "./blocks/photogallery/modal/modal--opened.scss";
 @import "./blocks/photogallery/modal/modal__photo-container.scss";
 @import "./blocks/photogallery/modal/modal__wrapper.scss";
 @import "./blocks/photogallery/modal/modal__photo-wrapper.scss";
@@ -110,7 +99,6 @@
 @import "./blocks/reviews/send-review/send-review__intro.scss";
 @import "./blocks/reviews/send-review/send-review__form.scss";
 @import "./blocks/reviews/send-review/send-review__label.scss";
-@import "./blocks/reviews/send-review/send-review__label--textarea.scss";
 @import "./blocks/reviews/send-review/send-review__textarea.scss";
 @import "./blocks/reviews/send-review/send-review__button.scss";
 

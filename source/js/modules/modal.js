@@ -1,5 +1,3 @@
-'use strict';
-
 import { isEscEvent } from "./functions.js";
 import { upLink } from "./up-link.js";
 

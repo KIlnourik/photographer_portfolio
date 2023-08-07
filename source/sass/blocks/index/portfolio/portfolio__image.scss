@@ -8,6 +8,12 @@
     height: 100%;
   }
 
+  &--horizontal {
+    @media (min-width: 639px) {
+      grid-column: span 2;
+    }
+  }
+
   &:nth-child(10) {
     display: none;
 

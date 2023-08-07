@@ -1,5 +1,3 @@
-'use strict'
-
 import {
   MAX_REVIEW_LENGTH,
   MIN_NAME_LENGTH,
