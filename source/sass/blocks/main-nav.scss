@@ -72,8 +72,10 @@
     color: $white;
   }
 
-  &:hover {
+  &:hover,
+  &:focus {
     @media (min-width: $tablet-width) {
+      outline: none;
       animation: hover_nav 0.3s ease forwards;
     }
   }
@@ -92,7 +94,8 @@
     }
   }
 
-  &:hover::after {
+  &:hover::after,
+  &:focus::after {
     animation: underline_nav 0.3s linear forwards;
   }
 
