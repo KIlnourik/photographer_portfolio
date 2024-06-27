@@ -1,0 +1,1 @@
+const isEscEvent=e=>"Escape"===e.key,isEnterEvent=e=>"Enter"===e.key,isLeftArrowEvent=e=>"ArrowLeft"===e.key,isRightArrowEvent=e=>"ArrowRight"===e.key,inputLengthValidate=(e,t,n)=>!!(e&&e.length>t||e&&e.length<=n),inputRegexpValidate=(e,t)=>!!t.test(e);export{isEscEvent,isEnterEvent,isLeftArrowEvent,isRightArrowEvent,inputLengthValidate,inputRegexpValidate};
